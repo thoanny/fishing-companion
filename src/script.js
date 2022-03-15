@@ -7,7 +7,7 @@ const fishs = [
                 "uid": "96081",
                 "aid": "",
                 "name": "Anguille stigmatisée",
-                "spot": "Eaux toxiques",
+                "spot": "Toxiques",
                 "bait": "Insectes luisants",
                 "time": "n",
                 "power": "500"
@@ -25,7 +25,7 @@ const fishs = [
                 "uid": "96105",
                 "aid": "",
                 "name": "Brochet crocodile",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "d",
                 "power": "450"
@@ -43,7 +43,7 @@ const fishs = [
                 "uid": "97074",
                 "aid": "",
                 "name": "Crapet de roche",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "450"
@@ -52,7 +52,7 @@ const fishs = [
                 "uid": "97479",
                 "aid": "",
                 "name": "Crapet sac-à-lait",
-                "spot": "Eaux toxiques",
+                "spot": "Toxiques",
                 "bait": "Insectes luisants",
                 "time": "",
                 "power": "500"
@@ -70,7 +70,7 @@ const fishs = [
                 "uid": "96672",
                 "aid": "",
                 "name": "Doras noir",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "n",
                 "power": "450"
@@ -79,7 +79,7 @@ const fishs = [
                 "uid": "97163",
                 "aid": "",
                 "name": "Grenouille d'eau",
-                "spot": "Eaux toxiques",
+                "spot": "Toxiques",
                 "bait": "Insectes luisants",
                 "time": "",
                 "power": "500"
@@ -88,7 +88,7 @@ const fishs = [
                 "uid": "96931",
                 "aid": "",
                 "name": "Marigane noire",
-                "spot": "Eaux toxiques",
+                "spot": "Toxiques",
                 "bait": "",
                 "time": "",
                 "power": "500"
@@ -97,7 +97,7 @@ const fishs = [
                 "uid": "95609",
                 "aid": "",
                 "name": "Maskinongé",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "dd",
                 "power": "450"
@@ -115,7 +115,7 @@ const fishs = [
                 "uid": "97887",
                 "aid": "",
                 "name": "Perchaude",
-                "spot": "Eaux toxiques",
+                "spot": "Toxiques",
                 "bait": "",
                 "time": "d",
                 "power": "500"
@@ -133,7 +133,7 @@ const fishs = [
                 "uid": "95875",
                 "aid": "",
                 "name": "Perche truitée",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "450"
@@ -142,7 +142,7 @@ const fishs = [
                 "uid": "97004",
                 "aid": "",
                 "name": "Poisson à vieux barbillons\t",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "n",
                 "power": "450"
@@ -151,7 +151,7 @@ const fishs = [
                 "uid": "96942",
                 "aid": "",
                 "name": "Poisson-chat",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "n",
                 "power": "450"
@@ -160,7 +160,7 @@ const fishs = [
                 "uid": "95843",
                 "aid": "",
                 "name": "Poisson-chat géant",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "n",
                 "power": "450"
@@ -169,7 +169,7 @@ const fishs = [
                 "uid": "96226",
                 "aid": "",
                 "name": "Truite arc-en-ciel d'eau douce",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Œufs de poisson",
                 "time": "d",
                 "power": "450"
@@ -178,7 +178,7 @@ const fishs = [
                 "uid": "96985",
                 "aid": "",
                 "name": "Truite dorée",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Œufs de poisson",
                 "time": "dd",
                 "power": "450"
@@ -202,7 +202,7 @@ const fishs = [
                 "uid": "96283",
                 "aid": "",
                 "name": "Anguille de feu",
-                "spot": "Poisson volcanique",
+                "spot": "Volcanique",
                 "bait": "",
                 "time": "n",
                 "power": "750"
@@ -211,7 +211,7 @@ const fishs = [
                 "uid": "96597",
                 "aid": "",
                 "name": "Bar ardent",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "",
                 "power": "650-700"
@@ -220,7 +220,7 @@ const fishs = [
                 "uid": "97471",
                 "aid": "",
                 "name": "Colin scintillant",
-                "spot": "Poisson volcanique",
+                "spot": "Volcanique",
                 "bait": "",
                 "time": "",
                 "power": "750"
@@ -229,7 +229,7 @@ const fishs = [
                 "uid": "97100",
                 "aid": "",
                 "name": "Combattant à nageoire de feu",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "d",
                 "power": "700"
@@ -238,7 +238,7 @@ const fishs = [
                 "uid": "96361",
                 "aid": "",
                 "name": "Dunkleosteus",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Scarabées de lave",
                 "time": "",
                 "power": "700"
@@ -256,7 +256,7 @@ const fishs = [
                 "uid": "96595",
                 "aid": "",
                 "name": "Guiyu rocheux",
-                "spot": "Poisson volcanique",
+                "spot": "Volcanique",
                 "bait": "Scarabées de lave",
                 "time": "",
                 "power": "750"
@@ -265,7 +265,7 @@ const fishs = [
                 "uid": "96555",
                 "aid": "",
                 "name": "Nageoire chauve-souris de geyser",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "",
                 "power": "700"
@@ -274,7 +274,7 @@ const fishs = [
                 "uid": "96720",
                 "aid": "",
                 "name": "Nageoire tranchante",
-                "spot": "Poisson volcanique",
+                "spot": "Volcanique",
                 "bait": "",
                 "time": "",
                 "power": "700-750"
@@ -292,7 +292,7 @@ const fishs = [
                 "uid": "97498",
                 "aid": "",
                 "name": "Poisson-scorpion",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Scarabées de lave",
                 "time": "n",
                 "power": "700"
@@ -301,7 +301,7 @@ const fishs = [
                 "uid": "96530",
                 "aid": "",
                 "name": "Raie de magma",
-                "spot": "Poisson volcanique",
+                "spot": "Volcanique",
                 "bait": "Scarabées de lave",
                 "time": "d",
                 "power": "750"
@@ -310,7 +310,7 @@ const fishs = [
                 "uid": "96589",
                 "aid": "",
                 "name": "Ramirezi grenat",
-                "spot": "Poisson volcanique",
+                "spot": "Volcanique",
                 "bait": "",
                 "time": "d",
                 "power": "650"
@@ -319,7 +319,7 @@ const fishs = [
                 "uid": "96889",
                 "aid": "",
                 "name": "Silure à queue rouge",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "n",
                 "power": "700"
@@ -334,7 +334,7 @@ const fishs = [
                 "uid": "97356",
                 "aid": "",
                 "name": "Bar blanc",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "400"
@@ -343,7 +343,7 @@ const fishs = [
                 "uid": "97301",
                 "aid": "",
                 "name": "Bar de Lornar",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Escargots béliers",
                 "time": "",
                 "power": "400"
@@ -352,7 +352,7 @@ const fishs = [
                 "uid": "97866",
                 "aid": "",
                 "name": "Brochet",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "d",
                 "power": "400"
@@ -361,7 +361,7 @@ const fishs = [
                 "uid": "95896",
                 "aid": "",
                 "name": "Brochet maillé",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "400"
@@ -388,7 +388,7 @@ const fishs = [
                 "uid": "97225",
                 "aid": "",
                 "name": "Flétan",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "Jeunes crevettes",
                 "time": "",
                 "power": "450"
@@ -406,7 +406,7 @@ const fishs = [
                 "uid": "97496",
                 "aid": "",
                 "name": "Lompe glacial",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "",
                 "time": "",
                 "power": "450"
@@ -415,7 +415,7 @@ const fishs = [
                 "uid": "97456",
                 "aid": "",
                 "name": "Morue boréale",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "",
                 "time": "",
                 "power": "450"
@@ -424,7 +424,7 @@ const fishs = [
                 "uid": "96954",
                 "aid": "",
                 "name": "Murène étoilée",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "Escargots béliers",
                 "time": "n",
                 "power": "450"
@@ -451,7 +451,7 @@ const fishs = [
                 "uid": "95723",
                 "aid": "",
                 "name": "Oscar d'albâtre",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "Escargots béliers",
                 "time": "d",
                 "power": "450"
@@ -460,7 +460,7 @@ const fishs = [
                 "uid": "96619",
                 "aid": "",
                 "name": "Perche du fanal",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "",
                 "time": "d",
                 "power": "450"
@@ -469,7 +469,7 @@ const fishs = [
                 "uid": "96882",
                 "aid": "",
                 "name": "Poisson à tête de serpent glacial",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Jeunes crevettes",
                 "time": "d",
                 "power": "400"
@@ -478,7 +478,7 @@ const fishs = [
                 "uid": "96373",
                 "aid": "",
                 "name": "Rémora mystique",
-                "spot": "Poisson boréal",
+                "spot": "Boréal",
                 "bait": "",
                 "time": "dd",
                 "power": "450"
@@ -487,7 +487,7 @@ const fishs = [
                 "uid": "96218",
                 "aid": "",
                 "name": "Salamandre cérulée",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Escargots béliers",
                 "time": "n",
                 "power": "400"
@@ -496,7 +496,7 @@ const fishs = [
                 "uid": "95668",
                 "aid": "",
                 "name": "Saumon rouge",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "400"
@@ -505,7 +505,7 @@ const fishs = [
                 "uid": "95822",
                 "aid": "",
                 "name": "Saumon royal",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "d",
                 "power": "400"
@@ -530,7 +530,7 @@ const fishs = [
                 "aid": "",
                 "name": "Belligérant du crépuscule",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "dd",
                 "power": ""
             },
@@ -539,7 +539,7 @@ const fishs = [
                 "aid": "",
                 "name": "Belligérant à nageoire en lune",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "n",
                 "power": ""
             },
@@ -548,7 +548,7 @@ const fishs = [
                 "aid": "",
                 "name": "Belligérant à écaille du soleil",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "d",
                 "power": ""
             },
@@ -557,7 +557,7 @@ const fishs = [
                 "aid": "",
                 "name": "Hareng rouge",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -566,7 +566,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poissang",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -575,7 +575,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poissargent",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -584,7 +584,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poissière",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -593,7 +593,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poisson rouge",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -602,7 +602,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poisson totem",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -611,7 +611,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poisson à écailles renforcées",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -620,7 +620,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poisson-griffe",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -629,7 +629,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poisson-ogre",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -638,7 +638,7 @@ const fishs = [
                 "aid": "",
                 "name": "Poisson-venin",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             },
@@ -647,7 +647,7 @@ const fishs = [
                 "aid": "",
                 "name": "Tarpon",
                 "spot": "",
-                "bait": "\tQuelconque",
+                "bait": "",
                 "time": "",
                 "power": ""
             }
@@ -670,7 +670,7 @@ const fishs = [
                 "uid": "97744",
                 "aid": "",
                 "name": "Barramundi",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -679,7 +679,7 @@ const fishs = [
                 "uid": "95859",
                 "aid": "",
                 "name": "Carpe des sables",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -688,7 +688,7 @@ const fishs = [
                 "uid": "97848",
                 "aid": "",
                 "name": "Carpe géante",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -697,7 +697,7 @@ const fishs = [
                 "uid": "97109",
                 "aid": "",
                 "name": "Gobie",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -706,7 +706,7 @@ const fishs = [
                 "uid": "97763",
                 "aid": "",
                 "name": "Kaluga",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "Maquereau",
                 "time": "",
                 "power": "550"
@@ -715,7 +715,7 @@ const fishs = [
                 "uid": "96769",
                 "aid": "",
                 "name": "Loche dorée",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "d",
                 "power": "550"
@@ -724,7 +724,7 @@ const fishs = [
                 "uid": "96676",
                 "aid": "",
                 "name": "Piranha noir",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "d",
                 "power": "550"
@@ -733,7 +733,7 @@ const fishs = [
                 "uid": "95608",
                 "aid": "",
                 "name": "Poisson-spatule",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -742,7 +742,7 @@ const fishs = [
                 "uid": "97466",
                 "aid": "",
                 "name": "Poisson-spatule géant",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -751,7 +751,7 @@ const fishs = [
                 "uid": "97145",
                 "aid": "",
                 "name": "Poisson-tigre",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "Maquereau",
                 "time": "",
                 "power": "550"
@@ -760,7 +760,7 @@ const fishs = [
                 "uid": "97187",
                 "aid": "",
                 "name": "Polyptère argenté",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "n",
                 "power": "550"
@@ -769,7 +769,7 @@ const fishs = [
                 "uid": "96308",
                 "aid": "",
                 "name": "Protoptère",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "500-550"
@@ -778,7 +778,7 @@ const fishs = [
                 "uid": "96724",
                 "aid": "",
                 "name": "Protoptère marbré",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "Scorpions",
                 "time": "",
                 "power": "550"
@@ -787,7 +787,7 @@ const fishs = [
                 "uid": "97755",
                 "aid": "",
                 "name": "Sandre",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "",
                 "power": "500-550"
@@ -796,7 +796,7 @@ const fishs = [
                 "uid": "96094",
                 "aid": "",
                 "name": "Silure rayé",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "Scorpions",
                 "time": "n",
                 "power": "550"
@@ -823,7 +823,7 @@ const fishs = [
                 "uid": "96428",
                 "aid": "",
                 "name": "Tor doré",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "",
                 "time": "n",
                 "power": "550"
@@ -841,7 +841,7 @@ const fishs = [
                 "uid": "95929",
                 "aid": "",
                 "name": "Vundu",
-                "spot": "Poisson du désert",
+                "spot": "Désert",
                 "bait": "Scorpions",
                 "time": "",
                 "power": "550"
@@ -865,7 +865,7 @@ const fishs = [
                 "uid": "95765",
                 "aid": "",
                 "name": "Axolotl albinos",
-                "spot": "Poisson cavernicole",
+                "spot": "Cavernicole",
                 "bait": "Vers luisants",
                 "time": "n",
                 "power": "300"
@@ -874,7 +874,7 @@ const fishs = [
                 "uid": "96834",
                 "aid": "",
                 "name": "Barbus cerise",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "250"
@@ -892,7 +892,7 @@ const fishs = [
                 "uid": "97559",
                 "aid": "",
                 "name": "Dormeur noir",
-                "spot": "Poisson cavernicole",
+                "spot": "Cavernicole",
                 "bait": "Vers luisants",
                 "time": "d",
                 "power": "300"
@@ -901,7 +901,7 @@ const fishs = [
                 "uid": "97329",
                 "aid": "",
                 "name": "Gourami albinos",
-                "spot": "Poisson cavernicole",
+                "spot": "Cavernicole",
                 "bait": "",
                 "time": "",
                 "power": "300"
@@ -919,7 +919,7 @@ const fishs = [
                 "uid": "96792",
                 "aid": "",
                 "name": "Poisson pétrifiant",
-                "spot": "Poisson cavernicole",
+                "spot": "Cavernicole",
                 "bait": "",
                 "time": "",
                 "power": "300"
@@ -928,7 +928,7 @@ const fishs = [
                 "uid": "96310",
                 "aid": "",
                 "name": "Poisson à tête de serpent",
-                "spot": "Poisson cavernicole",
+                "spot": "Cavernicole",
                 "bait": "",
                 "time": "d",
                 "power": "300"
@@ -937,7 +937,7 @@ const fishs = [
                 "uid": "96017",
                 "aid": "",
                 "name": "Poisson-chat",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "n",
                 "power": "250"
@@ -955,7 +955,7 @@ const fishs = [
                 "uid": "95584",
                 "aid": "",
                 "name": "Poisson-couteau royal",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "n",
                 "power": "250"
@@ -964,7 +964,7 @@ const fishs = [
                 "uid": "97716",
                 "aid": "",
                 "name": "Rôdeur de Melandru",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "d",
                 "power": "250"
@@ -973,7 +973,7 @@ const fishs = [
                 "uid": "95861",
                 "aid": "",
                 "name": "Truite ambrée",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "d",
                 "power": "250"
@@ -988,7 +988,7 @@ const fishs = [
                 "uid": "97247",
                 "aid": "",
                 "name": "Anguille électrique",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -997,7 +997,7 @@ const fishs = [
                 "uid": "97241",
                 "aid": "",
                 "name": "Bar rayé",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1006,7 +1006,7 @@ const fishs = [
                 "uid": "96110",
                 "aid": "",
                 "name": "Calmar luciole",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1015,7 +1015,7 @@ const fishs = [
                 "uid": "96265",
                 "aid": "",
                 "name": "Calmar à œil protubérant",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1024,7 +1024,7 @@ const fishs = [
                 "uid": "96097",
                 "aid": "",
                 "name": "Carpe à nageoires rouges",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1033,7 +1033,7 @@ const fishs = [
                 "uid": "96082",
                 "aid": "",
                 "name": "Crevette-mante",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1042,7 +1042,7 @@ const fishs = [
                 "uid": "96632",
                 "aid": "",
                 "name": "Dragon de mer feuillu",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1051,7 +1051,7 @@ const fishs = [
                 "uid": "95600",
                 "aid": "",
                 "name": "Grondin",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1060,7 +1060,7 @@ const fishs = [
                 "uid": "97534",
                 "aid": "",
                 "name": "Grondin rouge",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1069,7 +1069,7 @@ const fishs = [
                 "uid": "95968",
                 "aid": "",
                 "name": "Hareng doré",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1078,7 +1078,7 @@ const fishs = [
                 "uid": "95654",
                 "aid": "",
                 "name": "Hippocampe",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1087,7 +1087,7 @@ const fishs = [
                 "uid": "97596",
                 "aid": "",
                 "name": "Limule",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1096,7 +1096,7 @@ const fishs = [
                 "uid": "95793",
                 "aid": "",
                 "name": "Poulpe flapjack",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1105,7 +1105,7 @@ const fishs = [
                 "uid": "97340",
                 "aid": "",
                 "name": "Vampire des abysses",
-                "spot": "Eau libre salée",
+                "spot": "Eau salée",
                 "bait": "",
                 "time": "",
                 "power": ""
@@ -1120,7 +1120,7 @@ const fishs = [
                 "uid": "96225",
                 "aid": "",
                 "name": "Béluga",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "Œufs de poisson",
                 "time": "d",
                 "power": "600"
@@ -1138,7 +1138,7 @@ const fishs = [
                 "uid": "95794",
                 "aid": "",
                 "name": "Cordonnier plume",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "",
                 "power": "600"
@@ -1147,7 +1147,7 @@ const fishs = [
                 "uid": "96513",
                 "aid": "",
                 "name": "Crabe royal",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "Maquereau",
                 "time": "n",
                 "power": "600"
@@ -1156,7 +1156,7 @@ const fishs = [
                 "uid": "97001",
                 "aid": "",
                 "name": "Lampris royal",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "650"
@@ -1165,7 +1165,7 @@ const fishs = [
                 "uid": "95849",
                 "aid": "",
                 "name": "Marlin bleu",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Maquereau",
                 "time": "",
                 "power": "650"
@@ -1174,7 +1174,7 @@ const fishs = [
                 "uid": "97489",
                 "aid": "",
                 "name": "Monstro",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Œufs de poisson",
                 "time": "n",
                 "power": "650"
@@ -1183,7 +1183,7 @@ const fishs = [
                 "uid": "97844",
                 "aid": "",
                 "name": "Poisson-coq",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "650"
@@ -1201,7 +1201,7 @@ const fishs = [
                 "uid": "97746",
                 "aid": "",
                 "name": "Pompaneau",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "",
                 "power": "600"
@@ -1219,7 +1219,7 @@ const fishs = [
                 "uid": "97443",
                 "aid": "",
                 "name": "Thazard noir",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "dd",
                 "power": "650"
@@ -1237,7 +1237,7 @@ const fishs = [
                 "uid": "97756",
                 "aid": "",
                 "name": "Vivaneau à queue jaune",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "d",
                 "power": "600"
@@ -1252,7 +1252,7 @@ const fishs = [
                 "uid": "96145",
                 "aid": "",
                 "name": "Barracuda rayé",
-                "spot": "Poisson des chenaux",
+                "spot": "Chenaux",
                 "bait": "",
                 "time": "d",
                 "power": "250"
@@ -1261,7 +1261,7 @@ const fishs = [
                 "uid": "97463",
                 "aid": "",
                 "name": "Carangue à grosse tête",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Sardines",
                 "time": "",
                 "power": "200"
@@ -1270,7 +1270,7 @@ const fishs = [
                 "uid": "95951",
                 "aid": "",
                 "name": "Dorade bleue",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "n",
                 "power": "200"
@@ -1279,7 +1279,7 @@ const fishs = [
                 "uid": "97654",
                 "aid": "",
                 "name": "Espadon",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Maquereau",
                 "time": "d",
                 "power": "200"
@@ -1288,7 +1288,7 @@ const fishs = [
                 "uid": "96344",
                 "aid": "",
                 "name": "Esturgeon",
-                "spot": "Poisson des chenaux",
+                "spot": "Chenaux",
                 "bait": "",
                 "time": "",
                 "power": "250"
@@ -1297,7 +1297,7 @@ const fishs = [
                 "uid": "96863",
                 "aid": "",
                 "name": "Flet étoilé",
-                "spot": "Poisson des chenaux",
+                "spot": "Chenaux",
                 "bait": "Sardines",
                 "time": "n",
                 "power": "250"
@@ -1306,7 +1306,7 @@ const fishs = [
                 "uid": "97507",
                 "aid": "",
                 "name": "Kahawai",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -1351,7 +1351,7 @@ const fishs = [
                 "uid": "97792",
                 "aid": "",
                 "name": "Poisson-dragon",
-                "spot": "Poisson des chenaux",
+                "spot": "Chenaux",
                 "bait": "",
                 "time": "",
                 "power": "250"
@@ -1369,7 +1369,7 @@ const fishs = [
                 "uid": "96196",
                 "aid": "",
                 "name": "Poisson-ruban",
-                "spot": "Poisson des chenaux",
+                "spot": "Chenaux",
                 "bait": "Jeunes crevettes",
                 "time": "",
                 "power": "250"
@@ -1378,7 +1378,7 @@ const fishs = [
                 "uid": "96053",
                 "aid": "",
                 "name": "Sériole",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "d",
                 "power": "200"
@@ -1387,7 +1387,7 @@ const fishs = [
                 "uid": "97857",
                 "aid": "",
                 "name": "Tarpon",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Jeunes crevettes",
                 "time": "",
                 "power": "200"
@@ -1396,7 +1396,7 @@ const fishs = [
                 "uid": "96238",
                 "aid": "",
                 "name": "Taïmen",
-                "spot": "Poisson des chenaux",
+                "spot": "Chenaux",
                 "bait": "",
                 "time": "dd",
                 "power": "250"
@@ -1405,7 +1405,7 @@ const fishs = [
                 "uid": "96401",
                 "aid": "",
                 "name": "Thon rouge",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Maquereau",
                 "time": "",
                 "power": "200"
@@ -1414,7 +1414,7 @@ const fishs = [
                 "uid": "97830",
                 "aid": "",
                 "name": "Tétraodon",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "n",
                 "power": "200"
@@ -1423,7 +1423,7 @@ const fishs = [
                 "uid": "97772",
                 "aid": "",
                 "name": "Vivaneau d'émeraude",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -1447,7 +1447,7 @@ const fishs = [
                 "uid": "97103",
                 "aid": "",
                 "name": "Anguille de bourbier",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "n",
                 "power": "400"
@@ -1456,7 +1456,7 @@ const fishs = [
                 "uid": "97341",
                 "aid": "",
                 "name": "Bar rayé",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "400"
@@ -1465,7 +1465,7 @@ const fishs = [
                 "uid": "96571",
                 "aid": "",
                 "name": "Brochet royal",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "d",
                 "power": "400"
@@ -1501,7 +1501,7 @@ const fishs = [
                 "uid": "97785",
                 "aid": "",
                 "name": "Lamproie fléau-de-marais",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "",
                 "power": "450"
@@ -1510,7 +1510,7 @@ const fishs = [
                 "uid": "97409",
                 "aid": "",
                 "name": "Maquereau saint",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Jeunes crevettes",
                 "time": "d",
                 "power": "450"
@@ -1537,7 +1537,7 @@ const fishs = [
                 "uid": "97509",
                 "aid": "",
                 "name": "Perche noire",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "",
                 "time": "",
                 "power": "400"
@@ -1546,7 +1546,7 @@ const fishs = [
                 "uid": "97485",
                 "aid": "",
                 "name": "Poissacre",
-                "spot": "Poisson lacustre",
+                "spot": "Lacustre",
                 "bait": "Vairons",
                 "time": "n",
                 "power": "400"
@@ -1555,7 +1555,7 @@ const fishs = [
                 "uid": "95819",
                 "aid": "",
                 "name": "Poisson-ange divin",
-                "spot": "Poisson de rivière",
+                "spot": "Rivière",
                 "bait": "",
                 "time": "d",
                 "power": "350"
@@ -1564,7 +1564,7 @@ const fishs = [
                 "uid": "97527",
                 "aid": "",
                 "name": "Poisson-lion",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "Jeunes crevettes",
                 "time": "",
                 "power": "450"
@@ -1573,7 +1573,7 @@ const fishs = [
                 "uid": "97005",
                 "aid": "",
                 "name": "Poisson-lune argenté",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "n",
                 "power": "450"
@@ -1582,7 +1582,7 @@ const fishs = [
                 "uid": "95731",
                 "aid": "",
                 "name": "Poisson-reine",
-                "spot": "Poisson de rivière",
+                "spot": "Rivière",
                 "bait": "Vairons",
                 "time": "",
                 "power": "350"
@@ -1591,7 +1591,7 @@ const fishs = [
                 "uid": "96543",
                 "aid": "",
                 "name": "Raie guitare à nez rond",
-                "spot": "Poisson de rivière",
+                "spot": "Rivière",
                 "bait": "Vairons",
                 "time": "n",
                 "power": "350"
@@ -1600,7 +1600,7 @@ const fishs = [
                 "uid": "97787",
                 "aid": "",
                 "name": "Tambour",
-                "spot": "Poisson de rivière",
+                "spot": "Rivière",
                 "bait": "",
                 "time": "",
                 "power": "350"
@@ -1609,7 +1609,7 @@ const fishs = [
                 "uid": "96192",
                 "aid": "",
                 "name": "Truite arc-en-ciel",
-                "spot": "Poisson de rivière",
+                "spot": "Rivière",
                 "bait": "",
                 "time": "",
                 "power": "350"
@@ -1618,7 +1618,7 @@ const fishs = [
                 "uid": "96667",
                 "aid": "",
                 "name": "Tétraodon de Kryte",
-                "spot": "Poisson côtier",
+                "spot": "Côtier",
                 "bait": "",
                 "time": "n",
                 "power": "450"
@@ -1642,7 +1642,7 @@ const fishs = [
                 "uid": "97644",
                 "aid": "",
                 "name": "Alose-écaille fluviale",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "",
                 "time": "",
                 "power": "500"
@@ -1651,7 +1651,7 @@ const fishs = [
                 "uid": "97078",
                 "aid": "",
                 "name": "Arapaïma",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "Larves de lumillules",
                 "time": "d",
                 "power": "500"
@@ -1660,7 +1660,7 @@ const fishs = [
                 "uid": "97057",
                 "aid": "",
                 "name": "Arowana",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "",
                 "time": "d",
                 "power": "500"
@@ -1678,7 +1678,7 @@ const fishs = [
                 "uid": "97122",
                 "aid": "",
                 "name": "Carangue de Maguuma",
-                "spot": "Poisson marin",
+                "spot": "Marin",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -1687,7 +1687,7 @@ const fishs = [
                 "uid": "96325",
                 "aid": "",
                 "name": "Characin pic",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "",
                 "time": "",
                 "power": "500"
@@ -1696,7 +1696,7 @@ const fishs = [
                 "uid": "96692",
                 "aid": "",
                 "name": "Dourado",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "Larves de lumillules",
                 "time": "d",
                 "power": "500"
@@ -1723,7 +1723,7 @@ const fishs = [
                 "uid": "95908",
                 "aid": "",
                 "name": "Mérou goliath",
-                "spot": "Poisson marin",
+                "spot": "Marin",
                 "bait": "Sardines",
                 "time": "",
                 "power": "550"
@@ -1741,7 +1741,7 @@ const fishs = [
                 "uid": "96320",
                 "aid": "",
                 "name": "Pacu",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "",
                 "time": "",
                 "power": "500"
@@ -1759,7 +1759,7 @@ const fishs = [
                 "uid": "97543",
                 "aid": "",
                 "name": "Poisson luisant arc-en-ciel",
-                "spot": "Poisson marin",
+                "spot": "Marin",
                 "bait": "Sardines",
                 "time": "n",
                 "power": "550"
@@ -1768,7 +1768,7 @@ const fishs = [
                 "uid": "96645",
                 "aid": "",
                 "name": "Poisson-loup",
-                "spot": "Poisson marin",
+                "spot": "Marin",
                 "bait": "",
                 "time": "",
                 "power": "550"
@@ -1777,7 +1777,7 @@ const fishs = [
                 "uid": "97465",
                 "aid": "",
                 "name": "Siluriforme",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "Larves de lumillules",
                 "time": "",
                 "power": "500"
@@ -1795,7 +1795,7 @@ const fishs = [
                 "uid": "97546",
                 "aid": "",
                 "name": "Truite de Maguuma",
-                "spot": "Poisson marin",
+                "spot": "Marin",
                 "bait": "",
                 "time": "d",
                 "power": ""
@@ -1804,7 +1804,7 @@ const fishs = [
                 "uid": "97841",
                 "aid": "",
                 "name": "Tucunaré",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "",
                 "time": "",
                 "power": "500"
@@ -1813,7 +1813,7 @@ const fishs = [
                 "uid": "96191",
                 "aid": "",
                 "name": "Tétra vampire",
-                "spot": "Poisson d'eau douce",
+                "spot": "Eau douce",
                 "bait": "",
                 "time": "",
                 "power": "500"
@@ -1822,7 +1822,7 @@ const fishs = [
                 "uid": "96439",
                 "aid": "",
                 "name": "Étoile royale",
-                "spot": "Poisson marin",
+                "spot": "Marin",
                 "bait": "",
                 "time": "n",
                 "power": "550"
@@ -1837,7 +1837,7 @@ const fishs = [
                 "uid": "97186",
                 "aid": "",
                 "name": "Bar trépassé",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "Sangsues",
                 "time": "",
                 "power": "650"
@@ -1846,7 +1846,7 @@ const fishs = [
                 "uid": "96813",
                 "aid": "",
                 "name": "Blobfish",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sangsues",
                 "time": "",
                 "power": "700"
@@ -1855,7 +1855,7 @@ const fishs = [
                 "uid": "96332",
                 "aid": "",
                 "name": "Béhémoth benthique",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sangsues",
                 "time": "",
                 "power": "700"
@@ -1864,7 +1864,7 @@ const fishs = [
                 "uid": "97770",
                 "aid": "",
                 "name": "Calmar des abysses",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "700"
@@ -1900,7 +1900,7 @@ const fishs = [
                 "uid": "97017",
                 "aid": "",
                 "name": "Maquereau impie",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "Sangsues",
                 "time": "n",
                 "power": "650"
@@ -1909,7 +1909,7 @@ const fishs = [
                 "uid": "96936",
                 "aid": "",
                 "name": "Murène d'épave",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sardines",
                 "time": "n",
                 "power": "700"
@@ -1918,7 +1918,7 @@ const fishs = [
                 "uid": "97556",
                 "aid": "",
                 "name": "Myxine",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "700"
@@ -1927,7 +1927,7 @@ const fishs = [
                 "uid": "96631",
                 "aid": "",
                 "name": "Méduse spectrale",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "n",
                 "power": "700"
@@ -1954,7 +1954,7 @@ const fishs = [
                 "uid": "97302",
                 "aid": "",
                 "name": "Physalie",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "",
                 "power": "650"
@@ -1963,7 +1963,7 @@ const fishs = [
                 "uid": "96874",
                 "aid": "",
                 "name": "Pieuvre géante",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sardines",
                 "time": "dd",
                 "power": "700"
@@ -1972,7 +1972,7 @@ const fishs = [
                 "uid": "96701",
                 "aid": "",
                 "name": "Poisson de Dhuum",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "n",
                 "power": "650"
@@ -1981,7 +1981,7 @@ const fishs = [
                 "uid": "96135",
                 "aid": "",
                 "name": "Poisson-pêcheur orrien",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "700"
@@ -1990,7 +1990,7 @@ const fishs = [
                 "uid": "96723",
                 "aid": "",
                 "name": "Poisson-vipère",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "700"
@@ -1999,7 +1999,7 @@ const fishs = [
                 "uid": "96551",
                 "aid": "",
                 "name": "Requin-lézard",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "",
                 "power": "650"
@@ -2017,7 +2017,7 @@ const fishs = [
                 "uid": "97470",
                 "aid": "",
                 "name": "Uranoscope",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "Nuit",
                 "power": "700"
@@ -2041,7 +2041,7 @@ const fishs = [
                 "uid": "96318",
                 "aid": "",
                 "name": "Crevette géante",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sardines",
                 "time": "n",
                 "power": "200"
@@ -2068,7 +2068,7 @@ const fishs = [
                 "uid": "97714",
                 "aid": "",
                 "name": "Dragonnet",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -2077,7 +2077,7 @@ const fishs = [
                 "uid": "95926",
                 "aid": "",
                 "name": "Espadon-voilier",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sardines",
                 "time": "",
                 "power": "200"
@@ -2086,7 +2086,7 @@ const fishs = [
                 "uid": "97753",
                 "aid": "",
                 "name": "Fugu",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "Jeunes crevettes",
                 "time": "n",
                 "power": "150"
@@ -2095,7 +2095,7 @@ const fishs = [
                 "uid": "97061",
                 "aid": "",
                 "name": "Lobote",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -2122,7 +2122,7 @@ const fishs = [
                 "uid": "97692",
                 "aid": "",
                 "name": "Mérou étoilé",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -2131,7 +2131,7 @@ const fishs = [
                 "uid": "97722",
                 "aid": "",
                 "name": "Napoléon",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "d",
                 "power": "200"
@@ -2140,7 +2140,7 @@ const fishs = [
                 "uid": "96425",
                 "aid": "",
                 "name": "Poisson sabre",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "",
                 "power": "150"
@@ -2158,7 +2158,7 @@ const fishs = [
                 "uid": "97181",
                 "aid": "",
                 "name": "Poisson-lune",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Jeunes crevettes",
                 "time": "d",
                 "power": "200"
@@ -2167,7 +2167,7 @@ const fishs = [
                 "uid": "96944",
                 "aid": "",
                 "name": "Poisson-scie vert",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -2176,7 +2176,7 @@ const fishs = [
                 "uid": "97604",
                 "aid": "",
                 "name": "Raie",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "n",
                 "power": "150"
@@ -2185,7 +2185,7 @@ const fishs = [
                 "uid": "95603",
                 "aid": "",
                 "name": "Raie léopard",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "Jeunes crevettes",
                 "time": "d",
                 "power": "150"
@@ -2194,7 +2194,7 @@ const fishs = [
                 "uid": "97278",
                 "aid": "",
                 "name": "Saumon masou",
-                "spot": "Poisson du littoral",
+                "spot": "Littoral",
                 "bait": "",
                 "time": "",
                 "power": "150"
@@ -2203,7 +2203,7 @@ const fishs = [
                 "uid": "96523",
                 "aid": "",
                 "name": "Thon Listao",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "Sardines",
                 "time": "",
                 "power": "200"
@@ -2212,7 +2212,7 @@ const fishs = [
                 "uid": "95936",
                 "aid": "",
                 "name": "Vivaneau rouge",
-                "spot": "Poisson du large",
+                "spot": "Large",
                 "bait": "",
                 "time": "",
                 "power": "200"
@@ -2227,7 +2227,7 @@ const fishs = [
                 "uid": "95699",
                 "aid": "",
                 "name": "Axolotl",
-                "spot": "Poisson caverneux",
+                "spot": "Caverneux",
                 "bait": "Rampants nocturnes",
                 "time": "n",
                 "power": "350"
@@ -2254,7 +2254,7 @@ const fishs = [
                 "uid": "96443",
                 "aid": "",
                 "name": "Gourami géant",
-                "spot": "Poisson de carrière",
+                "spot": "Carrière",
                 "bait": "",
                 "time": "",
                 "power": "300"
@@ -2263,7 +2263,7 @@ const fishs = [
                 "uid": "97853",
                 "aid": "",
                 "name": "Lamproie de jade",
-                "spot": "Poisson de carrière",
+                "spot": "Carrière",
                 "bait": "",
                 "time": "",
                 "power": "300"
@@ -2272,7 +2272,7 @@ const fishs = [
                 "uid": "95632",
                 "aid": "",
                 "name": "Nautile",
-                "spot": "Poisson caverneux",
+                "spot": "Caverneux",
                 "bait": "Jeunes crevettes",
                 "time": "",
                 "power": "350"
@@ -2281,7 +2281,7 @@ const fishs = [
                 "uid": "97794",
                 "aid": "",
                 "name": "Poisson licorne",
-                "spot": "Poisson caverneux",
+                "spot": "Caverneux",
                 "bait": "",
                 "time": "d",
                 "power": "350"
@@ -2299,7 +2299,7 @@ const fishs = [
                 "uid": "95670",
                 "aid": "",
                 "name": "Poisson-crapaud",
-                "spot": "Poisson caverneux",
+                "spot": "Caverneux",
                 "bait": "",
                 "time": "",
                 "power": "350"
@@ -2317,7 +2317,7 @@ const fishs = [
                 "uid": "96817",
                 "aid": "",
                 "name": "Seiche",
-                "spot": "Poisson de carrière",
+                "spot": "Carrière",
                 "bait": "Jeunes crevettes",
                 "time": "n",
                 "power": "300"
@@ -2326,7 +2326,7 @@ const fishs = [
                 "uid": "96076",
                 "aid": "",
                 "name": "Silure",
-                "spot": "Poisson caverneux",
+                "spot": "Caverneux",
                 "bait": "",
                 "time": "",
                 "power": "350"
@@ -2335,7 +2335,7 @@ const fishs = [
                 "uid": "96181",
                 "aid": "",
                 "name": "Tortue de la Mer de Jade",
-                "spot": "Poisson de carrière",
+                "spot": "Carrière",
                 "bait": "Rampants nocturnes",
                 "time": "d",
                 "power": "300"
@@ -2344,7 +2344,7 @@ const fishs = [
                 "uid": "97183",
                 "aid": "",
                 "name": "Tétraodon tacheté",
-                "spot": "Poisson de carrière",
+                "spot": "Carrière",
                 "bait": "",
                 "time": "n",
                 "power": "300"
@@ -2385,7 +2385,7 @@ fishs.forEach(function(region) {
         $('#fishs').append(`<div class="fish" 
             data-region="${region.achievement}" 
             data-bait="${(fish.bait) ? fish.bait : 'Indéfini'}" 
-            data-spot="${(fish.spot) ? fish.spot : 'Eau libre'}" 
+            data-spot="${(fish.spot) ? fish.spot : 'Indéfinie'}" 
             data-time="${((fish.time === '') ? 'Indéfini' : _times[fish.time])}"
         >
             <img src="img/fishs/${fish.uid}.png" class="fish-img" />
@@ -2393,7 +2393,8 @@ fishs.forEach(function(region) {
                 <div class="name b">${fish.name}</div>
                 <div class="metas">
                     <span><img src="img/icons/map.svg" class="icon" />${region.achievement}</span>
-                    <span><img src="img/icons/water.svg" class="icon" />${(fish.spot) ? fish.spot : 'Eau libre'}</span>
+                    <span><img src="img/icons/water.svg" class="icon" />${(fish.spot) ? fish.spot : 'Indéfinie'}</span>
+                    <span><img src="img/icons/power.svg" class="icon" />${(fish.power) ? fish.power : 'N/A'}</span>
                 </div>
                 <div class="metas">
                     <span><img src="img/icons/bait.svg" class="icon" />${(fish.bait) ? fish.bait : 'Indéfini'}</span>
@@ -2421,7 +2422,7 @@ baits.forEach(function(b) {
     }));
 });
 
-spots.push('Eau libre');
+spots.push('Indéfinie');
 spots.sort();
 spots.forEach(function(s) {
     $('#spots').append($('<option>', {
