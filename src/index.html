@@ -2,11 +2,49 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Compagnon de pêche | Le Bus Magique</title>
+    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+
+  <div id="app">
+    <header>
+      <div id="title">
+        Compagnon de pêche
+      </div>
+      <div id="subtitle">
+        par Thoanny pour Le Bus Magique
+      </div>
+      <div id="drag"><img src="img/icons/drag.svg" /></div>
+      <div id="toolbar">
+        <div id="clocks">
+          <div id="tyria"></div>
+          <div id="cantha"></div>
+        </div>
+        <div id=filters>
+          <select name="regions" id="regions">
+            <option value="">Régions</option>
+          </select>
+          <select name="spots" id="spots">
+            <option value="">Zones</option>
+          </select>
+          <select name="baits" id="baits">
+            <option value="">Appâts</option>
+          </select>
+          <select name="times" id="times">
+            <option value="">Horaire</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <div id="content">
+      <div id="no-fish">Aucun poisson trouvé...</div>
+      <div id="fishs"></div>
+    </div>
+  </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
