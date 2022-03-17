@@ -103,7 +103,9 @@ const clocks = {
 function updateClock(r) {
 
     const date = new Date();
-    const t = parseInt((date.getUTCHours()%2).toString() + (date.getUTCMinutes()).toString());
+    let m = date.getUTCMinutes();
+    m = (m < 10) ? '0'+m : m;
+    const t = parseInt((date.getUTCHours()%2).toString() + m.toString());
 
     let moment;
 
