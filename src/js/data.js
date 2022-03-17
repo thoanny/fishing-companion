@@ -342,7 +342,7 @@ export const maps = [
             },
             {
                 "item_id": "96226",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Truite arc-en-ciel d\'eau douce',
                     'en': '',
@@ -360,7 +360,7 @@ export const maps = [
             },
             {
                 "item_id": "96985",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Truite dorée',
                     'en': '',
@@ -409,7 +409,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "96283",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Anguille de feu',
                     'en': '',
@@ -427,7 +427,7 @@ export const maps = [
             },
             {
                 "item_id": "96597",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Bar ardent',
                     'en': '',
@@ -445,7 +445,7 @@ export const maps = [
             },
             {
                 "item_id": "97471",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Colin scintillant',
                     'en': '',
@@ -463,7 +463,7 @@ export const maps = [
             },
             {
                 "item_id": "97100",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Combattant à nageoire de feu',
                     'en': '',
@@ -481,7 +481,7 @@ export const maps = [
             },
             {
                 "item_id": "96361",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Dunkleosteus',
                     'en': '',
@@ -499,7 +499,7 @@ export const maps = [
             },
             {
                 "item_id": "96491",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Gorge de feu',
                     'en': '',
@@ -517,7 +517,7 @@ export const maps = [
             },
             {
                 "item_id": "96595",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Guiyu rocheux',
                     'en': '',
@@ -535,7 +535,7 @@ export const maps = [
             },
             {
                 "item_id": "96555",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Nageoire chauve-souris de geyser',
                     'en': '',
@@ -553,7 +553,7 @@ export const maps = [
             },
             {
                 "item_id": "96720",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Nageoire tranchante',
                     'en': '',
@@ -571,7 +571,7 @@ export const maps = [
             },
             {
                 "item_id": "96547",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Perche noire volcanique',
                     'en': '',
@@ -589,7 +589,7 @@ export const maps = [
             },
             {
                 "item_id": "97498",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-scorpion',
                     'en': '',
@@ -607,7 +607,7 @@ export const maps = [
             },
             {
                 "item_id": "96530",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Raie de magma',
                     'en': '',
@@ -625,7 +625,7 @@ export const maps = [
             },
             {
                 "item_id": "96589",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Ramirezi grenat',
                     'en': '',
@@ -643,7 +643,7 @@ export const maps = [
             },
             {
                 "item_id": "96889",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Silure à queue rouge',
                     'en': '',
@@ -683,7 +683,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "97356",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Bar blanc',
                     'en': '',
@@ -701,7 +701,7 @@ export const maps = [
             },
             {
                 "item_id": "97301",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Bar de Lornar',
                     'en': '',
@@ -719,7 +719,7 @@ export const maps = [
             },
             {
                 "item_id": "97866",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Brochet',
                     'en': '',
@@ -737,7 +737,7 @@ export const maps = [
             },
             {
                 "item_id": "95896",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Brochet maillé',
                     'en': '',
@@ -755,7 +755,7 @@ export const maps = [
             },
             {
                 "item_id": "96276",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Crabe des neiges',
                     'en': '',
@@ -773,7 +773,7 @@ export const maps = [
             },
             {
                 "item_id": "96643",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Doré jaune',
                     'en': '',
@@ -791,7 +791,7 @@ export const maps = [
             },
             {
                 "item_id": "97225",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Flétan',
                     'en': '',
@@ -809,7 +809,7 @@ export const maps = [
             },
             {
                 "item_id": "97799",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Gaspareau',
                     'en': '',
@@ -827,7 +827,7 @@ export const maps = [
             },
             {
                 "item_id": "97496",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Lompe glacial',
                     'en': '',
@@ -845,7 +845,7 @@ export const maps = [
             },
             {
                 "item_id": "97456",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Morue boréale',
                     'en': '',
@@ -863,7 +863,7 @@ export const maps = [
             },
             {
                 "item_id": "96954",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Murène étoilée',
                     'en': '',
@@ -881,7 +881,7 @@ export const maps = [
             },
             {
                 "item_id": "97364",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Omble alpin',
                     'en': '',
@@ -899,7 +899,7 @@ export const maps = [
             },
             {
                 "item_id": "97713",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Ombre',
                     'en': '',
@@ -917,7 +917,7 @@ export const maps = [
             },
             {
                 "item_id": "95723",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Oscar d\'albâtre',
                     'en': '',
@@ -935,7 +935,7 @@ export const maps = [
             },
             {
                 "item_id": "96619",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Perche du fanal',
                     'en': '',
@@ -953,7 +953,7 @@ export const maps = [
             },
             {
                 "item_id": "96882",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson à tête de serpent glacial',
                     'en': '',
@@ -971,7 +971,7 @@ export const maps = [
             },
             {
                 "item_id": "96373",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Rémora mystique',
                     'en': '',
@@ -989,7 +989,7 @@ export const maps = [
             },
             {
                 "item_id": "96218",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Salamandre cérulée',
                     'en': '',
@@ -1007,7 +1007,7 @@ export const maps = [
             },
             {
                 "item_id": "95668",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Saumon rouge',
                     'en': '',
@@ -1025,7 +1025,7 @@ export const maps = [
             },
             {
                 "item_id": "95822",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Saumon royal',
                     'en': '',
@@ -1043,7 +1043,7 @@ export const maps = [
             },
             {
                 "item_id": "95766",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Éperlan',
                     'en': '',
@@ -1080,7 +1080,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "96445",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Bar élonien',
                     'en': '',
@@ -1098,7 +1098,7 @@ export const maps = [
             },
             {
                 "item_id": "97744",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Barramundi',
                     'en': '',
@@ -1116,7 +1116,7 @@ export const maps = [
             },
             {
                 "item_id": "95859",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Carpe des sables',
                     'en': '',
@@ -1134,7 +1134,7 @@ export const maps = [
             },
             {
                 "item_id": "97848",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Carpe géante',
                     'en': '',
@@ -1152,7 +1152,7 @@ export const maps = [
             },
             {
                 "item_id": "97109",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Gobie',
                     'en': '',
@@ -1170,7 +1170,7 @@ export const maps = [
             },
             {
                 "item_id": "97763",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Kaluga',
                     'en': '',
@@ -1188,7 +1188,7 @@ export const maps = [
             },
             {
                 "item_id": "96769",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Loche dorée',
                     'en': '',
@@ -1206,7 +1206,7 @@ export const maps = [
             },
             {
                 "item_id": "96676",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Piranha noir',
                     'en': '',
@@ -1224,7 +1224,7 @@ export const maps = [
             },
             {
                 "item_id": "95608",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-spatule',
                     'en': '',
@@ -1242,7 +1242,7 @@ export const maps = [
             },
             {
                 "item_id": "97466",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-spatule géant',
                     'en': '',
@@ -1260,7 +1260,7 @@ export const maps = [
             },
             {
                 "item_id": "97145",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-tigre',
                     'en': '',
@@ -1278,7 +1278,7 @@ export const maps = [
             },
             {
                 "item_id": "97187",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Polyptère argenté',
                     'en': '',
@@ -1296,7 +1296,7 @@ export const maps = [
             },
             {
                 "item_id": "96308",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Protoptère',
                     'en': '',
@@ -1314,7 +1314,7 @@ export const maps = [
             },
             {
                 "item_id": "96724",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Protoptère marbré',
                     'en': '',
@@ -1332,7 +1332,7 @@ export const maps = [
             },
             {
                 "item_id": "97755",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Sandre',
                     'en': '',
@@ -1350,7 +1350,7 @@ export const maps = [
             },
             {
                 "item_id": "96094",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Silure rayé',
                     'en': '',
@@ -1368,7 +1368,7 @@ export const maps = [
             },
             {
                 "item_id": "96854",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Tilapia',
                     'en': '',
@@ -1386,7 +1386,7 @@ export const maps = [
             },
             {
                 "item_id": "96349",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Tor',
                     'en': '',
@@ -1404,7 +1404,7 @@ export const maps = [
             },
             {
                 "item_id": "96428",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Tor doré',
                     'en': '',
@@ -1422,7 +1422,7 @@ export const maps = [
             },
             {
                 "item_id": "96367",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Tétra de l\'Elon',
                     'en': '',
@@ -1440,7 +1440,7 @@ export const maps = [
             },
             {
                 "item_id": "95929",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Vundu',
                     'en': '',
@@ -1471,7 +1471,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "96807",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Anguille d\'eau douce',
                     'en': '',
@@ -1489,7 +1489,7 @@ export const maps = [
             },
             {
                 "item_id": "95765",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Axolotl albinos',
                     'en': '',
@@ -1507,7 +1507,7 @@ export const maps = [
             },
             {
                 "item_id": "96834",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Barbus cerise',
                     'en': '',
@@ -1525,7 +1525,7 @@ export const maps = [
             },
             {
                 "item_id": "96195",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Carpe noire',
                     'en': '',
@@ -1543,7 +1543,7 @@ export const maps = [
             },
             {
                 "item_id": "97559",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Dormeur noir',
                     'en': '',
@@ -1561,7 +1561,7 @@ export const maps = [
             },
             {
                 "item_id": "97329",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Gourami albinos',
                     'en': '',
@@ -1579,7 +1579,7 @@ export const maps = [
             },
             {
                 "item_id": "96096",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Loche franche',
                     'en': '',
@@ -1597,7 +1597,7 @@ export const maps = [
             },
             {
                 "item_id": "96792",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Poisson pétrifiant',
                     'en': '',
@@ -1615,7 +1615,7 @@ export const maps = [
             },
             {
                 "item_id": "96310",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson à tête de serpent',
                     'en': '',
@@ -1633,7 +1633,7 @@ export const maps = [
             },
             {
                 "item_id": "96017",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-chat',
                     'en': 'Lacustre',
@@ -1651,7 +1651,7 @@ export const maps = [
             },
             {
                 "item_id": "95596",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Poisson-couteau',
                     'en': '',
@@ -1669,7 +1669,7 @@ export const maps = [
             },
             {
                 "item_id": "95584",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-couteau royal',
                     'en': '',
@@ -1687,7 +1687,7 @@ export const maps = [
             },
             {
                 "item_id": "97716",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Rôdeur de Melandru',
                     'en': '',
@@ -1705,7 +1705,7 @@ export const maps = [
             },
             {
                 "item_id": "95861",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Truite ambrée',
                     'en': '',
@@ -1738,7 +1738,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "96225",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Béluga',
                     'en': '',
@@ -1756,7 +1756,7 @@ export const maps = [
             },
             {
                 "item_id": "96085",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Cobia',
                     'en': '',
@@ -1774,7 +1774,7 @@ export const maps = [
             },
             {
                 "item_id": "95794",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Cordonnier plume',
                     'en': '',
@@ -1792,7 +1792,7 @@ export const maps = [
             },
             {
                 "item_id": "96513",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Crabe royal',
                     'en': '',
@@ -1810,7 +1810,7 @@ export const maps = [
             },
             {
                 "item_id": "97001",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Lampris royal',
                     'en': '',
@@ -1828,7 +1828,7 @@ export const maps = [
             },
             {
                 "item_id": "95849",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Marlin bleu',
                     'en': '',
@@ -1846,7 +1846,7 @@ export const maps = [
             },
             {
                 "item_id": "97489",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Monstro',
                     'en': '',
@@ -1864,7 +1864,7 @@ export const maps = [
             },
             {
                 "item_id": "97844",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-coq',
                     'en': '',
@@ -1882,7 +1882,7 @@ export const maps = [
             },
             {
                 "item_id": "96397",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Poisson-perroquet',
                     'en': '',
@@ -1900,7 +1900,7 @@ export const maps = [
             },
             {
                 "item_id": "97746",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Pompaneau',
                     'en': '',
@@ -1918,7 +1918,7 @@ export const maps = [
             },
             {
                 "item_id": "95890",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Rondeau mouton',
                     'en': '',
@@ -1936,7 +1936,7 @@ export const maps = [
             },
             {
                 "item_id": "97443",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Thazard noir',
                     'en': '',
@@ -1954,7 +1954,7 @@ export const maps = [
             },
             {
                 "item_id": "97369",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Truite de mer',
                     'en': '',
@@ -1972,7 +1972,7 @@ export const maps = [
             },
             {
                 "item_id": "97756",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Vivaneau à queue jaune',
                     'en': '',
@@ -2002,7 +2002,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "96145",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Barracuda rayé',
                     'en': '',
@@ -2020,7 +2020,7 @@ export const maps = [
             },
             {
                 "item_id": "97463",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Carangue à grosse tête',
                     'en': '',
@@ -2038,7 +2038,7 @@ export const maps = [
             },
             {
                 "item_id": "95951",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Dorade bleue',
                     'en': '',
@@ -2056,7 +2056,7 @@ export const maps = [
             },
             {
                 "item_id": "97654",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Espadon',
                     'en': '',
@@ -2074,7 +2074,7 @@ export const maps = [
             },
             {
                 "item_id": "96344",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Esturgeon',
                     'en': '',
@@ -2092,7 +2092,7 @@ export const maps = [
             },
             {
                 "item_id": "96863",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Flet étoilé',
                     'en': '',
@@ -2110,7 +2110,7 @@ export const maps = [
             },
             {
                 "item_id": "97507",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Kahawai',
                     'en': '',
@@ -2128,7 +2128,7 @@ export const maps = [
             },
             {
                 "item_id": "96876",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Lieu noir',
                     'en': '',
@@ -2146,7 +2146,7 @@ export const maps = [
             },
             {
                 "item_id": "95633",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Perche de mer',
                     'en': '',
@@ -2164,7 +2164,7 @@ export const maps = [
             },
             {
                 "item_id": "95797",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Poisson empereur',
                     'en': '',
@@ -2182,7 +2182,7 @@ export const maps = [
             },
             {
                 "item_id": "97612",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Poisson volant',
                     'en': '',
@@ -2200,7 +2200,7 @@ export const maps = [
             },
             {
                 "item_id": "97792",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-dragon',
                     'en': '',
@@ -2218,7 +2218,7 @@ export const maps = [
             },
             {
                 "item_id": "96933",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Poisson-globe',
                     'en': '',
@@ -2236,7 +2236,7 @@ export const maps = [
             },
             {
                 "item_id": "96196",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-ruban',
                     'en': '',
@@ -2254,7 +2254,7 @@ export const maps = [
             },
             {
                 "item_id": "96053",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Sériole',
                     'en': '',
@@ -2272,7 +2272,7 @@ export const maps = [
             },
             {
                 "item_id": "97857",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Tarpon',
                     'en': '',
@@ -2290,7 +2290,7 @@ export const maps = [
             },
             {
                 "item_id": "96238",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Taïmen',
                     'en': '',
@@ -2308,7 +2308,7 @@ export const maps = [
             },
             {
                 "item_id": "96401",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Thon rouge',
                     'en': '',
@@ -2326,7 +2326,7 @@ export const maps = [
             },
             {
                 "item_id": "97830",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Tétraodon',
                     'en': '',
@@ -2344,7 +2344,7 @@ export const maps = [
             },
             {
                 "item_id": "97772",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Vivaneau d\'émeraude',
                     'en': '',
@@ -2362,7 +2362,7 @@ export const maps = [
             },
             {
                 "item_id": "96839",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Vive',
                     'en': '',
@@ -2400,7 +2400,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "97103",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Anguille de bourbier',
                     'en': '',
@@ -2418,7 +2418,7 @@ export const maps = [
             },
             {
                 "item_id": "97341",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Bar rayé',
                     'en': '',
@@ -2436,7 +2436,7 @@ export const maps = [
             },
             {
                 "item_id": "96571",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Brochet royal',
                     'en': '',
@@ -2454,7 +2454,7 @@ export const maps = [
             },
             {
                 "item_id": "96001",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Flet tacheté',
                     'en': '',
@@ -2472,7 +2472,7 @@ export const maps = [
             },
             {
                 "item_id": "96740",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Gobie à taches noires',
                     'en': '',
@@ -2490,7 +2490,7 @@ export const maps = [
             },
             {
                 "item_id": "96032",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Guppy du Delavan',
                     'en': '',
@@ -2508,7 +2508,7 @@ export const maps = [
             },
             {
                 "item_id": "97785",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Lamproie fléau-de-marais',
                     'en': '',
@@ -2526,7 +2526,7 @@ export const maps = [
             },
             {
                 "item_id": "97409",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Maquereau saint',
                     'en': '',
@@ -2544,7 +2544,7 @@ export const maps = [
             },
             {
                 "item_id": "97462",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Marigane tachetée',
                     'en': '',
@@ -2562,7 +2562,7 @@ export const maps = [
             },
             {
                 "item_id": "95881",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Molly voile',
                     'en': '',
@@ -2580,7 +2580,7 @@ export const maps = [
             },
             {
                 "item_id": "97509",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Perche noire',
                     'en': '',
@@ -2598,7 +2598,7 @@ export const maps = [
             },
             {
                 "item_id": "97485",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Poissacre',
                     'en': '',
@@ -2616,7 +2616,7 @@ export const maps = [
             },
             {
                 "item_id": "95819",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Poisson-ange divin',
                     'en': '',
@@ -2634,7 +2634,7 @@ export const maps = [
             },
             {
                 "item_id": "97527",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-lion',
                     'en': '',
@@ -2652,7 +2652,7 @@ export const maps = [
             },
             {
                 "item_id": "97005",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-lune argenté',
                     'en': '',
@@ -2670,7 +2670,7 @@ export const maps = [
             },
             {
                 "item_id": "95731",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-reine',
                     'en': '',
@@ -2688,7 +2688,7 @@ export const maps = [
             },
             {
                 "item_id": "96543",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Raie guitare à nez rond',
                     'en': '',
@@ -2706,7 +2706,7 @@ export const maps = [
             },
             {
                 "item_id": "97787",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Tambour',
                     'en': '',
@@ -2724,7 +2724,7 @@ export const maps = [
             },
             {
                 "item_id": "96192",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Truite arc-en-ciel',
                     'en': '',
@@ -2742,7 +2742,7 @@ export const maps = [
             },
             {
                 "item_id": "96667",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Tétraodon de Kryte',
                     'en': '',
@@ -2760,7 +2760,7 @@ export const maps = [
             },
             {
                 "item_id": "95961",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Écrevisse de Kryte',
                     'en': '',
@@ -2805,7 +2805,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "97644",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Alose-écaille fluviale',
                     'en': '',
@@ -2823,7 +2823,7 @@ export const maps = [
             },
             {
                 "item_id": "97078",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Arapaïma',
                     'en': '',
@@ -2841,7 +2841,7 @@ export const maps = [
             },
             {
                 "item_id": "97057",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Arowana',
                     'en': '',
@@ -2859,7 +2859,7 @@ export const maps = [
             },
             {
                 "item_id": "96983",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Brochet de mer',
                     'en': '',
@@ -2877,7 +2877,7 @@ export const maps = [
             },
             {
                 "item_id": "97122",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Carangue de Maguuma',
                     'en': '',
@@ -2895,7 +2895,7 @@ export const maps = [
             },
             {
                 "item_id": "96325",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Characin pic',
                     'en': '',
@@ -2913,7 +2913,7 @@ export const maps = [
             },
             {
                 "item_id": "96692",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Dourado',
                     'en': '',
@@ -2931,7 +2931,7 @@ export const maps = [
             },
             {
                 "item_id": "96020",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Gobie d\'eau saumâtre',
                     'en': '',
@@ -2949,7 +2949,7 @@ export const maps = [
             },
             {
                 "item_id": "95751",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Malachigan argenté',
                     'en': '',
@@ -2967,7 +2967,7 @@ export const maps = [
             },
             {
                 "item_id": "95908",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Mérou goliath',
                     'en': '',
@@ -2985,7 +2985,7 @@ export const maps = [
             },
             {
                 "item_id": "97568",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Oscar',
                     'en': '',
@@ -3003,7 +3003,7 @@ export const maps = [
             },
             {
                 "item_id": "96320",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Pacu',
                     'en': '',
@@ -3021,7 +3021,7 @@ export const maps = [
             },
             {
                 "item_id": "96201",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Piranha',
                     'en': '',
@@ -3039,7 +3039,7 @@ export const maps = [
             },
             {
                 "item_id": "97543",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson luisant arc-en-ciel',
                     'en': '',
@@ -3057,7 +3057,7 @@ export const maps = [
             },
             {
                 "item_id": "96645",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-loup',
                     'en': '',
@@ -3075,7 +3075,7 @@ export const maps = [
             },
             {
                 "item_id": "97465",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Siluriforme',
                     'en': '',
@@ -3093,7 +3093,7 @@ export const maps = [
             },
             {
                 "item_id": "96653",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Surubi',
                     'en': '',
@@ -3111,7 +3111,7 @@ export const maps = [
             },
             {
                 "item_id": "97546",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Truite de Maguuma',
                     'en': '',
@@ -3129,7 +3129,7 @@ export const maps = [
             },
             {
                 "item_id": "97841",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Tucunaré',
                     'en': '',
@@ -3147,7 +3147,7 @@ export const maps = [
             },
             {
                 "item_id": "96191",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Tétra vampire',
                     'en': '',
@@ -3165,7 +3165,7 @@ export const maps = [
             },
             {
                 "item_id": "96439",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Étoile royale',
                     'en': '',
@@ -3198,7 +3198,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "97186",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Bar trépassé',
                     'en': '',
@@ -3216,7 +3216,7 @@ export const maps = [
             },
             {
                 "item_id": "96813",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Blobfish',
                     'en': '',
@@ -3234,7 +3234,7 @@ export const maps = [
             },
             {
                 "item_id": "96332",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Béhémoth benthique',
                     'en': '',
@@ -3252,7 +3252,7 @@ export const maps = [
             },
             {
                 "item_id": "97770",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Calmar des abysses',
                     'en': '',
@@ -3270,7 +3270,7 @@ export const maps = [
             },
             {
                 "item_id": "95873",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Dard d\'eau sombre',
                     'en': '',
@@ -3288,7 +3288,7 @@ export const maps = [
             },
             {
                 "item_id": "96055",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Gaspareau mort',
                     'en': '',
@@ -3306,7 +3306,7 @@ export const maps = [
             },
             {
                 "item_id": "96666",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Lotte',
                     'en': '',
@@ -3324,7 +3324,7 @@ export const maps = [
             },
             {
                 "item_id": "97017",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Maquereau impie',
                     'en': '',
@@ -3342,7 +3342,7 @@ export const maps = [
             },
             {
                 "item_id": "96936",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Murène d\'épave',
                     'en': '',
@@ -3360,7 +3360,7 @@ export const maps = [
             },
             {
                 "item_id": "97556",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Myxine',
                     'en': '',
@@ -3378,7 +3378,7 @@ export const maps = [
             },
             {
                 "item_id": "96631",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Méduse spectrale',
                     'en': '',
@@ -3396,7 +3396,7 @@ export const maps = [
             },
             {
                 "item_id": "96132",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Mérou brun',
                     'en': '',
@@ -3414,7 +3414,7 @@ export const maps = [
             },
             {
                 "item_id": "97035",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Poisson aveugle albinos',
                     'en': '',
@@ -3432,7 +3432,7 @@ export const maps = [
             },
             {
                 "item_id": "97302",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Physalie',
                     'en': '',
@@ -3450,7 +3450,7 @@ export const maps = [
             },
             {
                 "item_id": "96874",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Pieuvre géante',
                     'en': '',
@@ -3468,7 +3468,7 @@ export const maps = [
             },
             {
                 "item_id": "96701",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson de Dhuum',
                     'en': '',
@@ -3486,7 +3486,7 @@ export const maps = [
             },
             {
                 "item_id": "96135",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Poisson-pêcheur orrien',
                     'en': '',
@@ -3504,7 +3504,7 @@ export const maps = [
             },
             {
                 "item_id": "96723",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-vipère',
                     'en': '',
@@ -3522,7 +3522,7 @@ export const maps = [
             },
             {
                 "item_id": "96551",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Requin-lézard',
                     'en': '',
@@ -3540,7 +3540,7 @@ export const maps = [
             },
             {
                 "item_id": "95924",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Terrassier tacheté',
                     'en': '',
@@ -3558,7 +3558,7 @@ export const maps = [
             },
             {
                 "item_id": "97470",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Uranoscope',
                     'en': '',
@@ -3588,7 +3588,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "96350",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Carangue bleue',
                     'en': '',
@@ -3606,7 +3606,7 @@ export const maps = [
             },
             {
                 "item_id": "96318",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Crevette géante',
                     'en': '',
@@ -3624,7 +3624,7 @@ export const maps = [
             },
             {
                 "item_id": "96071",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Daurade marron',
                     'en': '',
@@ -3642,7 +3642,7 @@ export const maps = [
             },
             {
                 "item_id": "96757",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Dorade',
                     'en': '',
@@ -3660,7 +3660,7 @@ export const maps = [
             },
             {
                 "item_id": "97714",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Dragonnet',
                     'en': '',
@@ -3678,7 +3678,7 @@ export const maps = [
             },
             {
                 "item_id": "95926",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Espadon-voilier',
                     'en': '',
@@ -3696,7 +3696,7 @@ export const maps = [
             },
             {
                 "item_id": "97753",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Fugu',
                     'en': '',
@@ -3714,7 +3714,7 @@ export const maps = [
             },
             {
                 "item_id": "97061",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Lobote',
                     'en': '',
@@ -3732,7 +3732,7 @@ export const maps = [
             },
             {
                 "item_id": "96719",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Maigre',
                     'en': '',
@@ -3750,7 +3750,7 @@ export const maps = [
             },
             {
                 "item_id": "97865",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Mulet',
                     'en': '',
@@ -3768,7 +3768,7 @@ export const maps = [
             },
             {
                 "item_id": "97692",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Mérou étoilé',
                     'en': '',
@@ -3786,7 +3786,7 @@ export const maps = [
             },
             {
                 "item_id": "97722",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Napoléon',
                     'en': '',
@@ -3804,7 +3804,7 @@ export const maps = [
             },
             {
                 "item_id": "96425",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Poisson sabre',
                     'en': '',
@@ -3822,7 +3822,7 @@ export const maps = [
             },
             {
                 "item_id": "95894",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Poisson-globe',
                     'en': '',
@@ -3840,7 +3840,7 @@ export const maps = [
             },
             {
                 "item_id": "97181",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-lune',
                     'en': '',
@@ -3858,7 +3858,7 @@ export const maps = [
             },
             {
                 "item_id": "96944",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-scie vert',
                     'en': '',
@@ -3876,7 +3876,7 @@ export const maps = [
             },
             {
                 "item_id": "97604",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Raie',
                     'en': '',
@@ -3894,7 +3894,7 @@ export const maps = [
             },
             {
                 "item_id": "95603",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Raie léopard',
                     'en': '',
@@ -3912,7 +3912,7 @@ export const maps = [
             },
             {
                 "item_id": "97278",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Saumon masou',
                     'en': '',
@@ -3930,7 +3930,7 @@ export const maps = [
             },
             {
                 "item_id": "96523",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Thon Listao',
                     'en': '',
@@ -3948,7 +3948,7 @@ export const maps = [
             },
             {
                 "item_id": "95936",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Vivaneau rouge',
                     'en': '',
@@ -3978,7 +3978,7 @@ export const maps = [
         "fishs": [
             {
                 "item_id": "95699",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Axolotl',
                     'en': '',
@@ -3996,7 +3996,7 @@ export const maps = [
             },
             {
                 "item_id": "97814",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Carpe canthienne',
                     'en': '',
@@ -4014,7 +4014,7 @@ export const maps = [
             },
             {
                 "item_id": "95729",
-                "rarity": "",
+                "rarity": "fine",
                 "name": {
                     'fr': 'Gourami',
                     'en': '',
@@ -4032,7 +4032,7 @@ export const maps = [
             },
             {
                 "item_id": "96443",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Gourami géant',
                     'en': '',
@@ -4050,7 +4050,7 @@ export const maps = [
             },
             {
                 "item_id": "97853",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Lamproie de jade',
                     'en': '',
@@ -4068,7 +4068,7 @@ export const maps = [
             },
             {
                 "item_id": "95632",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Nautile',
                     'en': '',
@@ -4086,7 +4086,7 @@ export const maps = [
             },
             {
                 "item_id": "97794",
-                "rarity": "",
+                "rarity": "exotic",
                 "name": {
                     'fr': 'Poisson licorne',
                     'en': '',
@@ -4104,7 +4104,7 @@ export const maps = [
             },
             {
                 "item_id": "97240",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Poisson-coffre',
                     'en': '',
@@ -4122,7 +4122,7 @@ export const maps = [
             },
             {
                 "item_id": "95670",
-                "rarity": "",
+                "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-crapaud',
                     'en': '',
@@ -4140,7 +4140,7 @@ export const maps = [
             },
             {
                 "item_id": "96913",
-                "rarity": "",
+                "rarity": "basic",
                 "name": {
                     'fr': 'Rohu',
                     'en': '',
@@ -4158,7 +4158,7 @@ export const maps = [
             },
             {
                 "item_id": "96817",
-                "rarity": "",
+                "rarity": "legendary",
                 "name": {
                     'fr': 'Seiche',
                     'en': '',
@@ -4176,7 +4176,7 @@ export const maps = [
             },
             {
                 "item_id": "96076",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Silure',
                     'en': '',
@@ -4194,7 +4194,7 @@ export const maps = [
             },
             {
                 "item_id": "96181",
-                "rarity": "",
+                "rarity": "ascended",
                 "name": {
                     'fr': 'Tortue de la Mer de Jade',
                     'en': '',
@@ -4212,7 +4212,7 @@ export const maps = [
             },
             {
                 "item_id": "97183",
-                "rarity": "",
+                "rarity": "rare",
                 "name": {
                     'fr': 'Tétraodon tacheté',
                     'en': '',
