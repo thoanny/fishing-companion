@@ -1,0 +1,269 @@
+@import "normalize";
+@import "sprite";
+
+* {
+  cursor: default;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  font-size: 14px;
+  background: #36393f;
+  color: #fff;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.tac {
+  text-align: center;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  padding: .5rem;
+  background: #202225;
+  height: 5.75rem;
+
+  #brand {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+
+    img {
+      width: 48px;
+      height: 48px;
+      display: block;
+    }
+  }
+}
+
+#title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+#subtitle {
+  font-size: .75rem;
+  opacity: .75;
+  margin-top: .25rem;
+}
+
+#content {
+  height: calc(100vh - 6.75rem);
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #2e3338;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #202225;
+    border-radius: 20px;
+    border: 3px solid #2e3338;
+  }
+}
+
+select {
+  padding: .25rem;
+  width: 100%;
+  font-size: .85rem;
+  border-radius: 4px;
+  background: #40444b;
+  color: #fff;
+  outline: none;
+}
+
+#fishs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: .5rem;
+  padding: .5rem;
+
+  .fish-icon {
+    border-radius: 4px;
+    border: 2px solid white;
+  }
+
+  .fish {
+    width: 100%;
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+    /*text-shadow: 1px 1px 3px #000000;*/
+
+    .name {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-bottom: .5rem;
+    }
+
+    .metas {
+      display: flex;
+      align-items: center;
+      column-gap: .5rem;
+      justify-content: flex-start;
+      margin-top: .15rem;
+
+      span {
+        display: inline-flex;
+        align-items: center;
+        column-gap: .25rem;
+        white-space: nowrap;
+      }
+    }
+
+    //&.rarity-junk {
+    //  .name {
+    //    //color: red;
+    //  }
+    //  .fish-icon {
+    //    border-color: red;
+    //  }
+    //}
+    //
+    //&.rarity-basic {
+    //  .name {
+    //    //color: red;
+    //  }
+    //  .fish-icon {
+    //    border-color: red;
+    //  }
+    //}
+
+    &.rarity-fine {
+      .name {
+        //color: red;
+      }
+      .fish-icon {
+        border-color: #5291f0;
+      }
+    }
+
+    &.rarity-masterwork {
+      .name {
+        //color: red;
+      }
+      .fish-icon {
+        border-color: #32b112;
+      }
+    }
+
+    &.rarity-rare {
+      .name {
+        //color: red;
+      }
+      .fish-icon {
+        border-color: #f0d022;
+      }
+    }
+
+    &.rarity-exotic {
+      .name {
+        //color: red;
+      }
+      .fish-icon {
+        border-color: #fa0;
+      }
+    }
+
+    &.rarity-ascended {
+      .name {
+        //color: red;
+      }
+      .fish-icon {
+        border-color: #f48;
+      }
+    }
+
+    &.rarity-legendary {
+      .name {
+        //color: #93f;
+      }
+      .fish-icon {
+        border-color: #93f;
+      }
+    }
+
+  }
+
+}
+
+#clock, #gw2link {
+  color: white;
+  display: flex;
+  column-gap: .25rem;
+  text-align: center;
+  font-weight: 600;
+  padding: .25rem .5rem;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: calc(1.25rem + 2px);
+
+  &.n {
+    background: #2c3e50;
+  }
+
+  &.d {
+    background: #e67e22;
+  }
+
+  &.dd {
+    background: #9b59b6;
+  }
+
+  &.offline {
+    background: #e74c3c;
+  }
+
+  &.online {
+    background: #2ecc71;
+  }
+
+}
+
+#no-fish {
+  color: #e74c3c;
+  font-weight: bold;
+  display: none;
+  padding: .5rem;
+}
+
+#toolbar {
+  margin-top: .75rem;
+  width: 100%;
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+#drag {
+  -webkit-app-region: drag;
+  width: 1rem;
+  height: 1.5rem;
+  background: #36393f;
+  position: fixed;
+  top: .5rem;
+  right: .5rem;
+  padding: .25rem .5rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -90,3 +90,14 @@ out/
 
 # PHP Storm
 .idea
+
+peche-compagnon-win32-x64
+
+src/css/*.min.css*
+src/js/*.min.js
+
+src/sass/_sprite.scss
+src/sass/sprite.png
+src/*.png
+!src/img/*.png
+src/script.min.js*
