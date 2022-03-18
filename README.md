@@ -33,7 +33,6 @@ Lorsque tu lances le compagnon de pêche, GW2Link.exe est exécuté en arrière-
 * Intégrer les sources de GW2Link au projet
 * Ajouter les halls de guilde après avoir vérifié leurs IDs
 * Proposer une version du compagnon de pêche en anglais
-* À l'aube et au crépuscule, il est possible de pêcher tous les poissons !
 
 ## 💡 Idées
 
