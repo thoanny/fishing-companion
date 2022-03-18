@@ -31,11 +31,9 @@ Lorsque tu lances le compagnon de pêche, GW2Link.exe est exécuté en arrière-
 ## 📑 Todo
 
 * Intégrer les sources de GW2Link au projet
-* Terminer de saisir la rareté des poissons
 * Ajouter les halls de guilde après avoir vérifié leurs IDs
 * Proposer une version du compagnon de pêche en anglais
 * À l'aube et au crépuscule, il est possible de pêcher tous les poissons !
-* Le changement d'heure tyrienne/canthienne semble ne pas fonctionner
 
 ## 💡 Idées
 
