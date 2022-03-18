@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/Linktr.ee-Thoanny-93c045?style=for-the-badge)
+![](https://img.shields.io/badge/Twitch-Sub-93c045?style=for-the-badge)
+![](https://img.shields.io/badge/StreamElements-Tip-93c045?style=for-the-badge)
+
 # 🎣 Compagnon de pêche
 
 Overlay pour accompagner tes sessions de pêche. Affiche la liste des poissons en fonction de la carte du jeu dans laquelle tu es connecté·e et de l'heure locale (tyrienne ou canthienne). Tu peux aussi filtrer par zones de pêche et appâts.
@@ -6,7 +10,9 @@ Si la carte n'est pas reconnue, tous les poissons sont affichés et l'heure de T
 
 ## 💾 Téléchargement
 
-Prochainement disponible.
+![](https://img.shields.io/github/downloads/thoanny/fishing-companion/total?style=for-the-badge)
+
+Pour télécharger la dernière version du compagnon de pêche, [cliquez ici](https://github.com/thoanny/fishing-companion/releases), dépliez la rubrique "Assets" de la dernière version disponible et téléchargez la première archive.
 
 ## 📦 Technologies
 
@@ -52,15 +58,19 @@ Archibald Wirslayd, Pandraghon, vzdk.
 
 ## 📝 Changelogs
 
-### 🔹 Version 0.9.0
+### 🔹 Version 0.9-beta.1
 
-Version dynamique du compagnon, basée sur les données de MumbleLink.
+* Ajout de la rareté sur tous les poissons
+* Correction du timer pour les minutes entre 0 et 9
+* Suppression des icônes des poissons inutilisés (classe internationale et eau douce)
+
+### 🔹 Version 0.9-beta.0
 
 * Intégration de GW2Link
 * Ajout de Webpack pour optimiser les fichiers (js, sass, sprite)
 * Clarification du code (marge d'amélioration possible)
 * Séparation des données (js/data.js) du script (js/script.js)
 
-### 🔹 Version 0.8.0
+### 🔹 Version 0.8-alpha.0
 
 Version statique du compagnon. Premier jet.

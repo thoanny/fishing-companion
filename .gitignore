@@ -101,3 +101,5 @@ src/sass/sprite.png
 src/*.png
 !src/img/*.png
 src/script.min.js*
+
+fishing-companion-win32-x64/
