@@ -40,6 +40,10 @@ function filterFishs() {
         filters.map = '';
     }
 
+    if(filters.time == 'dd') {
+        filters.time = '';
+    }
+
     let target = '';
     for (const [key, value] of Object.entries(filters)) {
         if(value) {
