@@ -32,7 +32,6 @@ Lorsque tu lances le compagnon de pêche, GW2Link.exe est exécuté en arrière-
 
 * Intégrer les sources de GW2Link au projet
 * Ajouter les halls de guilde après avoir vérifié leurs IDs
-* Proposer une version du compagnon de pêche en anglais
 
 ## 💡 Idées
 
@@ -54,6 +53,12 @@ Archibald Wirslayd, Pandraghon, vzdk.
 * **Icônes :** [Font Awesome](https://fontawesome.com/) (Font Awesome 5 Pro License, Early Backer)
 
 ## 📝 Changelogs
+
+### 🔹 Version 0.9-beta.2
+
+* Proposer une version du compagnon de pêche en anglais
+* Ajout d'une page de paramètres (choix de langue uniquement pour le moment)
+* À l'aube et au crépuscule, afficher tous les poissons
 
 ### 🔹 Version 0.9-beta.1
 
