@@ -3,7 +3,7 @@ export const maps = [
         "achievement_id": "6330",
         "achievement": {
             'fr': 'Ascalon',
-            'en': '',
+            'en': 'Ascalon',
         },
         "ids": [
             19, // Plaines d'Ashford
@@ -21,15 +21,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Anguille stigmatisée',
-                    'en': '',
+                    'en': 'Branded Eel',
                 },
                 "spot": {
-                    'fr': 'Toxiques',
-                    'en': '',
+                    'fr': 'Poisson des eaux toxiques',
+                    'en': 'Noxious Water Fish',
                 },
                 "bait": {
-                    'fr': 'Insectes luisants',
-                    'en': '',
+                    'fr': 'Insecte luisant',
+                    'en': 'Lightning Bug',
                 },
                 "time": "n",
                 "power": "500"
@@ -39,7 +39,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Bouvière',
-                    'en': '',
+                    'en': 'Bitterling',
                 },
                 "spot": {
                     'fr': '',
@@ -57,15 +57,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Brochet crocodile',
-                    'en': '',
+                    'en': 'Gar',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "d",
                 "power": "450"
@@ -75,7 +75,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Crapet arlequin',
-                    'en': '',
+                    'en': 'Bluegill',
                 },
                 "spot": {
                     'fr': '',
@@ -93,11 +93,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Crapet de roche',
-                    'en': '',
+                    'en': 'Rock Bass',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -111,15 +111,15 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Crapet sac-à-lait',
-                    'en': '',
+                    'en': 'Warmouth',
                 },
                 "spot": {
-                    'fr': 'Toxiques',
-                    'en': '',
+                    'fr': 'Poisson des eaux toxiques',
+                    'en': 'Noxious Water Fish',
                 },
                 "bait": {
-                    'fr': 'Insectes luisants',
-                    'en': '',
+                    'fr': 'Insecte luisant',
+                    'en': 'Lightning Bug',
                 },
                 "time": "",
                 "power": "500"
@@ -129,7 +129,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Dorade',
-                    'en': '',
+                    'en': 'Bream',
                 },
                 "spot": {
                     'fr': '',
@@ -147,11 +147,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Doras noir',
-                    'en': '',
+                    'en': 'Ripsaw Catfish',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -165,15 +165,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Grenouille d\'eau',
-                    'en': '',
+                    'en': 'Aquatic Frog',
                 },
                 "spot": {
-                    'fr': 'Toxiques',
-                    'en': '',
+                    'fr': 'Poisson des eaux toxiques',
+                    'en': 'Noxious Water Fish',
                 },
                 "bait": {
-                    'fr': 'Insectes luisants',
-                    'en': '',
+                    'fr': 'Insecte luisant',
+                    'en': 'Lightning Bug',
                 },
                 "time": "",
                 "power": "500"
@@ -183,11 +183,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Marigane noire',
-                    'en': '',
+                    'en': 'Black Crappie',
                 },
                 "spot": {
-                    'fr': 'Toxiques',
-                    'en': '',
+                    'fr': 'Poisson des eaux toxiques',
+                    'en': 'Noxious Water Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -201,15 +201,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Maskinongé',
-                    'en': '',
+                    'en': 'Muskellunge',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "dd",
                 "power": "450"
@@ -219,15 +219,15 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Omble de fontaine',
-                    'en': '',
+                    'en': 'Brook Trout',
                 },
                 "spot": {
                     'fr': '',
                     'en': '',
                 },
                 "bait": {
-                    'fr': 'Œufs de poisson',
-                    'en': '',
+                    'fr': 'Œuf de poisson',
+                    'en': 'Fish Egg',
                 },
                 "time": "dd",
                 "power": "400-500"
@@ -237,11 +237,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Perchaude',
-                    'en': '',
+                    'en': 'Yellow Perch',
                 },
                 "spot": {
-                    'fr': 'Toxiques',
-                    'en': '',
+                    'fr': 'Poisson des eaux toxiques',
+                    'en': 'Noxious Water Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -255,7 +255,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Perche noire',
-                    'en': '',
+                    'en': 'Smallmouth Bass',
                 },
                 "spot": {
                     'fr': '',
@@ -273,11 +273,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Perche truitée',
-                    'en': '',
+                    'en': 'Largemouth Bass',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -291,15 +291,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson à vieux barbillons',
-                    'en': '',
+                    'en': 'Old Whiskers',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "n",
                 "power": "450"
@@ -309,11 +309,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-chat',
-                    'en': '',
+                    'en': 'Catfish',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -327,15 +327,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-chat géant',
-                    'en': '',
+                    'en': 'Giant Catfish',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "n",
                 "power": "450"
@@ -345,15 +345,15 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Truite arc-en-ciel d\'eau douce',
-                    'en': '',
+                    'en': 'Rainbow Trout',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Œufs de poisson',
-                    'en': '',
+                    'fr': 'Œuf de poisson',
+                    'en': 'Fish Egg',
                 },
                 "time": "d",
                 "power": "450"
@@ -363,15 +363,15 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Truite dorée',
-                    'en': '',
+                    'en': 'Golden Trout',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Œufs de poisson',
-                    'en': '',
+                    'fr': 'Œuf de poisson',
+                    'en': 'Fish Egg',
                 },
                 "time": "dd",
                 "power": "450"
@@ -381,15 +381,15 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Truite fardée',
-                    'en': '',
+                    'en': 'Cutthroat Trout',
                 },
                 "spot": {
                     'fr': '',
                     'en': '',
                 },
                 "bait": {
-                    'fr': 'Œufs de poisson',
-                    'en': '',
+                    'fr': 'Œuf de poisson',
+                    'en': 'Fish Egg',
                 },
                 "time": "",
                 "power": "400"
@@ -400,7 +400,7 @@ export const maps = [
         "achievement_id": "6489",
         "achievement": {
             'fr': 'Cercle de feu',
-            'en': '',
+            'en': 'Ring of Fire',
         },
         "ids": [
             1195, // Mont Draconis
@@ -412,11 +412,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Anguille de feu',
-                    'en': '',
+                    'en': 'Fire Eel',
                 },
                 "spot": {
-                    'fr': 'Volcanique',
-                    'en': '',
+                    'fr': 'Poisson volcanique',
+                    'en': 'Volcanic Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -430,11 +430,11 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Bar ardent',
-                    'en': '',
+                    'en': 'Igneous Rockfish',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -448,11 +448,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Colin scintillant',
-                    'en': '',
+                    'en': 'Glowing Coalfish',
                 },
                 "spot": {
-                    'fr': 'Volcanique',
-                    'en': '',
+                    'fr': 'Poisson volcanique',
+                    'en': 'Volcanic Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -466,11 +466,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Combattant à nageoire de feu',
-                    'en': '',
+                    'en': 'Flamefin Betta',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -484,15 +484,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Dunkleosteus',
-                    'en': '',
+                    'en': 'Dunkleosteus',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
-                    'fr': 'Scarabées de lave',
-                    'en': '',
+                    'fr': 'Scarabée de lave',
+                    'en': 'Lava Beetle',
                 },
                 "time": "",
                 "power": "700"
@@ -502,7 +502,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Gorge de feu',
-                    'en': '',
+                    'en': 'Firemouth',
                 },
                 "spot": {
                     'fr': '',
@@ -520,15 +520,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Guiyu rocheux',
-                    'en': '',
+                    'en': 'Stone Guiyu',
                 },
                 "spot": {
-                    'fr': 'Volcanique',
-                    'en': '',
+                    'fr': 'Poisson volcanique',
+                    'en': 'Volcanic Fish',
                 },
                 "bait": {
-                    'fr': 'Scarabées de lave',
-                    'en': '',
+                    'fr': 'Scarabée de lave',
+                    'en': 'Lava Beetle',
                 },
                 "time": "",
                 "power": "750"
@@ -538,11 +538,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Nageoire chauve-souris de geyser',
-                    'en': '',
+                    'en': 'Geyser Batfin',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -556,11 +556,11 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Nageoire tranchante',
-                    'en': '',
+                    'en': 'Flayfin',
                 },
                 "spot": {
-                    'fr': 'Volcanique',
-                    'en': '',
+                    'fr': 'Poisson volcanique',
+                    'en': 'Volcanic Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -574,7 +574,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Perche noire volcanique',
-                    'en': '',
+                    'en': 'Volcanic Blackfish',
                 },
                 "spot": {
                     'fr': '',
@@ -592,15 +592,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-scorpion',
-                    'en': '',
+                    'en': 'Scorpion Fish',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
-                    'fr': 'Scarabées de lave',
-                    'en': '',
+                    'fr': 'Scarabée de lave',
+                    'en': 'Lava Beetle',
                 },
                 "time": "n",
                 "power": "700"
@@ -610,15 +610,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Raie de magma',
-                    'en': '',
+                    'en': 'Magma Ray',
                 },
                 "spot": {
-                    'fr': 'Volcanique',
-                    'en': '',
+                    'fr': 'Poisson volcanique',
+                    'en': 'Volcanic Fish',
                 },
                 "bait": {
-                    'fr': 'Scarabées de lave',
-                    'en': '',
+                    'fr': 'Scarabée de lave',
+                    'en': 'Lava Beetle',
                 },
                 "time": "d",
                 "power": "750"
@@ -628,11 +628,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Ramirezi grenat',
-                    'en': '',
+                    'en': 'Garnet Ram',
                 },
                 "spot": {
-                    'fr': 'Volcanique',
-                    'en': '',
+                    'fr': 'Poisson volcanique',
+                    'en': 'Volcanic Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -646,11 +646,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Silure à queue rouge',
-                    'en': '',
+                    'en': 'Redtail Catfish',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -665,7 +665,7 @@ export const maps = [
         "achievement_id": "6179",
         "achievement": {
             'fr': 'Cimefroides',
-            'en': '',
+            'en': 'Shiverpeak Mountains',
         },
         "ids": [
             26, // Falaises de Hantedraguerre
@@ -686,11 +686,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Bar blanc',
-                    'en': '',
+                    'en': 'White Bass',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -704,15 +704,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Bar de Lornar',
-                    'en': '',
+                    'en': 'Lornar\'s Bass',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Escargots béliers',
-                    'en': '',
+                    'fr': 'Escargot bélier',
+                    'en': 'Ramshorn Snail',
                 },
                 "time": "",
                 "power": "400"
@@ -722,11 +722,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Brochet',
-                    'en': '',
+                    'en': 'Northern Pike',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -740,11 +740,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Brochet maillé',
-                    'en': '',
+                    'en': 'Chain Pickerel',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -758,7 +758,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Crabe des neiges',
-                    'en': '',
+                    'en': 'Snow Crab',
                 },
                 "spot": {
                     'fr': '',
@@ -776,7 +776,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Doré jaune',
-                    'en': '',
+                    'en': 'Walleye',
                 },
                 "spot": {
                     'fr': '',
@@ -794,15 +794,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Flétan',
-                    'en': '',
+                    'en': 'Halibut',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "",
                 "power": "450"
@@ -812,7 +812,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Gaspareau',
-                    'en': '',
+                    'en': 'Alewife',
                 },
                 "spot": {
                     'fr': '',
@@ -830,11 +830,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Lompe glacial',
-                    'en': '',
+                    'en': 'Icy Lumpfish',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -848,11 +848,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Morue boréale',
-                    'en': '',
+                    'en': 'Boreal Cod',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -866,15 +866,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Murène étoilée',
-                    'en': '',
+                    'en': 'Snowflake Eel',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
-                    'fr': 'Escargots béliers',
-                    'en': '',
+                    'fr': 'Escargot bélier',
+                    'en': 'Ramshorn Snail',
                 },
                 "time": "n",
                 "power": "450"
@@ -884,7 +884,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Omble alpin',
-                    'en': '',
+                    'en': 'Alpine Char',
                 },
                 "spot": {
                     'fr': '',
@@ -902,7 +902,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Ombre',
-                    'en': '',
+                    'en': 'Grayling',
                 },
                 "spot": {
                     'fr': '',
@@ -920,15 +920,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Oscar d\'albâtre',
-                    'en': '',
+                    'en': 'Alabaster Oscar',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
-                    'fr': 'Escargots béliers',
-                    'en': '',
+                    'fr': 'Escargot bélier',
+                    'en': 'Ramshorn Snail',
                 },
                 "time": "d",
                 "power": "450"
@@ -938,11 +938,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Perche du fanal',
-                    'en': '',
+                    'en': 'Beacon\'s Perch',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -956,15 +956,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson à tête de serpent glacial',
-                    'en': '',
+                    'en': 'Glacial Snakehead',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "d",
                 "power": "400"
@@ -974,11 +974,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Rémora mystique',
-                    'en': '',
+                    'en': 'Mystic Remora',
                 },
                 "spot": {
-                    'fr': 'Boréal',
-                    'en': '',
+                    'fr': 'Poisson boréal',
+                    'en': 'Boreal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -992,15 +992,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Salamandre cérulée',
-                    'en': '',
+                    'en': 'Cerulean Salamander',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Escargots béliers',
-                    'en': '',
+                    'fr': 'Escargot bélier',
+                    'en': 'Ramshorn Snail',
                 },
                 "time": "n",
                 "power": "400"
@@ -1010,11 +1010,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Saumon rouge',
-                    'en': '',
+                    'en': 'Sockeye',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1028,11 +1028,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Saumon royal',
-                    'en': '',
+                    'en': 'King Salmon',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1046,7 +1046,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Éperlan',
-                    'en': '',
+                    'en': 'Icefish',
                 },
                 "spot": {
                     'fr': '',
@@ -1065,7 +1065,7 @@ export const maps = [
         "achievement_id": "6317",
         "achievement": {
             'fr': 'Désert',
-            'en': '',
+            'en': 'Desert',
         },
         "ids": [
             1210, // Oasis de cristal
@@ -1083,7 +1083,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Bar élonien',
-                    'en': '',
+                    'en': 'Elonian Bass',
                 },
                 "spot": {
                     'fr': '',
@@ -1101,11 +1101,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Barramundi',
-                    'en': '',
+                    'en': 'Barramundi',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1119,11 +1119,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Carpe des sables',
-                    'en': '',
+                    'en': 'Sand Carp',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1137,11 +1137,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Carpe géante',
-                    'en': '',
+                    'en': 'Giant Barb',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1155,11 +1155,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Gobie',
-                    'en': '',
+                    'en': 'Mudskipper',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1173,15 +1173,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Kaluga',
-                    'en': '',
+                    'en': 'Kaluga',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': 'Maquereau',
-                    'en': '',
+                    'en': 'Mackerel',
                 },
                 "time": "",
                 "power": "550"
@@ -1191,11 +1191,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Loche dorée',
-                    'en': '',
+                    'en': 'Gilded Loach',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1209,11 +1209,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Piranha noir',
-                    'en': '',
+                    'en': 'Red-Eyed Piranha',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1227,11 +1227,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-spatule',
-                    'en': '',
+                    'en': 'Paddlefish',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1245,11 +1245,11 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-spatule géant',
-                    'en': '',
+                    'en': 'Giant Paddlefish',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1263,15 +1263,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-tigre',
-                    'en': '',
+                    'en': 'Tigerfish',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': 'Maquereau',
-                    'en': '',
+                    'en': 'Mackerel',
                 },
                 "time": "",
                 "power": "550"
@@ -1281,11 +1281,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Polyptère argenté',
-                    'en': '',
+                    'en': 'Silver Bichir',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1299,11 +1299,11 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Protoptère',
-                    'en': '',
+                    'en': 'Lungfish',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1317,15 +1317,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Protoptère marbré',
-                    'en': '',
+                    'en': 'Marbled Lungfish',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
-                    'fr': 'Scorpions',
-                    'en': '',
+                    'fr': 'Scorpion',
+                    'en': 'Scorpion',
                 },
                 "time": "",
                 "power": "550"
@@ -1335,11 +1335,11 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Sandre',
-                    'en': '',
+                    'en': 'Zander',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1353,15 +1353,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Silure rayé',
-                    'en': '',
+                    'en': 'Striped Catfish',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
-                    'fr': 'Scorpions',
-                    'en': '',
+                    'fr': 'Scorpion',
+                    'en': 'Scorpion',
                 },
                 "time": "n",
                 "power": "550"
@@ -1371,7 +1371,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Tilapia',
-                    'en': '',
+                    'en': 'Tilapia',
                 },
                 "spot": {
                     'fr': '',
@@ -1389,7 +1389,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Tor',
-                    'en': '',
+                    'en': 'Mahseer',
                 },
                 "spot": {
                     'fr': '',
@@ -1407,11 +1407,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Tor doré',
-                    'en': '',
+                    'en': 'Golden Mahseer',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1425,7 +1425,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Tétra de l\'Elon',
-                    'en': '',
+                    'en': 'Elon Tetra',
                 },
                 "spot": {
                     'fr': '',
@@ -1443,15 +1443,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Vundu',
-                    'en': '',
+                    'en': 'Vundu',
                 },
                 "spot": {
-                    'fr': 'Désert',
-                    'en': '',
+                    'fr': 'Poisson du désert',
+                    'en': 'Desert Fish',
                 },
                 "bait": {
-                    'fr': 'Scorpions',
-                    'en': '',
+                    'fr': 'Scorpion',
+                    'en': 'Scorpion',
                 },
                 "time": "",
                 "power": "550"
@@ -1462,7 +1462,7 @@ export const maps = [
         "achievement_id": "6258",
         "achievement": {
             'fr': 'Echovald',
-            'en': '',
+            'en': 'Echovald',
         },
         "ids": [
             1428, // Pierre Arborea
@@ -1474,7 +1474,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Anguille d\'eau douce',
-                    'en': '',
+                    'en': 'Freshwater Eel',
                 },
                 "spot": {
                     'fr': '',
@@ -1492,15 +1492,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Axolotl albinos',
-                    'en': '',
+                    'en': 'Albino Axolotl',
                 },
                 "spot": {
-                    'fr': 'Cavernicole',
-                    'en': '',
+                    'fr': 'Poisson cavernicole',
+                    'en': 'Grotto Fish',
                 },
                 "bait": {
-                    'fr': 'Vers luisants',
-                    'en': '',
+                    'fr': 'Ver luisant',
+                    'en': 'Glow Worm',
                 },
                 "time": "n",
                 "power": "300"
@@ -1510,11 +1510,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Barbus cerise',
-                    'en': '',
+                    'en': 'Cherry Barb',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1528,7 +1528,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Carpe noire',
-                    'en': '',
+                    'en': 'Black Carp',
                 },
                 "spot": {
                     'fr': '',
@@ -1546,15 +1546,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Dormeur noir',
-                    'en': '',
+                    'en': 'Dark Sleeper',
                 },
                 "spot": {
-                    'fr': 'Cavernicole',
-                    'en': '',
+                    'fr': 'Poisson cavernicole',
+                    'en': 'Grotto Fish',
                 },
                 "bait": {
-                    'fr': 'Vers luisants',
-                    'en': '',
+                    'fr': 'Ver luisant',
+                    'en': 'Glow Worm',
                 },
                 "time": "d",
                 "power": "300"
@@ -1564,11 +1564,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Gourami albinos',
-                    'en': '',
+                    'en': 'Albino Gourami',
                 },
                 "spot": {
-                    'fr': 'Cavernicole',
-                    'en': '',
+                    'fr': 'Poisson cavernicole',
+                    'en': 'Grotto Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1582,7 +1582,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Loche franche',
-                    'en': '',
+                    'en': 'Stone Loach',
                 },
                 "spot": {
                     'fr': '',
@@ -1600,11 +1600,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Poisson pétrifiant',
-                    'en': '',
+                    'en': 'Petrifish',
                 },
                 "spot": {
-                    'fr': 'Cavernicole',
-                    'en': '',
+                    'fr': 'Poisson cavernicole',
+                    'en': 'Grotto Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1618,11 +1618,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson à tête de serpent',
-                    'en': '',
+                    'en': 'Snakehead',
                 },
                 "spot": {
-                    'fr': 'Cavernicole',
-                    'en': '',
+                    'fr': 'Poisson cavernicole',
+                    'en': 'Grotto Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1636,11 +1636,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-chat',
-                    'en': 'Lacustre',
+                    'en': 'Bullhead Catfish',
                 },
                 "spot": {
-                    'fr': '',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1654,7 +1654,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Poisson-couteau',
-                    'en': '',
+                    'en': 'Knifefish',
                 },
                 "spot": {
                     'fr': '',
@@ -1672,15 +1672,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-couteau royal',
-                    'en': '',
+                    'en': 'Royal Featherback',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "n",
                 "power": "250"
@@ -1690,15 +1690,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Rôdeur de Melandru',
-                    'en': '',
+                    'en': 'Melandru\'s Lurker',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "d",
                 "power": "250"
@@ -1708,11 +1708,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Truite ambrée',
-                    'en': '',
+                    'en': 'Amber Trout',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1727,7 +1727,7 @@ export const maps = [
         "achievement_id": "6106",
         "achievement": {
             'fr': 'Îles du Désert',
-            'en': '',
+            'en': 'Desert Isles',
         },
         "ids": [
             1263, // Domaine d'Istan
@@ -1741,15 +1741,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Béluga',
-                    'en': '',
+                    'en': 'Beluga',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
-                    'fr': 'Œufs de poisson',
-                    'en': '',
+                    'fr': 'Œuf de poisson',
+                    'en': 'Fish Egg',
                 },
                 "time": "d",
                 "power": "600"
@@ -1759,7 +1759,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Cobia',
-                    'en': '',
+                    'en': 'Cobia',
                 },
                 "spot": {
                     'fr': '',
@@ -1777,11 +1777,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Cordonnier plume',
-                    'en': '',
+                    'en': 'Diamond Trevally',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1795,15 +1795,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Crabe royal',
-                    'en': '',
+                    'en': 'King Crab',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': 'Maquereau',
-                    'en': '',
+                    'en': 'Mackerel',
                 },
                 "time": "n",
                 "power": "600"
@@ -1813,11 +1813,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Lampris royal',
-                    'en': '',
+                    'en': 'Opah',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1831,15 +1831,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Marlin bleu',
-                    'en': '',
+                    'en': 'Blue Marlin',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': 'Maquereau',
-                    'en': '',
+                    'en': 'Mackerel',
                 },
                 "time": "",
                 "power": "650"
@@ -1849,15 +1849,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Monstro',
-                    'en': '',
+                    'en': 'Dandan',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Œufs de poisson',
-                    'en': '',
+                    'fr': 'Œuf de poisson',
+                    'en': 'Fish Egg',
                 },
                 "time": "n",
                 "power": "650"
@@ -1867,11 +1867,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-coq',
-                    'en': '',
+                    'en': 'Roosterfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1885,7 +1885,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Poisson-perroquet',
-                    'en': '',
+                    'en': 'Parrotfish',
                 },
                 "spot": {
                     'fr': '',
@@ -1903,11 +1903,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Pompaneau',
-                    'en': '',
+                    'en': 'Pompano',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1921,7 +1921,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Rondeau mouton',
-                    'en': '',
+                    'en': 'Sheepshead',
                 },
                 "spot": {
                     'fr': '',
@@ -1939,11 +1939,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Thazard noir',
-                    'en': '',
+                    'en': 'Wahoo',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1957,7 +1957,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Truite de mer',
-                    'en': '',
+                    'en': 'Sea Trout',
                 },
                 "spot": {
                     'fr': '',
@@ -1975,11 +1975,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Vivaneau à queue jaune',
-                    'en': '',
+                    'en': 'Yellowtail Snapper',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -1994,7 +1994,7 @@ export const maps = [
         "achievement_id": "6342",
         "achievement": {
             'fr': 'Kaineng',
-            'en': '',
+            'en': 'Kaineng',
         },
         "ids": [
             1438, // Néo-Kaineng
@@ -2005,11 +2005,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Barracuda rayé',
-                    'en': '',
+                    'en': 'Striped Barracuda',
                 },
                 "spot": {
-                    'fr': 'Chenaux',
-                    'en': '',
+                    'fr': 'Poisson des chenaux',
+                    'en': 'Channel Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2023,15 +2023,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Carangue à grosse tête',
-                    'en': '',
+                    'en': 'Giant Trevally',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "",
                 "power": "200"
@@ -2041,11 +2041,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Dorade bleue',
-                    'en': '',
+                    'en': 'Blue Dorado',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2059,15 +2059,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Espadon',
-                    'en': '',
+                    'en': 'Swordfish',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': 'Maquereau',
-                    'en': '',
+                    'en': 'Mackerel',
                 },
                 "time": "d",
                 "power": "200"
@@ -2077,11 +2077,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Esturgeon',
-                    'en': '',
+                    'en': 'Sturgeon',
                 },
                 "spot": {
-                    'fr': 'Chenaux',
-                    'en': '',
+                    'fr': 'Poisson des chenaux',
+                    'en': 'Channel Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2095,15 +2095,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Flet étoilé',
-                    'en': '',
+                    'en': 'Starry Flounder',
                 },
                 "spot": {
-                    'fr': 'Chenaux',
-                    'en': '',
+                    'fr': 'Poisson des chenaux',
+                    'en': 'Channel Fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "n",
                 "power": "250"
@@ -2113,11 +2113,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Kahawai',
-                    'en': '',
+                    'en': 'Kahawai',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2131,7 +2131,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Lieu noir',
-                    'en': '',
+                    'en': 'Pollock',
                 },
                 "spot": {
                     'fr': '',
@@ -2149,7 +2149,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Perche de mer',
-                    'en': '',
+                    'en': 'Sea Perch',
                 },
                 "spot": {
                     'fr': '',
@@ -2167,7 +2167,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Poisson empereur',
-                    'en': '',
+                    'en': 'Emperor Fish',
                 },
                 "spot": {
                     'fr': '',
@@ -2185,7 +2185,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Poisson volant',
-                    'en': '',
+                    'en': 'Flying Fish',
                 },
                 "spot": {
                     'fr': '',
@@ -2203,11 +2203,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-dragon',
-                    'en': '',
+                    'en': 'Dragonfish',
                 },
                 "spot": {
-                    'fr': 'Chenaux',
-                    'en': '',
+                    'fr': 'Poisson des chenaux',
+                    'en': 'Channel Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2221,7 +2221,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Poisson-globe',
-                    'en': '',
+                    'en': 'Blowfish',
                 },
                 "spot": {
                     'fr': '',
@@ -2239,15 +2239,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-ruban',
-                    'en': '',
+                    'en': 'Oarfish',
                 },
                 "spot": {
-                    'fr': 'Chenaux',
-                    'en': '',
+                    'fr': 'Poisson des chenaux',
+                    'en': 'Channel Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "",
                 "power": "250"
@@ -2257,11 +2257,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Sériole',
-                    'en': '',
+                    'en': 'Amberjack',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2275,15 +2275,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Tarpon',
-                    'en': '',
+                    'en': 'Tarpon',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "",
                 "power": "200"
@@ -2293,11 +2293,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Taïmen',
-                    'en': '',
+                    'en': 'Taimen',
                 },
                 "spot": {
-                    'fr': 'Chenaux',
-                    'en': '',
+                    'fr': 'Poisson des chenaux',
+                    'en': 'Channel Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2311,15 +2311,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Thon rouge',
-                    'en': '',
+                    'en': 'Bluefin Tuna',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': 'Maquereau',
-                    'en': '',
+                    'en': 'Mackerel',
                 },
                 "time": "",
                 "power": "200"
@@ -2329,11 +2329,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Tétraodon',
-                    'en': '',
+                    'en': 'Pufferfish',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2347,11 +2347,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Vivaneau d\'émeraude',
-                    'en': '',
+                    'en': 'Emerald Snapper',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2365,7 +2365,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Vive',
-                    'en': '',
+                    'en': 'Weever',
                 },
                 "spot": {
                     'fr': '',
@@ -2384,7 +2384,7 @@ export const maps = [
         "achievement_id": "6068",
         "achievement": {
             'fr': 'Kryte',
-            'en': '',
+            'en': 'Kryta',
         },
         "ids": [
             15, // La Vallée de la reine
@@ -2403,11 +2403,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Anguille de bourbier',
-                    'en': '',
+                    'en': 'Quagmire Eel',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2421,11 +2421,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Bar rayé',
-                    'en': '',
+                    'en': 'Striped Bass',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2439,15 +2439,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Brochet royal',
-                    'en': '',
+                    'en': 'Royal Pike',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "d",
                 "power": "400"
@@ -2457,7 +2457,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Flet tacheté',
-                    'en': '',
+                    'en': 'Spotted Flounder',
                 },
                 "spot": {
                     'fr': '',
@@ -2475,7 +2475,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Gobie à taches noires',
-                    'en': '',
+                    'en': 'Round Goby',
                 },
                 "spot": {
                     'fr': '',
@@ -2493,7 +2493,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Guppy du Delavan',
-                    'en': '',
+                    'en': 'Delavan Guppy',
                 },
                 "spot": {
                     'fr': '',
@@ -2511,11 +2511,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Lamproie fléau-de-marais',
-                    'en': '',
+                    'en': 'Swampblight Lamprey',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2529,15 +2529,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Maquereau saint',
-                    'en': '',
+                    'en': 'Holy Mackerel',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "d",
                 "power": "450"
@@ -2547,7 +2547,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Marigane tachetée',
-                    'en': '',
+                    'en': 'Speckled Perch',
                 },
                 "spot": {
                     'fr': '',
@@ -2565,7 +2565,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Molly voile',
-                    'en': '',
+                    'en': 'Sailfin Molly',
                 },
                 "spot": {
                     'fr': '',
@@ -2583,11 +2583,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Perche noire',
-                    'en': '',
+                    'en': 'Black Bass',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2601,15 +2601,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poissacre',
-                    'en': '',
+                    'en': 'Slaughterfish',
                 },
                 "spot": {
-                    'fr': 'Lacustre',
-                    'en': '',
+                    'fr': 'Poisson lacustre',
+                    'en': 'Lake Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "n",
                 "power": "400"
@@ -2619,11 +2619,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Poisson-ange divin',
-                    'en': '',
+                    'en': 'Divinity Angelfin',
                 },
                 "spot": {
-                    'fr': 'Rivière',
-                    'en': '',
+                    'fr': 'Poisson de rivière',
+                    'en': 'River Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2637,15 +2637,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-lion',
-                    'en': '',
+                    'en': 'Black Lionfish',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "",
                 "power": "450"
@@ -2655,11 +2655,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-lune argenté',
-                    'en': '',
+                    'en': 'Silver Moony',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2673,15 +2673,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson-reine',
-                    'en': '',
+                    'en': 'Queenfish',
                 },
                 "spot": {
-                    'fr': 'Rivière',
-                    'en': '',
+                    'fr': 'Poisson de rivière',
+                    'en': 'River Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "",
                 "power": "350"
@@ -2691,15 +2691,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Raie guitare à nez rond',
-                    'en': '',
+                    'en': 'Mud Skate',
                 },
                 "spot": {
-                    'fr': 'Rivière',
-                    'en': '',
+                    'fr': 'Poisson de rivière',
+                    'en': 'River Fish',
                 },
                 "bait": {
-                    'fr': 'Vairons',
-                    'en': '',
+                    'fr': 'Vairon',
+                    'en': 'Minnow',
                 },
                 "time": "n",
                 "power": "350"
@@ -2709,11 +2709,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Tambour',
-                    'en': '',
+                    'en': 'Croaker',
                 },
                 "spot": {
-                    'fr': 'Rivière',
-                    'en': '',
+                    'fr': 'Poisson de rivière',
+                    'en': 'River Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2727,11 +2727,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Truite arc-en-ciel',
-                    'en': '',
+                    'en': 'Steelhead Trout',
                 },
                 "spot": {
-                    'fr': 'Rivière',
-                    'en': '',
+                    'fr': 'Poisson de rivière',
+                    'en': 'River Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2745,11 +2745,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Tétraodon de Kryte',
-                    'en': '',
+                    'en': 'Krytan Puffer',
                 },
                 "spot": {
-                    'fr': 'Côtier',
-                    'en': '',
+                    'fr': 'Poisson côtier',
+                    'en': 'Coastal Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2763,7 +2763,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Écrevisse de Kryte',
-                    'en': '',
+                    'en': 'Krytan Crawfish',
                 },
                 "spot": {
                     'fr': '',
@@ -2782,7 +2782,7 @@ export const maps = [
         "achievement_id": "6344",
         "achievement": {
             'fr': 'Maguuma',
-            'en': '',
+            'en': 'Maguuma',
         },
         "ids": [
             988, // Cimesèche
@@ -2808,11 +2808,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Alose-écaille fluviale',
-                    'en': '',
+                    'en': 'Sardinata',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2826,15 +2826,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Arapaïma',
-                    'en': '',
+                    'en': 'Arapaima',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
-                    'fr': 'Larves de lumillules',
-                    'en': '',
+                    'fr': 'Nymphe de Lumillule',
+                    'en': 'Sparkfly Nymph',
                 },
                 "time": "d",
                 "power": "500"
@@ -2844,11 +2844,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Arowana',
-                    'en': '',
+                    'en': 'Arowana',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2862,7 +2862,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Brochet de mer',
-                    'en': '',
+                    'en': 'Snook',
                 },
                 "spot": {
                     'fr': '',
@@ -2880,11 +2880,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Carangue de Maguuma',
-                    'en': '',
+                    'en': 'Maguuma Jack',
                 },
                 "spot": {
-                    'fr': 'Marin',
-                    'en': '',
+                    'fr': 'Poisson marin',
+                    'en': 'Saltwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2898,11 +2898,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Characin pic',
-                    'en': '',
+                    'en': 'Bicuda',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -2916,15 +2916,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Dourado',
-                    'en': '',
+                    'en': 'Golden Dorado',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
-                    'fr': 'Larves de lumillules',
-                    'en': '',
+                    'fr': 'Nymphe de Lumillule',
+                    'en': 'Sparkfly Nymph',
                 },
                 "time": "d",
                 "power": "500"
@@ -2934,7 +2934,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Gobie d\'eau saumâtre',
-                    'en': '',
+                    'en': 'Brackish Goby',
                 },
                 "spot": {
                     'fr': '',
@@ -2952,7 +2952,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Malachigan argenté',
-                    'en': '',
+                    'en': 'Silver Drum',
                 },
                 "spot": {
                     'fr': '',
@@ -2970,15 +2970,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Mérou goliath',
-                    'en': '',
+                    'en': 'Goliath Grouper',
                 },
                 "spot": {
-                    'fr': 'Marin',
-                    'en': '',
+                    'fr': 'Poisson marin',
+                    'en': 'Saltwater Fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "",
                 "power": "550"
@@ -2988,7 +2988,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Oscar',
-                    'en': '',
+                    'en': 'Oscar',
                 },
                 "spot": {
                     'fr': '',
@@ -3006,11 +3006,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Pacu',
-                    'en': '',
+                    'en': 'Pacu',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3024,7 +3024,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Piranha',
-                    'en': '',
+                    'en': 'Piranha',
                 },
                 "spot": {
                     'fr': '',
@@ -3042,15 +3042,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Poisson luisant arc-en-ciel',
-                    'en': '',
+                    'en': 'Rainbow Glowfish',
                 },
                 "spot": {
-                    'fr': 'Marin',
-                    'en': '',
+                    'fr': 'Poisson marin',
+                    'en': 'Saltwater Fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "n",
                 "power": "550"
@@ -3060,11 +3060,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Poisson-loup',
-                    'en': '',
+                    'en': 'Wolffish',
                 },
                 "spot": {
-                    'fr': 'Marin',
-                    'en': '',
+                    'fr': 'Poisson marin',
+                    'en': 'Saltwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3078,15 +3078,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Siluriforme',
-                    'en': '',
+                    'en': 'Jundia',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
-                    'fr': 'Larves de lumillules',
-                    'en': '',
+                    'fr': 'Nymphe de Lumillule',
+                    'en': 'Sparkfly Nymph',
                 },
                 "time": "",
                 "power": "500"
@@ -3096,7 +3096,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Surubi',
-                    'en': '',
+                    'en': 'Surubim',
                 },
                 "spot": {
                     'fr': '',
@@ -3114,11 +3114,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Truite de Maguuma',
-                    'en': '',
+                    'en': 'Maguuma Trout',
                 },
                 "spot": {
-                    'fr': 'Marin',
-                    'en': '',
+                    'fr': 'Poisson marin',
+                    'en': 'Saltwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3132,11 +3132,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Tucunaré',
-                    'en': '',
+                    'en': 'Peacock Bass',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3150,11 +3150,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Tétra vampire',
-                    'en': '',
+                    'en': 'Payara',
                 },
                 "spot": {
-                    'fr': 'Eau douce',
-                    'en': '',
+                    'fr': 'Poisson d\'eau douce',
+                    'en': 'Freshwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3168,11 +3168,11 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Étoile royale',
-                    'en': '',
+                    'en': 'Royal Starfish',
                 },
                 "spot": {
-                    'fr': 'Marin',
-                    'en': '',
+                    'fr': 'Poisson marin',
+                    'en': 'Saltwater Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3187,7 +3187,7 @@ export const maps = [
         "achievement_id": "6363",
         "achievement": {
             'fr': 'Orr',
-            'en': '',
+            'en': 'Orr',
         },
         "ids": [
             51, // Détroit de la dévastation
@@ -3201,15 +3201,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Bar trépassé',
-                    'en': '',
+                    'en': 'Risen Sea Bass',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
-                    'fr': 'Sangsues',
-                    'en': '',
+                    'fr': 'Sangsue',
+                    'en': 'Leech',
                 },
                 "time": "",
                 "power": "650"
@@ -3219,15 +3219,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Blobfish',
-                    'en': '',
+                    'en': 'Blobfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sangsues',
-                    'en': '',
+                    'fr': 'Sangsue',
+                    'en': 'Leech',
                 },
                 "time": "",
                 "power": "700"
@@ -3237,15 +3237,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Béhémoth benthique',
-                    'en': '',
+                    'en': 'Benthic Behemoth',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sangsues',
-                    'en': '',
+                    'fr': 'Sangsue',
+                    'en': 'Leech',
                 },
                 "time": "",
                 "power": "700"
@@ -3255,11 +3255,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Calmar des abysses',
-                    'en': '',
+                    'en': 'Abyssal Squid',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3273,7 +3273,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Dard d\'eau sombre',
-                    'en': '',
+                    'en': 'Murkwater Darter',
                 },
                 "spot": {
                     'fr': '',
@@ -3291,7 +3291,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Gaspareau mort',
-                    'en': '',
+                    'en': 'Dead Alewife',
                 },
                 "spot": {
                     'fr': '',
@@ -3309,7 +3309,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Lotte',
-                    'en': '',
+                    'en': 'Monkfish',
                 },
                 "spot": {
                     'fr': '',
@@ -3327,15 +3327,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Maquereau impie',
-                    'en': '',
+                    'en': 'Unholy Mackerel',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
-                    'fr': 'Sangsues',
-                    'en': '',
+                    'fr': 'Sangsue',
+                    'en': 'Leech',
                 },
                 "time": "n",
                 "power": "650"
@@ -3345,15 +3345,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Murène d\'épave',
-                    'en': '',
+                    'en': 'Shipwreck Moray',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "n",
                 "power": "700"
@@ -3363,11 +3363,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Myxine',
-                    'en': '',
+                    'en': 'Hagfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3381,11 +3381,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Méduse spectrale',
-                    'en': '',
+                    'en': 'Spectral Jellyfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3399,7 +3399,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Mérou brun',
-                    'en': '',
+                    'en': 'Dusky Grouper',
                 },
                 "spot": {
                     'fr': '',
@@ -3417,7 +3417,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Poisson aveugle albinos',
-                    'en': '',
+                    'en': 'Albino Blindfish',
                 },
                 "spot": {
                     'fr': '',
@@ -3435,11 +3435,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Physalie',
-                    'en': '',
+                    'en': 'Man-of-War',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3453,15 +3453,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Pieuvre géante',
-                    'en': '',
+                    'en': 'Giant Octopus',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "dd",
                 "power": "700"
@@ -3471,11 +3471,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson de Dhuum',
-                    'en': '',
+                    'en': 'Dhuum Fish',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3489,11 +3489,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Poisson-pêcheur orrien',
-                    'en': '',
+                    'en': 'Orrian Anglerfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3507,11 +3507,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-vipère',
-                    'en': '',
+                    'en': 'Viperfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3525,11 +3525,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Requin-lézard',
-                    'en': '',
+                    'en': 'Frilled Shark',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3543,7 +3543,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Terrassier tacheté',
-                    'en': '',
+                    'en': 'Ghostfish',
                 },
                 "spot": {
                     'fr': '',
@@ -3561,11 +3561,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Uranoscope',
-                    'en': '',
+                    'en': 'Stargazer',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3580,7 +3580,7 @@ export const maps = [
         "achievement_id": "6336",
         "achievement": {
             'fr': 'Seitung',
-            'en': '',
+            'en': 'Seitung',
         },
         "ids": [
             1442, // Province de Seitung
@@ -3591,7 +3591,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Carangue bleue',
-                    'en': '',
+                    'en': 'Bluefin Trevally',
                 },
                 "spot": {
                     'fr': '',
@@ -3608,16 +3608,16 @@ export const maps = [
                 "item_id": "96318",
                 "rarity": "ascended",
                 "name": {
-                    'fr': 'Crevette géante',
+                    'fr': 'Mega Prawn',
                     'en': '',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "n",
                 "power": "200"
@@ -3627,7 +3627,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Daurade marron',
-                    'en': '',
+                    'en': 'Chestnut Sea Bream',
                 },
                 "spot": {
                     'fr': '',
@@ -3645,7 +3645,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Dorade',
-                    'en': '',
+                    'en': 'Porgy',
                 },
                 "spot": {
                     'fr': '',
@@ -3663,11 +3663,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Dragonnet',
-                    'en': '',
+                    'en': 'Dragonet',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3681,15 +3681,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Espadon-voilier',
-                    'en': '',
+                    'en': 'Sailfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "",
                 "power": "200"
@@ -3699,15 +3699,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Fugu',
-                    'en': '',
+                    'en': 'Fugu Fish',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "n",
                 "power": "150"
@@ -3717,11 +3717,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Lobote',
-                    'en': '',
+                    'en': 'Tripletail',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3735,7 +3735,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Maigre',
-                    'en': '',
+                    'en': 'Corvina',
                 },
                 "spot": {
                     'fr': '',
@@ -3753,7 +3753,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Mulet',
-                    'en': '',
+                    'en': 'Mullet',
                 },
                 "spot": {
                     'fr': '',
@@ -3771,11 +3771,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Mérou étoilé',
-                    'en': '',
+                    'en': 'Honeycomb Grouper',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3789,11 +3789,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Napoléon',
-                    'en': '',
+                    'en': 'Humphead Wrasse',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3807,11 +3807,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Poisson sabre',
-                    'en': '',
+                    'en': 'Cutlass Fish',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3825,7 +3825,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Poisson-globe',
-                    'en': '',
+                    'en': 'Globefish',
                 },
                 "spot": {
                     'fr': '',
@@ -3843,15 +3843,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Poisson-lune',
-                    'en': '',
+                    'en': 'Sunfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "d",
                 "power": "200"
@@ -3861,11 +3861,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-scie vert',
-                    'en': '',
+                    'en': 'Green Sawfish',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3879,11 +3879,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Raie',
-                    'en': '',
+                    'en': 'Stingray',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3897,15 +3897,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Raie léopard',
-                    'en': '',
+                    'en': 'Spotted Stingray',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "d",
                 "power": "150"
@@ -3915,11 +3915,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Saumon masou',
-                    'en': '',
+                    'en': 'Cherry Salmon',
                 },
                 "spot": {
-                    'fr': 'Littoral',
-                    'en': '',
+                    'fr': 'Poisson du littoral',
+                    'en': 'Shore Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3933,15 +3933,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Thon Listao',
-                    'en': '',
+                    'en': 'Skipjack Tuna',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
-                    'fr': 'Sardines',
-                    'en': '',
+                    'fr': 'Sardine',
+                    'en': 'Sardine',
                 },
                 "time": "",
                 "power": "200"
@@ -3951,11 +3951,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Vivaneau rouge',
-                    'en': '',
+                    'en': 'Crimson Snapper',
                 },
                 "spot": {
-                    'fr': 'Large',
-                    'en': '',
+                    'fr': 'Poisson du large',
+                    'en': 'Offshore fish',
                 },
                 "bait": {
                     'fr': '',
@@ -3970,7 +3970,7 @@ export const maps = [
         "achievement_id": "6506",
         "achievement": {
             'fr': 'Trépas',
-            'en': '',
+            'en': 'Dragon\'s End',
         },
         "ids": [
             1422, // Trépas du dragon
@@ -3981,15 +3981,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Axolotl',
-                    'en': '',
+                    'en': 'Axolotl',
                 },
                 "spot": {
-                    'fr': 'Caverneux',
-                    'en': '',
+                    'fr': 'Poisson caverneux',
+                    'en': 'Cavern Fish',
                 },
                 "bait": {
-                    'fr': 'Rampants nocturnes',
-                    'en': '',
+                    'fr': 'Rampant nocturne',
+                    'en': 'Nightcrawler',
                 },
                 "time": "n",
                 "power": "350"
@@ -3999,7 +3999,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Carpe canthienne',
-                    'en': '',
+                    'en': 'Canthan Carp',
                 },
                 "spot": {
                     'fr': '',
@@ -4017,7 +4017,7 @@ export const maps = [
                 "rarity": "fine",
                 "name": {
                     'fr': 'Gourami',
-                    'en': '',
+                    'en': 'Gourami',
                 },
                 "spot": {
                     'fr': '',
@@ -4035,11 +4035,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Gourami géant',
-                    'en': '',
+                    'en': '"Giant Gourami',
                 },
                 "spot": {
-                    'fr': 'Carrière',
-                    'en': '',
+                    'fr': 'Poisson de carrière',
+                    'en': 'Quarry Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -4053,11 +4053,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Lamproie de jade',
-                    'en': '',
+                    'en': 'Jade Lamprey',
                 },
                 "spot": {
-                    'fr': 'Carrière',
-                    'en': '',
+                    'fr': 'Poisson de carrière',
+                    'en': 'Quarry Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -4071,15 +4071,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Nautile',
-                    'en': '',
+                    'en': 'Chambered Nautilus',
                 },
                 "spot": {
-                    'fr': 'Caverneux',
-                    'en': '',
+                    'fr': 'Poisson caverneux',
+                    'en': 'Cavern Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "",
                 "power": "350"
@@ -4089,11 +4089,11 @@ export const maps = [
                 "rarity": "exotic",
                 "name": {
                     'fr': 'Poisson licorne',
-                    'en': '',
+                    'en': 'Unicorn Fish',
                 },
                 "spot": {
-                    'fr': 'Caverneux',
-                    'en': '',
+                    'fr': 'Poisson caverneux',
+                    'en': 'Cavern Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -4107,7 +4107,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Poisson-coffre',
-                    'en': '',
+                    'en': 'Boxfish',
                 },
                 "spot": {
                     'fr': '',
@@ -4125,11 +4125,11 @@ export const maps = [
                 "rarity": "masterwork",
                 "name": {
                     'fr': 'Poisson-crapaud',
-                    'en': '',
+                    'en': 'Toadfish',
                 },
                 "spot": {
-                    'fr': 'Caverneux',
-                    'en': '',
+                    'fr': 'Poisson caverneux',
+                    'en': 'Cavern Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -4143,7 +4143,7 @@ export const maps = [
                 "rarity": "basic",
                 "name": {
                     'fr': 'Rohu',
-                    'en': '',
+                    'en': 'Rohu',
                 },
                 "spot": {
                     'fr': '',
@@ -4161,15 +4161,15 @@ export const maps = [
                 "rarity": "legendary",
                 "name": {
                     'fr': 'Seiche',
-                    'en': '',
+                    'en': 'Cuttlefish',
                 },
                 "spot": {
-                    'fr': 'Carrière',
-                    'en': '',
+                    'fr': 'Poisson de carrière',
+                    'en': 'Quarry Fish',
                 },
                 "bait": {
-                    'fr': 'Jeunes crevettes',
-                    'en': '',
+                    'fr': 'Jeune crevette',
+                    'en': 'Shrimpling',
                 },
                 "time": "n",
                 "power": "300"
@@ -4179,11 +4179,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Silure',
-                    'en': '',
+                    'en': 'Sheatfish',
                 },
                 "spot": {
-                    'fr': 'Caverneux',
-                    'en': '',
+                    'fr': 'Poisson caverneux',
+                    'en': 'Cavern Fish',
                 },
                 "bait": {
                     'fr': '',
@@ -4197,15 +4197,15 @@ export const maps = [
                 "rarity": "ascended",
                 "name": {
                     'fr': 'Tortue de la Mer de Jade',
-                    'en': '',
+                    'en': 'Jade Sea Turtle',
                 },
                 "spot": {
-                    'fr': 'Carrière',
-                    'en': '',
+                    'fr': 'Poisson de carrière',
+                    'en': 'Quarry Fish',
                 },
                 "bait": {
-                    'fr': 'Rampants nocturnes',
-                    'en': '',
+                    'fr': 'Rampant nocturne',
+                    'en': 'Nightcrawler',
                 },
                 "time": "d",
                 "power": "300"
@@ -4215,11 +4215,11 @@ export const maps = [
                 "rarity": "rare",
                 "name": {
                     'fr': 'Tétraodon tacheté',
-                    'en': '',
+                    'en': 'Spotted Pufferfish',
                 },
                 "spot": {
-                    'fr': 'Carrière',
-                    'en': '',
+                    'fr': 'Poisson de carrière',
+                    'en': 'Quarry Fish',
                 },
                 "bait": {
                     'fr': '',

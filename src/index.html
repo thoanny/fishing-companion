@@ -11,31 +11,46 @@
         <div id="brand">
           <span class="sprite-icon icon-icon"></span>
           <div>
-            <div id="title">
-              Compagnon de pêche
-            </div>
-            <div id="subtitle">
-              par Thoanny pour Le Bus Magique
-            </div>
+            <div id="title"></div>
+            <div id="subtitle"></div>
           </div>
         </div>
 
         <div id="drag"><span class="sprite-icon icon-drag"></span></div>
+        <button id="settingsButton"><span class="sprite-icon icon-settings"></span></button>
+
         <div id="toolbar">
-          <select id="spots">
-            <option value="">Zones</option>
-          </select>
-          <select id="baits">
-            <option value="">Appâts</option>
-          </select>
+          <select id="spots"></select>
+          <select id="baits"></select>
           <div id="clock"><span class="sprite-icon icon-d"></span></div>
           <div id="gw2link" class="offline"><span class="sprite-icon icon-link"></span></div>
         </div>
       </header>
       <div id="content">
-        <div id="no-fish">Aucun poisson trouvé...</div>
+        <div id="no-fish"></div>
         <div id="fishs"></div>
       </div>
+    </div>
+
+    <div id="settingsPopup" class="hidden">
+      <h2 id="settingsTitle"></h2>
+      <form id="settingsForm">
+        <div class="field">
+          <label for="settingsLanguage" id="settingsLanguageLabel"></label>
+          <select id="settingsLanguage">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+<!--        <div class="field">-->
+<!--          <label for="settingsApiKey" id="settingsApiKeyLabel"></label>-->
+<!--          <input type="text" value="" id="settingsApiKey">-->
+<!--        </div>-->
+        <div class="btns">
+          <button id="settingsClose"></button>
+          <button type="submit" id="settingsSave"></button>
+        </div>
+      </form>
     </div>
 
     <script src="script.min.js"></script>

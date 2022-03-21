@@ -2,15 +2,12 @@ import "../sass/style.scss";
 import $ from 'jquery';
 
 import {maps} from './data';
+import {i18n} from './i18n';
 
+const langs = [ 'fr', 'en' ];
 
-const lang = 'fr';
-const _times = {
-    'd': 'Jour',
-    'n': 'Nuit',
-    'dd': 'Aube/Crépuscule'
-};
-
+const language = localStorage.getItem('language')
+const lang = (language && langs.indexOf(language) >= 0) ? language : 'fr';
 
 let spots = [];
 let baits = [];
@@ -23,7 +20,11 @@ let filters = {
     'time': '',
 };
 
-$(document).on('change', 'select', function(e) {
+function t(id) {
+    return (i18n[lang][id]) ? i18n[lang][id] : `__${id}`;
+}
+
+$(document).on('change', 'select#spots, select#baits', function(e) {
     let id = $(this).attr('id'),
         filter = id.slice(0, -1),
         value = $(this).val();
@@ -57,7 +58,7 @@ function filterFishs() {
         }
     }
 
-    console.log(target);
+    // console.log(target);
     $('.fish'+target).show();
 
     target = '';
@@ -125,6 +126,17 @@ function updateClock(r) {
 }
 
 function initCompanion() {
+
+    // Translation
+    document.getElementById('title').textContent = t('app.title');
+    document.getElementById('subtitle').textContent = t('app.subtitle');
+    document.getElementById('no-fish').textContent = t('fishs.zero');
+    document.getElementById('settingsTitle').textContent = t('settings.title');
+    document.getElementById('settingsLanguageLabel').textContent = t('settings.language');
+    // document.getElementById('settingsApiKeyLabel').textContent = t('settings.apikey');
+    document.getElementById('settingsClose').textContent = t('settings.close');
+    document.getElementById('settingsSave').textContent = t('settings.save');
+
     maps.forEach(function(region) {
 
         region.ids.forEach(function(id) {
@@ -149,8 +161,8 @@ function initCompanion() {
 
             $('#fishs').append(`<div class="fish rarity-${fish.rarity}" 
             data-region="${region.achievement[lang]}" 
-            data-bait="${(bait) ? bait : 'Indéfini'}" 
-            data-spot="${(spot) ? spot : 'Indéfinie'}" 
+            data-bait="${(bait) ? bait : t('baits.any')}" 
+            data-spot="${(spot) ? spot : t('spots.any')}" 
             data-time="${((fish.time === '') ? 'a' : fish.time)}"
             data-achievement="${region.achievement_id}"
         >
@@ -160,18 +172,28 @@ function initCompanion() {
                 <div class="metas">
                     <span><span class="sprite-icon icon-map"></span>${region.achievement[lang]}</span>
                     ${(spot) ? `<span><span class="sprite-icon icon-water"></span>${spot}</span>` : ''}</span>
+                    ${(bait) ? `<span><span class="sprite-icon icon-bait"></span>${bait}</span>` : ''}
                     ${(fish.power) ? `<span><span class="sprite-icon icon-power"></span>${fish.power}</span>` : ''}
+                    ${(fish.time) ?  `<span><span class="sprite-icon icon-${(fish.time) ? fish.time : 'time'}"></span>${t('time.'+fish.time)}</span>` : ''}
                 </div>
                 <div class="metas">
-                    ${(bait) ? `<span><span class="sprite-icon icon-bait"></span>${bait}</span>` : ''}
-                    ${(fish.time) ?  `<span><span class="sprite-icon icon-${(fish.time) ? fish.time : 'time'}"></span>${_times[fish.time]}</span>` : ''}
+                    
+                </div>
+                <div class="metas">
+                    
                 </div>
             </div>
         </div>`);
         });
     });
 
-    baits.push('Indéfini');
+
+    $('#baits').append($('<option>', {
+        value: '',
+        text: t('baits.default')
+    }));
+
+    baits.push(t('baits.any'));
     baits.sort();
     baits.forEach(function(b) {
         $('#baits').append($('<option>', {
@@ -180,7 +202,13 @@ function initCompanion() {
         }));
     });
 
-    spots.push('Indéfinie');
+
+    $('#spots').append($('<option>', {
+        value: '',
+        text: t('spots.default')
+    }));
+
+    spots.push(t('spots.any'));
     spots.sort();
     spots.forEach(function(s) {
         $('#spots').append($('<option>', {
@@ -194,8 +222,8 @@ function updateCompanion() {
 
     $.getJSON('http://127.0.0.1:8428/gw2.json', function(res) {
 
-        console.log(res.identity.map_id);
-        console.log(res);
+        // console.log(res.identity.map_id);
+        // console.log(res);
 
         if(res.identity.map_id !== filters.map) {
             filters.map = res.identity.map_id;
@@ -225,8 +253,46 @@ function updateCompanion() {
 
 }
 
-initCompanion();
+window.addEventListener('load', (event) => {
+    initCompanion();
 
-updateCompanion();
-setInterval(updateCompanion, 10000);
+    updateCompanion();
+    setInterval(updateCompanion, 10000);
+});
 
+/**
+ * Settings
+ */
+
+const app = document.getElementById('app');
+const settingsButton = document.getElementById('settingsButton');
+const settingsClose = document.getElementById('settingsClose');
+const settingsPopup = document.getElementById('settingsPopup');
+const settingsForm = document.getElementById('settingsForm');
+
+let settingsLanguage = document.getElementById('settingsLanguage');
+settingsLanguage.value = lang;
+
+settingsButton.addEventListener('click', function() {
+    settingsPopup.classList.remove("hidden");
+    app.classList.add("popup");
+
+    // Mettre la langue par défaut
+    // Mettre la clé API si existante
+});
+
+settingsClose.addEventListener('click', function(e) {
+    e.preventDefault();
+    settingsPopup.classList.add("hidden");
+    app.classList.remove("popup");
+});
+
+settingsForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    if(langs.indexOf(settingsLanguage.value) >= 0) {
+        localStorage.setItem('language', settingsLanguage.value);
+    }
+
+    location.reload();
+});

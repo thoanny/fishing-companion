@@ -1,0 +1,37 @@
+export const i18n = {
+    'fr': {
+        'app.title': 'Compagnon de pêche',
+        'app.subtitle': 'Par Thoanny pour Le Bus Magique',
+        'spots.default': 'Zones',
+        'spots.any': 'Indéfinie',
+        'baits.default': 'Appâts',
+        'baits.any': 'Indéfini',
+        'fishs.zero': 'Aucun poisson trouvé...',
+        'settings.title': 'Paramètres',
+        'settings.language': 'Langue',
+        'settings.apikey': 'Clé API Guild Wars 2',
+        'settings.close': 'Annuler',
+        'settings.save': 'Enregistrer',
+        'time.n': 'Nuit',
+        'time.d': 'Jour',
+        'time.dd': 'Aube/Crépuscule',
+    },
+    'en': {
+        'app.title': 'Fishing companion',
+        'app.subtitle': 'By Thoanny for Le Bus Magique',
+        'spots.default': 'Spots',
+        'spots.any': 'Any',
+        'baits.default': 'Baits',
+        'baits.any': 'Any',
+        'fishs.zero': 'No fish found...',
+        'settings.title': 'Settings',
+        'settings.language': 'Language',
+        'settings.apikey': 'Guild Wars 2 API key',
+        'settings.close': 'Cancel',
+        'settings.save': 'Save',
+        'time.n': 'Night',
+        'time.d': 'Day',
+        'time.dd': 'Dawn/Dusk',
+    }
+};
+
