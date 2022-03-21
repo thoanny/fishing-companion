@@ -1,6 +1,6 @@
-![](https://img.shields.io/badge/Linktr.ee-Thoanny-93c045?style=for-the-badge)
-![](https://img.shields.io/badge/Twitch-Sub-93c045?style=for-the-badge)
-![](https://img.shields.io/badge/StreamElements-Tip-93c045?style=for-the-badge)
+[![](https://img.shields.io/badge/Linktr.ee-Thoanny-93c045?style=for-the-badge)](https://linktr.ee/thoanny)
+[![](https://img.shields.io/badge/Twitch-Sub-93c045?style=for-the-badge)](https://www.twitch.tv/subs/thoanny)
+[![](https://img.shields.io/badge/StreamElements-Tip-93c045?style=for-the-badge)](https://streamelements.com/thoanny/tip)
 
 # 🎣 Compagnon de pêche
 
@@ -10,7 +10,7 @@ Si la carte n'est pas reconnue, tous les poissons sont affichés et l'heure de T
 
 ## 💾 Téléchargement
 
-![](https://img.shields.io/github/downloads/thoanny/fishing-companion/total?style=for-the-badge)
+[![](https://img.shields.io/github/downloads/thoanny/fishing-companion/total?style=for-the-badge)](https://github.com/thoanny/fishing-companion/releases)
 
 Pour télécharger la dernière version du compagnon de pêche, [cliquez ici](https://github.com/thoanny/fishing-companion/releases), dépliez la rubrique "Assets" de la dernière version disponible et téléchargez la première archive.
 
