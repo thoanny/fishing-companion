@@ -4,15 +4,17 @@
 
 # 🎣 Compagnon de pêche
 
-Overlay pour accompagner tes sessions de pêche. Affiche la liste des poissons en fonction de la carte du jeu dans laquelle tu es connecté·e et de l'heure locale (tyrienne ou canthienne). Tu peux aussi filtrer par zones de pêche et appâts.
+Un overlay pour accompagner tes sessions de pêche. Affiche la liste des poissons en fonction de la carte du jeu sur laquelle tu es connecté·e et de l'heure locale (tyrienne ou canthienne). Tu peux aussi filtrer par zones de pêche et appâts.
 
-Si la carte n'est pas reconnue, tous les poissons sont affichés et l'heure de Tyrie est utilisée par défaut. C'est le cas actuellement avec les halls de guilde et les contenus instanciés.
+*Si la carte n'est pas reconnue, tous les poissons sont affichés et l'heure de Tyrie est utilisée par défaut. C'est le cas actuellement avec les halls de guilde et les contenus instanciés.*
+
+Pour lancer le compagnon de pêche, double-clique sur le fichier "fishing-companion(.exe)" après avoir décompressé l'archive à l'emplacement de ton choix.
 
 ## 💾 Téléchargement
 
 [![](https://img.shields.io/github/downloads/thoanny/fishing-companion/total?style=for-the-badge)](https://github.com/thoanny/fishing-companion/releases)
 
-Pour télécharger la dernière version du compagnon de pêche, [cliquez ici](https://github.com/thoanny/fishing-companion/releases), dépliez la rubrique "Assets" de la dernière version disponible et téléchargez la première archive.
+Pour télécharger la dernière version du compagnon de pêche, [clique ici](https://github.com/thoanny/fishing-companion/releases), déplie la rubrique "Assets" de la dernière version disponible et télécharge la première archive.
 
 ## 📦 Technologies
 
@@ -21,16 +23,16 @@ Pour télécharger la dernière version du compagnon de pêche, [cliquez ici](ht
 * JavaScript / [jQuery](https://jquery.com/)
 * [Webpack](https://webpack.js.org/)
 * [Electron](https://www.electronjs.org/)
+* [Python](https://www.python.org/)
 
-## 🐉 GW2Link
+## 🐉 GW2MumbleLink
 
-Pour connaître la carte sur laquelle tu es connecté·e en jeu, j'utilise les informations fournies par [MumbleLink](https://wiki.guildwars2.com/wiki/API:MumbleLink) en me basant sur le script de Devon Carlson : [GW2Link](https://github.com/Blaaguuu/GW2Link) (C++).
+Pour connaître la carte sur laquelle tu es connecté·e en jeu, le compagnon de pêche utilise les informations fournies par [MumbleLink](https://wiki.guildwars2.com/wiki/API:MumbleLink). Les sources de ce programme sont disponibles dans le dossier [/GW2MumbleLink](https://github.com/thoanny/fishing-companion/tree/main/GW2MumbleLink) (Python) de ce projet.
 
-Lorsque tu lances le compagnon de pêche, GW2Link.exe est exécuté en arrière-plan et délivre ta position via une réponse en JSON sur l'URL : http://127.0.0.1:8428/gw2.json.
+Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arrière-plan et délivre ta position en JSON via l'URL : http://127.0.0.1:7234.
 
 ## 📑 Todo
 
-* Intégrer les sources de GW2Link au projet
 * Ajouter les halls de guilde après avoir vérifié leurs IDs
 
 ## 💡 Idées
@@ -53,6 +55,10 @@ Archibald Wirslayd, Pandraghon, vzdk.
 * **Icônes :** [Font Awesome](https://fontawesome.com/) (Font Awesome 5 Pro License, Early Backer)
 
 ## 📝 Changelogs
+
+### 🔹 Version 0.9-beta.3
+
+* Nouvelle version de GW2MumbleLink, en Python
 
 ### 🔹 Version 0.9-beta.2
 
