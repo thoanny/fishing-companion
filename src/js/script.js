@@ -146,8 +146,8 @@ function initCompanion() {
     document.getElementById('newVersionLabel').textContent = t('app.newversion');
 
     // Check version
-    $.get('https://raw.githubusercontent.com/thoanny/fishing-companion/main/version.txt', function(v) {
-        if(v > version) {
+    $.get('https://combinatronics.com/thoanny/fishing-companion/main/version.txt', function(v) {
+        if(v.trim() > version.trim()) {
             const newVersionPopup = document.getElementById('newVersionPopup');
             const newVersionClose = document.getElementById('newVersionClose');
             newVersionPopup.classList.remove("hidden");
