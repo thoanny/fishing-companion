@@ -49,6 +49,7 @@
   "dependencies": {
     "css-loader": "^6.7.1",
     "electron-squirrel-startup": "^1.0.0",
+    "find-process": "^1.4.7",
     "jquery": "^3.6.0",
     "style-loader": "^3.3.1",
     "webpack-spritesmith": "^1.1.0"

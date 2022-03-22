@@ -220,12 +220,12 @@ function initCompanion() {
 
 function updateCompanion() {
 
-    $.getJSON('http://127.0.0.1:8428/gw2.json', function(res) {
+    $.getJSON('http://127.0.0.1:7232', function(res) {
 
         // console.log(res.identity.map_id);
         // console.log(res);
 
-        if(res.identity.map_id !== filters.map) {
+        if(res.identity && res.identity.map_id !== filters.map) {
             filters.map = res.identity.map_id;
             filters.bait = '';
             filters.spot = '';
@@ -233,7 +233,7 @@ function updateCompanion() {
             $("#baits").val("");
         }
 
-        $('#gw2link').removeClass().addClass((res.status == 'Not Linked to GW2') ? 'offline' : 'online');
+        $('#gw2link').removeClass().addClass(res.status);
         filterFishs();
     }).fail(function() {
         $('#gw2link').removeClass().addClass('offline');

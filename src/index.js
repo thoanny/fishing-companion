@@ -1,6 +1,8 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
 
+const find = require('find-process');
+
 app.disableHardwareAcceleration();
 
 if (require('electron-squirrel-startup')) {
@@ -24,14 +26,24 @@ const createWindow = () => {
 
 app.on('ready', createWindow);
 
-let GW2Link = require('child_process').spawn('GW2Link.exe');
+let GW2Link = require('child_process').spawn('GW2MumbleLink.exe');
 
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') {
-    process.kill(GW2Link.pid, 'SIGINT');
+
+  find('name', 'GW2MumbleLink.exe')
+    .then(function (list) {
+      list.forEach(function (p) {
+        process.kill(p.pid);
+      })
+    }).then(function() {
     app.quit();
-  }
+  });
+
 });
+
+
+
+
 
 app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) {

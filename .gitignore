@@ -103,3 +103,9 @@ src/*.png
 src/script.min.js*
 
 fishing-companion-win32-x64/
+
+# GW2MumbleLink
+GW2MumbleLink/build
+GW2MumbleLink/dist
+GW2MumbleLink/*.spec
+GW2MumbleLink.exe
