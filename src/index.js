@@ -11,7 +11,7 @@ if (require('electron-squirrel-startup')) {
 
 const createWindow = () => {
   const mainWindow = new BrowserWindow({
-    width: 330,
+    width: 335,
     height: 450,
     transparent:true,
     frame: false,
@@ -40,10 +40,6 @@ app.on('window-all-closed', () => {
   });
 
 });
-
-
-
-
 
 app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) {

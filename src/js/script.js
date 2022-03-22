@@ -1,17 +1,22 @@
 import "../sass/style.scss";
 import $ from 'jquery';
 
-import {maps} from './data';
+import {maps, achievements} from './data';
 import {i18n} from './i18n';
 
 const langs = [ 'fr', 'en' ];
+const Gw2ApiUrl = 'https://api.guildwars2.com/v2';
 
-const language = localStorage.getItem('language')
+const language = localStorage.getItem('language');
 const lang = (language && langs.indexOf(language) >= 0) ? language : 'fr';
+
+const token = localStorage.getItem('token');
 
 let spots = [];
 let baits = [];
 let mapsIds = [];
+let achievementsIds = [];
+let achievementsRepeatIds = [];
 
 let filters = {
     'map': '',
@@ -133,11 +138,14 @@ function initCompanion() {
     document.getElementById('no-fish').textContent = t('fishs.zero');
     document.getElementById('settingsTitle').textContent = t('settings.title');
     document.getElementById('settingsLanguageLabel').textContent = t('settings.language');
-    // document.getElementById('settingsApiKeyLabel').textContent = t('settings.apikey');
+    document.getElementById('settingsGw2TokenLabel').textContent = t('settings.gw2token');
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
 
     maps.forEach(function(region) {
+
+        achievementsIds.push(region.achievement_id);
+        achievementsRepeatIds.push(parseInt(region.repeat_achievement_id));
 
         region.ids.forEach(function(id) {
             mapsIds[id] = region.achievement_id;
@@ -161,6 +169,7 @@ function initCompanion() {
 
             $('#fishs').append(`<div class="fish rarity-${fish.rarity}" 
             data-region="${region.achievement[lang]}" 
+            data-fish="${fish.item_id}" 
             data-bait="${(bait) ? bait : t('baits.any')}" 
             data-spot="${(spot) ? spot : t('spots.any')}" 
             data-time="${((fish.time === '') ? 'a' : fish.time)}"
@@ -258,6 +267,11 @@ window.addEventListener('load', (event) => {
 
     updateCompanion();
     setInterval(updateCompanion, 10000);
+
+    if(token) {
+        checkAchievementsFishs();
+        setInterval(checkAchievementsFishs, 60000 * 3); // 3 minutes
+    }
 });
 
 /**
@@ -269,16 +283,16 @@ const settingsButton = document.getElementById('settingsButton');
 const settingsClose = document.getElementById('settingsClose');
 const settingsPopup = document.getElementById('settingsPopup');
 const settingsForm = document.getElementById('settingsForm');
+const settingsErrors = document.getElementById('settingsErrors');
 
 let settingsLanguage = document.getElementById('settingsLanguage');
+let settingsGw2Token = document.getElementById('settingsGw2Token');
 settingsLanguage.value = lang;
+settingsGw2Token.value = token;
 
 settingsButton.addEventListener('click', function() {
     settingsPopup.classList.remove("hidden");
     app.classList.add("popup");
-
-    // Mettre la langue par défaut
-    // Mettre la clé API si existante
 });
 
 settingsClose.addEventListener('click', function(e) {
@@ -290,9 +304,103 @@ settingsClose.addEventListener('click', function(e) {
 settingsForm.addEventListener('submit', function(e) {
     e.preventDefault();
 
+    let errors = [];
+
     if(langs.indexOf(settingsLanguage.value) >= 0) {
         localStorage.setItem('language', settingsLanguage.value);
     }
 
-    location.reload();
+    if(settingsGw2Token.value) {
+        $.ajaxSetup({
+            headers : {
+                'Authorization' : 'Bearer ' + settingsGw2Token.value
+            },
+            async: false,
+        });
+
+        $.getJSON(Gw2ApiUrl+'/tokeninfo', function(res) {
+
+            /**
+             * Permissions :
+             * - progression : masteries, achievements
+             * - characters : characters
+             * - inventories : characters
+             */
+
+            if(
+                res.permissions.indexOf('characters') >= 0
+                && res.permissions.indexOf('progression') >= 0
+                && res.permissions.indexOf('inventories') >= 0
+            ) {
+                localStorage.setItem('token', settingsGw2Token.value);
+            } else {
+                errors.push(t('gw2api.permissions'));
+                settingsGw2Token.value = (token) ? token : '';
+            }
+        }).fail(function() {
+            errors.push(t('gw2api.invalidtoken'));
+            settingsGw2Token.value = (token) ? token : '';
+        });
+    } else if(!settingsGw2Token.value && token) {
+        localStorage.removeItem('token');
+    }
+
+    if(errors.length == 0) {
+        location.reload();
+        return;
+    }
+
+    settingsErrors.innerHTML = '<div>'+errors.join('</div><div>')+'</div>';
+
 });
+
+let achievementsData = [];
+
+achievements.forEach(function(a) {
+    achievementsData[a.id] = {
+        'bits': []
+    }
+
+    achievementsIds.push(a.id);
+
+    a.bits.forEach(function(b, i) {
+        achievementsData[a.id]['bits'][i] = b.id;
+    });
+
+});
+
+function checkAchievementsFishs() {
+
+    $.ajaxSetup({
+        headers : {
+            'Authorization' : 'Bearer ' + token
+        },
+    });
+
+    $.getJSON(Gw2ApiUrl+'/account/achievements', function(res) {
+        $('.fish.fish-done').removeClass('fish-done');
+        $('.fish.fish-done-repeat').removeClass('fish-done-repeat');
+        res.forEach(function(a) {
+            if(achievementsIds.indexOf(a.id) >= 0) {
+                if(a.done) {
+                    $('.fish[data-achievement="'+a.id+'"]').addClass('fish-done');
+                } else {
+                    a.bits.forEach(function(b) {
+                        $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done');
+                    })
+                }
+            }
+
+            if(achievementsRepeatIds.indexOf(a.id) >= 0) {
+                if(a.done) {
+                    $('.fish[data-achievement="'+a.id+'"]').addClass('fish-done-repeat');
+                } else {
+                    a.bits.forEach(function(b) {
+                        $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done-repeat');
+                    })
+                }
+            }
+        });
+    });
+
+}

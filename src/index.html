@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Compagnon de pêche | Le Bus Magique</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self'; connect-src http://127.0.0.1:7232">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self'; connect-src http://127.0.0.1:7232 https://api.guildwars2.com">
   </head>
   <body>
     <div id="app">
@@ -34,6 +34,7 @@
 
     <div id="settingsPopup" class="hidden">
       <h2 id="settingsTitle"></h2>
+      <div id="settingsErrors"></div>
       <form id="settingsForm">
         <div class="field">
           <label for="settingsLanguage" id="settingsLanguageLabel"></label>
@@ -42,10 +43,10 @@
             <option value="en">English</option>
           </select>
         </div>
-<!--        <div class="field">-->
-<!--          <label for="settingsApiKey" id="settingsApiKeyLabel"></label>-->
-<!--          <input type="text" value="" id="settingsApiKey">-->
-<!--        </div>-->
+        <div class="field">
+          <label for="settingsGw2Token" id="settingsGw2TokenLabel"></label>
+          <input type="text" value="" id="settingsGw2Token">
+        </div>
         <div class="btns">
           <button id="settingsClose"></button>
           <button type="submit" id="settingsSave"></button>
