@@ -357,13 +357,13 @@ select, input {
   right: .5rem;
 }
 
-#settingsPopup {
+#settingsPopup, #newVersionPopup {
   &.hidden {
     display: none;
   }
 
   position: fixed;
-  z-index: 99;
+  z-index: 999;
   width: calc(100% - 6rem);
   height: auto;
   background: #202225;
@@ -401,5 +401,27 @@ select, input {
     > div {
       margin-bottom: .5rem;
     }
+  }
+}
+
+#newVersionPopup {
+  width: calc(100% - 5rem);
+  background: #27ae60;
+  top: initial;
+  bottom: 1rem;
+  left: 1rem;
+  font-weight: bold;
+  padding-right: 2rem;
+
+  #newVersionClose {
+    font-size: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
   }
 }

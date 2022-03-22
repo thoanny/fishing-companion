@@ -56,6 +56,11 @@ Archibald Wirslayd, Pandraghon, vzdk.
 
 ## 📝 Changelogs
 
+### 🔹 Version 0.9-beta.4
+
+* Ajout du suivi des poissons pêchés via l'API de Guild Wars 2
+* Ajout de la vérification de la version du compagnon au lancement
+
 ### 🔹 Version 0.9-beta.3
 
 * Nouvelle version de GW2MumbleLink, en Python

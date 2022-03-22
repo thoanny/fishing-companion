@@ -4,6 +4,8 @@ import $ from 'jquery';
 import {maps, achievements} from './data';
 import {i18n} from './i18n';
 
+const version = '0.9.4';
+
 const langs = [ 'fr', 'en' ];
 const Gw2ApiUrl = 'https://api.guildwars2.com/v2';
 
@@ -141,6 +143,20 @@ function initCompanion() {
     document.getElementById('settingsGw2TokenLabel').textContent = t('settings.gw2token');
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
+    document.getElementById('newVersionLabel').textContent = t('app.newversion');
+
+    // Check version
+    $.get('https://raw.githubusercontent.com/thoanny/fishing-companion/main/version.txt', function(v) {
+        if(v > version) {
+            const newVersionPopup = document.getElementById('newVersionPopup');
+            const newVersionClose = document.getElementById('newVersionClose');
+            newVersionPopup.classList.remove("hidden");
+
+            newVersionClose.addEventListener('click', function() {
+                newVersionPopup.classList.add('hidden');
+            });
+        }
+    });
 
     maps.forEach(function(region) {
 

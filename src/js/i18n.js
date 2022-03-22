@@ -2,6 +2,7 @@ export const i18n = {
     'fr': {
         'app.title': 'Compagnon de pêche',
         'app.subtitle': 'Par Thoanny pour Le Bus Magique',
+        'app.newversion': 'Une nouvelle version du compagnon de pêche est disponible !',
         'spots.default': 'Zones',
         'spots.any': 'Indéfinie',
         'baits.default': 'Appâts',
@@ -21,6 +22,7 @@ export const i18n = {
     'en': {
         'app.title': 'Fishing companion',
         'app.subtitle': 'By Thoanny for Le Bus Magique',
+        'app.newversion': 'A new version of Fishing Companion is available for download!',
         'spots.default': 'Spots',
         'spots.any': 'Any',
         'baits.default': 'Baits',
