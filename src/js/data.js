@@ -6300,8 +6300,8 @@ export const maps = [
                 "item_id": "96318",
                 "rarity": "ascended",
                 "name": {
-                    'fr': 'Mega Prawn',
-                    'en': '',
+                    'fr': 'Crevette géante',
+                    'en': 'Mega Prawn',
                 },
                 "spot": {
                     'fr': 'Poisson du large',
