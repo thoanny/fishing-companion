@@ -13,6 +13,7 @@ const language = localStorage.getItem('language');
 const lang = (language && langs.indexOf(language) >= 0) ? language : 'fr';
 
 const token = localStorage.getItem('token');
+const hideFishs = localStorage.getItem('hide-fishs');
 
 let spots = [];
 let baits = [];
@@ -141,6 +142,7 @@ function initCompanion() {
     document.getElementById('settingsTitle').textContent = t('settings.title');
     document.getElementById('settingsLanguageLabel').textContent = t('settings.language');
     document.getElementById('settingsGw2TokenLabel').textContent = t('settings.gw2token');
+    document.getElementById('settingsHideFishsLabel').textContent = t('settings.hidefishs');
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
     document.getElementById('newVersionLabel').textContent = t('app.newversion');
@@ -304,8 +306,14 @@ const settingsErrors = document.getElementById('settingsErrors');
 
 let settingsLanguage = document.getElementById('settingsLanguage');
 let settingsGw2Token = document.getElementById('settingsGw2Token');
+let settingsHideFishs = document.getElementById('settingsHideFishs');
 settingsLanguage.value = lang;
 settingsGw2Token.value = token;
+
+if(hideFishs === 'true') {
+    settingsHideFishs.checked = true;
+    app.classList.add('hide-fishs');
+}
 
 settingsButton.addEventListener('click', function() {
     settingsPopup.classList.remove("hidden");
@@ -361,6 +369,9 @@ settingsForm.addEventListener('submit', function(e) {
     } else if(!settingsGw2Token.value && token) {
         localStorage.removeItem('token');
     }
+
+    localStorage.setItem('hide-fishs', (settingsHideFishs.checked) ? true : false);
+
 
     if(errors.length == 0) {
         location.reload();
@@ -419,6 +430,10 @@ function checkAchievementsFishs() {
                 }
             }
         });
+
+        if($('.fish:visible').length <= 0) {
+            $('#no-fish').show();
+        }
     });
 
 }
