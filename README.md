@@ -29,7 +29,7 @@ Pour télécharger la dernière version du compagnon de pêche, [clique ici](htt
 
 Pour connaître la carte sur laquelle tu es connecté·e en jeu, le compagnon de pêche utilise les informations fournies par [MumbleLink](https://wiki.guildwars2.com/wiki/API:MumbleLink). Les sources de ce programme sont disponibles dans le dossier [/GW2MumbleLink](https://github.com/thoanny/fishing-companion/tree/main/GW2MumbleLink) (Python) de ce projet.
 
-Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arrière-plan et délivre ta position en JSON via l'URL : http://127.0.0.1:7234.
+Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arrière-plan et délivre ta position en JSON via l'URL : http://127.0.0.1:7232.
 
 ## 📑 Todo
 

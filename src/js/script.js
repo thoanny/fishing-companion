@@ -190,6 +190,7 @@ function initCompanion() {
             data-spot="${(spot) ? spot : t('spots.any')}" 
             data-time="${((fish.time === '') ? 'a' : fish.time)}"
             data-achievement="${region.achievement_id}"
+            data-repeat-achievement="${region.repeat_achievement_id}"
         >
             <div class="fish-icon sprite-icon icon-${fish.item_id}"></div>
             <div>
@@ -408,8 +409,9 @@ function checkAchievementsFishs() {
             }
 
             if(achievementsRepeatIds.indexOf(a.id) >= 0) {
+                $('.fish[data-repeat-achievement="'+a.id+'"]').removeClass('fish-done');
                 if(a.done) {
-                    $('.fish[data-achievement="'+a.id+'"]').addClass('fish-done-repeat');
+                    $('.fish[data-repeat-achievement="'+a.id+'"]').addClass('fish-done-repeat');
                 } else {
                     a.bits.forEach(function(b) {
                         $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done-repeat');
