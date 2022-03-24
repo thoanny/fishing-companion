@@ -450,7 +450,9 @@ function checkAchievementsFishs() {
                     })
                 }
             }
+        });
 
+        res.forEach(function(a) {
             if(achievementsRepeatIds.indexOf(a.id) >= 0) {
                 $('.fish[data-repeat-achievement="'+a.id+'"]').removeClass('fish-done');
                 if(a.done) {
