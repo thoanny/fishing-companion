@@ -6,7 +6,7 @@ import multisort from "multisort";
 import {maps, achievements} from './data';
 import {i18n} from './i18n';
 
-const version = '0.9.4';
+const version = '0.9.5';
 
 const langs = [ 'fr', 'en' ];
 const Gw2ApiUrl = 'https://api.guildwars2.com/v2';

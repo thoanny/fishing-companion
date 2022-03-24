@@ -31,15 +31,10 @@ Pour connaître la carte sur laquelle tu es connecté·e en jeu, le compagnon de
 
 Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arrière-plan et délivre ta position en JSON via l'URL : http://127.0.0.1:7232.
 
-## 📑 Todo
-
-* Ajouter les halls de guilde après avoir vérifié leurs IDs
-
 ## 💡 Idées
 
 * Afficher uniquement les zones des poissons affichés, dans la liste déroulante
-* Utiliser l'API de GW2 pour indiquer :
-  * les appâts disponibles/équipés sur le personnage connecté (si possible)
+* Utiliser l'API de GW2 pour indiquer les appâts disponibles/équipés sur le personnage connecté (si possible)
 * Modifier le code JS pour ne plus avoir à utiliser jQuery
 
 ## 💃 Contributeurs
@@ -52,6 +47,14 @@ Archibald Wirslayd, Pandraghon, vzdk.
 * **Icônes :** [Font Awesome](https://fontawesome.com/) (Font Awesome 5 Pro License, Early Backer)
 
 ## 📝 Changelogs
+
+### 🔹 Version 0.9-beta.5
+
+* Ajout du nom du poisson 96318 en anglais et correction en français
+* Ajout d'une option pour masquer les poissons validés dans les succès de pêche
+* Ajout des IDs des cartes des halls de guilde
+* Modification de l'ordre d'affichage des poissons : région, rareté puis nom
+* Correction du suivi des succès répétables de pêche
 
 ### 🔹 Version 0.9-beta.4
 
