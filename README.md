@@ -38,7 +38,6 @@ Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arr
 ## 💡 Idées
 
 * Afficher uniquement les zones des poissons affichés, dans la liste déroulante
-* Trier les poissons par rareté puis par ordre alphabétique
 * Utiliser l'API de GW2 pour indiquer :
   * les appâts disponibles/équipés sur le personnage connecté (si possible)
 * Modifier le code JS pour ne plus avoir à utiliser jQuery

@@ -1,6 +1,8 @@
 import "../sass/style.scss";
 import $ from 'jquery';
 
+import multisort from "multisort";
+
 import {maps, achievements} from './data';
 import {i18n} from './i18n';
 
@@ -15,6 +17,17 @@ const lang = (language && langs.indexOf(language) >= 0) ? language : 'fr';
 const token = localStorage.getItem('token');
 const hideFishs = localStorage.getItem('hide-fishs');
 
+const rarity = [
+    'basic',
+    'fine',
+    'masterwork',
+    'rare',
+    'exotic',
+    'ascended',
+    'legendary'
+];
+
+let fishs = [];
 let spots = [];
 let baits = [];
 let mapsIds = [];
@@ -170,7 +183,25 @@ function initCompanion() {
         });
 
         region.fishs.forEach(function(fish) {
+            fishs.push({
+                'region': region.achievement[lang],
+                'id': fish.item_id,
+                'bait': (fish.bait[lang]) ? fish.bait[lang] : t('baits.any'),
+                'bait_value': (fish.bait[lang]) ? fish.bait[lang] : '',
+                'spot': (fish.spot[lang]) ? fish.spot[lang] : t('spots.any'),
+                'spot_value': (fish.spot[lang]) ? fish.spot[lang] : '',
+                'time': ((fish.time === '') ? 'a' : fish.time),
+                'time_value': fish.time,
+                'achievement': region.achievement_id,
+                'achievement_repeat': region.repeat_achievement_id,
+                'rarity_index': rarity.indexOf(fish.rarity),
+                'rarity': fish.rarity,
+                'name': fish.name[lang],
+                'power': fish.power
+            });
+        });
 
+        region.fishs.forEach(function(fish) {
             let bait = fish.bait[lang];
             if(bait !== '') {
                 if(baits.indexOf(bait) < 0) {
@@ -184,37 +215,38 @@ function initCompanion() {
                     spots.push(spot);
                 }
             }
-
-            $('#fishs').append(`<div class="fish rarity-${fish.rarity}" 
-            data-region="${region.achievement[lang]}" 
-            data-fish="${fish.item_id}" 
-            data-bait="${(bait) ? bait : t('baits.any')}" 
-            data-spot="${(spot) ? spot : t('spots.any')}" 
-            data-time="${((fish.time === '') ? 'a' : fish.time)}"
-            data-achievement="${region.achievement_id}"
-            data-repeat-achievement="${region.repeat_achievement_id}"
-        >
-            <div class="fish-icon sprite-icon icon-${fish.item_id}"></div>
-            <div>
-                <div class="name">${fish.name[lang]}</div>
-                <div class="metas">
-                    <span><span class="sprite-icon icon-map"></span>${region.achievement[lang]}</span>
-                    ${(spot) ? `<span><span class="sprite-icon icon-water"></span>${spot}</span>` : ''}</span>
-                    ${(bait) ? `<span><span class="sprite-icon icon-bait"></span>${bait}</span>` : ''}
-                    ${(fish.power) ? `<span><span class="sprite-icon icon-power"></span>${fish.power}</span>` : ''}
-                    ${(fish.time) ?  `<span><span class="sprite-icon icon-${(fish.time) ? fish.time : 'time'}"></span>${t('time.'+fish.time)}</span>` : ''}
-                </div>
-                <div class="metas">
-                    
-                </div>
-                <div class="metas">
-                    
-                </div>
-            </div>
-        </div>`);
         });
     });
 
+    multisort(fishs, [
+        'region',
+        'rarity_index',
+        'name'
+    ]);
+
+    fishs.forEach(function(fish) {
+
+        $('#fishs').append(`<div class="fish rarity-${fish.rarity}" 
+            data-fish="${fish.id}" 
+            data-bait="${fish.bait}" 
+            data-spot="${fish.spot}" 
+            data-time="${fish.time}"
+            data-achievement="${fish.achievement}"
+            data-repeat-achievement="${fish.achievement_repeat}"
+        >
+            <div class="fish-icon sprite-icon icon-${fish.id}"></div>
+            <div>
+                <div class="name">${fish.name}</div>
+                <div class="metas">
+                    <span><span class="sprite-icon icon-map"></span>${fish.region}</span>
+                    ${(fish.spot_value) ? `<span><span class="sprite-icon icon-water"></span>${fish.spot}</span>` : ''}</span>
+                    ${(fish.bait_value) ? `<span><span class="sprite-icon icon-bait"></span>${fish.bait}</span>` : ''}
+                    ${(fish.power) ? `<span><span class="sprite-icon icon-power"></span>${fish.power}</span>` : ''}
+                    ${(fish.time_value) ?  `<span><span class="sprite-icon icon-${(fish.time) ? fish.time : 'time'}"></span>${t('time.'+fish.time)}</span>` : ''}
+                </div>
+            </div>
+        </div>`);
+    });
 
     $('#baits').append($('<option>', {
         value: '',
@@ -230,7 +262,6 @@ function initCompanion() {
         }));
     });
 
-
     $('#spots').append($('<option>', {
         value: '',
         text: t('spots.default')
@@ -244,6 +275,7 @@ function initCompanion() {
             text: s
         }));
     });
+
 }
 
 function updateCompanion() {
