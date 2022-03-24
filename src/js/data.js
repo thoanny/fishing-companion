@@ -3761,6 +3761,12 @@ export const maps = [
             1288, // Domaine de Kourna
             1294, // Refuge du soleil
             1301, // Promontoire de Jahai
+            1214, // Refuge de Chassevent (??)
+            1215, // Refuge de Chassevent (??)
+            1224, // Refuge de Chassevent (??)
+            1232, // Refuge de Chassevent (??)
+            1243, // Refuge de Chassevent (??)
+            1250, // Refuge de Chassevent (??)
         ],
         "fishs": [
             {
@@ -5478,12 +5484,11 @@ export const maps = [
             988, // Cimesèche
             1015, // Les Contrées sauvages d'argent
             1041, // Repli du dragon
-            1042, // Orée d'émeraude TODO
+            1042, // Orée d'émeraude (??)
             1043, // Bassin aurique
             1045, // Profondeurs verdoyantes
-            1052, // Orée d'émeraude TODO
+            1052, // Orée d'émeraude (OK)
             // 1165, // Marais de la pierre de sang
-            // 1175, // Baie des braises
             34, // Forêt de Caledon
             35, // Province de Metrica
             39, // Mont Maelström
@@ -5491,6 +5496,16 @@ export const maps = [
             54, // Terres sauvages de Brisban
             91, // Le Bosquet
             139, // Rata Sum
+            1069, // Précipice perdu (??)
+            1071, // Précipice perdu (??)
+            1076, // Précipice perdu (??)
+            1104, // Précipice perdu (??)
+            1124, // Précipice perdu (??)
+            1068, // Caverne dorée (??)
+            1101, // Caverne dorée (??)
+            1107, // Caverne dorée (??)
+            1108, // Caverne dorée (??)
+            1121, // Caverne dorée (??)
         ],
         "fishs": [
             {
@@ -6276,6 +6291,11 @@ export const maps = [
         },
         "ids": [
             1442, // Province de Seitung
+            1419, // Île du Reflet (??)
+            1426, // Île du Reflet (??)
+            1435, // Île du Reflet (??)
+            1444, // Île du Reflet (??)
+            1462, // Île du Reflet (OK)
         ],
         "fishs": [
             {
