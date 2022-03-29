@@ -442,12 +442,10 @@ function checkAchievementsFishs() {
         $('.fish.fish-done-repeat').removeClass('fish-done-repeat');
         res.forEach(function(a) {
             if(achievementsIds.indexOf(a.id) >= 0) {
-                if(a.done) {
-                    $('.fish[data-achievement="'+a.id+'"]').addClass('fish-done');
-                } else {
+                if(!a.done) {
                     a.bits.forEach(function(b) {
                         $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done');
-                    })
+                    });
                 }
             }
         });
@@ -455,9 +453,7 @@ function checkAchievementsFishs() {
         res.forEach(function(a) {
             if(achievementsRepeatIds.indexOf(a.id) >= 0) {
                 $('.fish[data-repeat-achievement="'+a.id+'"]').removeClass('fish-done');
-                if(a.done) {
-                    $('.fish[data-repeat-achievement="'+a.id+'"]').addClass('fish-done-repeat');
-                } else {
+                if(!a.done) {
                     a.bits.forEach(function(b) {
                         $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done-repeat');
                     })
