@@ -2709,6 +2709,7 @@ export const maps = [
                     'fr': 'Poisson des eaux toxiques',
                     'en': 'Noxious Water Fish',
                 },
+                "bait_id": "95993",
                 "bait": {
                     'fr': 'Insecte luisant',
                     'en': 'Lightning Bug',
@@ -2727,6 +2728,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2745,6 +2747,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -2763,6 +2766,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2781,6 +2785,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2799,6 +2804,7 @@ export const maps = [
                     'fr': 'Poisson des eaux toxiques',
                     'en': 'Noxious Water Fish',
                 },
+                "bait_id": "95993",
                 "bait": {
                     'fr': 'Insecte luisant',
                     'en': 'Lightning Bug',
@@ -2817,6 +2823,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2835,6 +2842,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2853,6 +2861,7 @@ export const maps = [
                     'fr': 'Poisson des eaux toxiques',
                     'en': 'Noxious Water Fish',
                 },
+                "bait_id": "95993",
                 "bait": {
                     'fr': 'Insecte luisant',
                     'en': 'Lightning Bug',
@@ -2871,6 +2880,7 @@ export const maps = [
                     'fr': 'Poisson des eaux toxiques',
                     'en': 'Noxious Water Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2889,6 +2899,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -2907,6 +2918,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "95886",
                 "bait": {
                     'fr': 'Œuf de poisson',
                     'en': 'Fish Egg',
@@ -2925,6 +2937,7 @@ export const maps = [
                     'fr': 'Poisson des eaux toxiques',
                     'en': 'Noxious Water Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2943,6 +2956,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2961,6 +2975,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -2979,6 +2994,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -2997,6 +3013,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3015,6 +3032,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -3033,6 +3051,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "95886",
                 "bait": {
                     'fr': 'Œuf de poisson',
                     'en': 'Fish Egg',
@@ -3051,6 +3070,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "95886",
                 "bait": {
                     'fr': 'Œuf de poisson',
                     'en': 'Fish Egg',
@@ -3069,6 +3089,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "95886",
                 "bait": {
                     'fr': 'Œuf de poisson',
                     'en': 'Fish Egg',
@@ -3101,6 +3122,7 @@ export const maps = [
                     'fr': 'Poisson volcanique',
                     'en': 'Volcanic Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3119,6 +3141,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3137,6 +3160,7 @@ export const maps = [
                     'fr': 'Poisson volcanique',
                     'en': 'Volcanic Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3155,6 +3179,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3173,6 +3198,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "97872",
                 "bait": {
                     'fr': 'Scarabée de lave',
                     'en': 'Lava Beetle',
@@ -3191,6 +3217,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3209,6 +3236,7 @@ export const maps = [
                     'fr': 'Poisson volcanique',
                     'en': 'Volcanic Fish',
                 },
+                "bait_id": "97872",
                 "bait": {
                     'fr': 'Scarabée de lave',
                     'en': 'Lava Beetle',
@@ -3227,6 +3255,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3245,6 +3274,7 @@ export const maps = [
                     'fr': 'Poisson volcanique',
                     'en': 'Volcanic Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3263,6 +3293,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3281,6 +3312,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "97872",
                 "bait": {
                     'fr': 'Scarabée de lave',
                     'en': 'Lava Beetle',
@@ -3299,6 +3331,7 @@ export const maps = [
                     'fr': 'Poisson volcanique',
                     'en': 'Volcanic Fish',
                 },
+                "bait_id": "97872",
                 "bait": {
                     'fr': 'Scarabée de lave',
                     'en': 'Lava Beetle',
@@ -3317,6 +3350,7 @@ export const maps = [
                     'fr': 'Poisson volcanique',
                     'en': 'Volcanic Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3335,6 +3369,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3376,6 +3411,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3394,6 +3430,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "96186",
                 "bait": {
                     'fr': 'Escargot bélier',
                     'en': 'Ramshorn Snail',
@@ -3412,6 +3449,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3430,6 +3468,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3448,6 +3487,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3466,6 +3506,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3484,6 +3525,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -3502,6 +3544,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3520,6 +3563,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3538,6 +3582,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3556,6 +3601,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "96186",
                 "bait": {
                     'fr': 'Escargot bélier',
                     'en': 'Ramshorn Snail',
@@ -3574,6 +3620,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3592,6 +3639,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3610,6 +3658,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "96186",
                 "bait": {
                     'fr': 'Escargot bélier',
                     'en': 'Ramshorn Snail',
@@ -3628,6 +3677,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3646,6 +3696,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -3664,6 +3715,7 @@ export const maps = [
                     'fr': 'Poisson boréal',
                     'en': 'Boreal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3682,6 +3734,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "96186",
                 "bait": {
                     'fr': 'Escargot bélier',
                     'en': 'Ramshorn Snail',
@@ -3700,6 +3753,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3718,6 +3772,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3736,6 +3791,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3780,6 +3836,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3798,6 +3855,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3816,6 +3874,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3834,6 +3893,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3852,6 +3912,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3870,6 +3931,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "95943",
                 "bait": {
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
@@ -3888,6 +3950,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3906,6 +3969,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3924,6 +3988,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3942,6 +4007,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3960,6 +4026,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "95943",
                 "bait": {
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
@@ -3978,6 +4045,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -3996,6 +4064,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4014,6 +4083,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "97569",
                 "bait": {
                     'fr': 'Scorpion',
                     'en': 'Scorpion',
@@ -4032,6 +4102,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4050,6 +4121,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "97569",
                 "bait": {
                     'fr': 'Scorpion',
                     'en': 'Scorpion',
@@ -4068,6 +4140,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4086,6 +4159,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4104,6 +4178,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4122,6 +4197,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4140,6 +4216,7 @@ export const maps = [
                     'fr': 'Poisson du désert',
                     'en': 'Desert Fish',
                 },
+                "bait_id": "97569",
                 "bait": {
                     'fr': 'Scorpion',
                     'en': 'Scorpion',
@@ -4172,6 +4249,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4190,6 +4268,7 @@ export const maps = [
                     'fr': 'Poisson cavernicole',
                     'en': 'Grotto Fish',
                 },
+                "bait_id": "95622",
                 "bait": {
                     'fr': 'Ver luisant',
                     'en': 'Glow Worm',
@@ -4208,6 +4287,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4226,6 +4306,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4244,6 +4325,7 @@ export const maps = [
                     'fr': 'Poisson cavernicole',
                     'en': 'Grotto Fish',
                 },
+                "bait_id": "95622",
                 "bait": {
                     'fr': 'Ver luisant',
                     'en': 'Glow Worm',
@@ -4262,6 +4344,7 @@ export const maps = [
                     'fr': 'Poisson cavernicole',
                     'en': 'Grotto Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4280,6 +4363,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4298,6 +4382,7 @@ export const maps = [
                     'fr': 'Poisson cavernicole',
                     'en': 'Grotto Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4316,6 +4401,7 @@ export const maps = [
                     'fr': 'Poisson cavernicole',
                     'en': 'Grotto Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4334,6 +4420,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4352,6 +4439,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4370,6 +4458,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -4388,6 +4477,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -4406,6 +4496,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4440,6 +4531,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "95886",
                 "bait": {
                     'fr': 'Œuf de poisson',
                     'en': 'Fish Egg',
@@ -4458,6 +4550,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4476,6 +4569,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4494,6 +4588,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "95943",
                 "bait": {
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
@@ -4512,6 +4607,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4530,6 +4626,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "95943",
                 "bait": {
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
@@ -4548,6 +4645,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "95886",
                 "bait": {
                     'fr': 'Œuf de poisson',
                     'en': 'Fish Egg',
@@ -4566,6 +4664,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4584,6 +4683,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4602,6 +4702,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4620,6 +4721,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4638,6 +4740,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4656,6 +4759,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4674,6 +4778,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4705,6 +4810,7 @@ export const maps = [
                     'fr': 'Poisson des chenaux',
                     'en': 'Channel Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4723,6 +4829,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -4741,6 +4848,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4759,6 +4867,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "95943",
                 "bait": {
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
@@ -4777,6 +4886,7 @@ export const maps = [
                     'fr': 'Poisson des chenaux',
                     'en': 'Channel Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4795,6 +4905,7 @@ export const maps = [
                     'fr': 'Poisson des chenaux',
                     'en': 'Channel Fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -4813,6 +4924,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4831,6 +4943,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4849,6 +4962,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4867,6 +4981,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4885,6 +5000,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4903,6 +5019,7 @@ export const maps = [
                     'fr': 'Poisson des chenaux',
                     'en': 'Channel Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4921,6 +5038,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4939,6 +5057,7 @@ export const maps = [
                     'fr': 'Poisson des chenaux',
                     'en': 'Channel Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -4957,6 +5076,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -4975,6 +5095,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -4993,6 +5114,7 @@ export const maps = [
                     'fr': 'Poisson des chenaux',
                     'en': 'Channel Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5011,6 +5133,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "95943",
                 "bait": {
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
@@ -5029,6 +5152,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5047,6 +5171,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5065,6 +5190,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5104,6 +5230,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5122,6 +5249,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5140,6 +5268,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -5158,6 +5287,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5176,6 +5306,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5194,6 +5325,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5212,6 +5344,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5230,6 +5363,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -5248,6 +5382,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5266,6 +5401,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5284,6 +5420,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5302,6 +5439,7 @@ export const maps = [
                     'fr': 'Poisson lacustre',
                     'en': 'Lake Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -5320,6 +5458,7 @@ export const maps = [
                     'fr': 'Poisson de rivière',
                     'en': 'River Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5338,6 +5477,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -5356,6 +5496,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5374,6 +5515,7 @@ export const maps = [
                     'fr': 'Poisson de rivière',
                     'en': 'River Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -5392,6 +5534,7 @@ export const maps = [
                     'fr': 'Poisson de rivière',
                     'en': 'River Fish',
                 },
+                "bait_id": "97064",
                 "bait": {
                     'fr': 'Vairon',
                     'en': 'Minnow',
@@ -5410,6 +5553,7 @@ export const maps = [
                     'fr': 'Poisson de rivière',
                     'en': 'River Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5428,6 +5572,7 @@ export const maps = [
                     'fr': 'Poisson de rivière',
                     'en': 'River Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5446,6 +5591,7 @@ export const maps = [
                     'fr': 'Poisson côtier',
                     'en': 'Coastal Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5464,6 +5610,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5519,6 +5666,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5537,6 +5685,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "97745",
                 "bait": {
                     'fr': 'Nymphe de Lumillule',
                     'en': 'Sparkfly Nymph',
@@ -5555,6 +5704,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5573,6 +5723,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5591,6 +5742,7 @@ export const maps = [
                     'fr': 'Poisson marin',
                     'en': 'Saltwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5609,6 +5761,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5627,6 +5780,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "97745",
                 "bait": {
                     'fr': 'Nymphe de Lumillule',
                     'en': 'Sparkfly Nymph',
@@ -5645,6 +5799,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5663,6 +5818,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5681,6 +5837,7 @@ export const maps = [
                     'fr': 'Poisson marin',
                     'en': 'Saltwater Fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -5699,6 +5856,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5717,6 +5875,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5735,6 +5894,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5753,6 +5913,7 @@ export const maps = [
                     'fr': 'Poisson marin',
                     'en': 'Saltwater Fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -5771,6 +5932,7 @@ export const maps = [
                     'fr': 'Poisson marin',
                     'en': 'Saltwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5789,6 +5951,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "97745",
                 "bait": {
                     'fr': 'Nymphe de Lumillule',
                     'en': 'Sparkfly Nymph',
@@ -5807,6 +5970,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5825,6 +5989,7 @@ export const maps = [
                     'fr': 'Poisson marin',
                     'en': 'Saltwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5843,6 +6008,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5861,6 +6027,7 @@ export const maps = [
                     'fr': 'Poisson d\'eau douce',
                     'en': 'Freshwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5879,6 +6046,7 @@ export const maps = [
                     'fr': 'Poisson marin',
                     'en': 'Saltwater Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5913,6 +6081,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "97880",
                 "bait": {
                     'fr': 'Sangsue',
                     'en': 'Leech',
@@ -5931,6 +6100,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "97880",
                 "bait": {
                     'fr': 'Sangsue',
                     'en': 'Leech',
@@ -5949,6 +6119,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "97880",
                 "bait": {
                     'fr': 'Sangsue',
                     'en': 'Leech',
@@ -5967,6 +6138,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -5985,6 +6157,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6003,6 +6176,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6021,6 +6195,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6039,6 +6214,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "97880",
                 "bait": {
                     'fr': 'Sangsue',
                     'en': 'Leech',
@@ -6057,6 +6233,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -6075,6 +6252,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6093,6 +6271,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6111,6 +6290,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6129,6 +6309,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6147,6 +6328,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6165,6 +6347,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -6183,6 +6366,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6201,6 +6385,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6219,6 +6404,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6237,6 +6423,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6255,6 +6442,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6273,6 +6461,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6309,6 +6498,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6327,6 +6517,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -6345,6 +6536,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6363,6 +6555,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6381,6 +6574,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6399,6 +6593,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -6417,6 +6612,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -6435,6 +6631,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6453,6 +6650,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6471,6 +6669,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6489,6 +6688,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6507,6 +6707,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6525,6 +6726,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6543,6 +6745,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6561,6 +6764,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -6579,6 +6783,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6597,6 +6802,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6615,6 +6821,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -6633,6 +6840,7 @@ export const maps = [
                     'fr': 'Poisson du littoral',
                     'en': 'Shore Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6651,6 +6859,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "96984",
                 "bait": {
                     'fr': 'Sardine',
                     'en': 'Sardine',
@@ -6669,6 +6878,7 @@ export const maps = [
                     'fr': 'Poisson du large',
                     'en': 'Offshore fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6700,6 +6910,7 @@ export const maps = [
                     'fr': 'Poisson caverneux',
                     'en': 'Cavern Fish',
                 },
+                "bait_id": "96475",
                 "bait": {
                     'fr': 'Rampant nocturne',
                     'en': 'Nightcrawler',
@@ -6718,6 +6929,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6736,6 +6948,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6754,6 +6967,7 @@ export const maps = [
                     'fr': 'Poisson de carrière',
                     'en': 'Quarry Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6772,6 +6986,7 @@ export const maps = [
                     'fr': 'Poisson de carrière',
                     'en': 'Quarry Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6790,6 +7005,7 @@ export const maps = [
                     'fr': 'Poisson caverneux',
                     'en': 'Cavern Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -6808,6 +7024,7 @@ export const maps = [
                     'fr': 'Poisson caverneux',
                     'en': 'Cavern Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6826,6 +7043,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6844,6 +7062,7 @@ export const maps = [
                     'fr': 'Poisson caverneux',
                     'en': 'Cavern Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6862,6 +7081,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6880,6 +7100,7 @@ export const maps = [
                     'fr': 'Poisson de carrière',
                     'en': 'Quarry Fish',
                 },
+                "bait_id": "96319",
                 "bait": {
                     'fr': 'Jeune crevette',
                     'en': 'Shrimpling',
@@ -6898,6 +7119,7 @@ export const maps = [
                     'fr': 'Poisson caverneux',
                     'en': 'Cavern Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',
@@ -6916,6 +7138,7 @@ export const maps = [
                     'fr': 'Poisson de carrière',
                     'en': 'Quarry Fish',
                 },
+                "bait_id": "96475",
                 "bait": {
                     'fr': 'Rampant nocturne',
                     'en': 'Nightcrawler',
@@ -6934,6 +7157,7 @@ export const maps = [
                     'fr': 'Poisson de carrière',
                     'en': 'Quarry Fish',
                 },
+                "bait_id": "",
                 "bait": {
                     'fr': '',
                     'en': '',

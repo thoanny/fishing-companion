@@ -171,7 +171,7 @@ input[type="checkbox"] {
       .fish-icon:before {
         content: '';
         background-image: url(~sprite.png); display: block;
-        width: 15px; height: 12px; background-position: -944px -896px;
+        width: 15px; height: 12px; background-position: -960px -96px;
         position: absolute;
         top: 1px;
         right: -4px;
@@ -198,7 +198,7 @@ input[type="checkbox"] {
       .fish-icon:before {
         content: '';
         background-image: url(~sprite.png); display: block;
-        width: 20px; height: 12px; background-position: -896px -944px;
+        width: 20px; height: 12px; background-position: 0px -960px;
         position: absolute;
         top: 1px;
         right: -6px;
@@ -308,7 +308,7 @@ input[type="checkbox"] {
 
 }
 
-#clock, #gw2link {
+#clock, #gw2link, #tackleboxButton {
   color: white;
   display: flex;
   column-gap: .25rem;
@@ -341,6 +341,10 @@ input[type="checkbox"] {
     background: #2ecc71;
   }
 
+}
+
+#tackleboxButton {
+  background: #36393f;
 }
 
 #no-fish {
@@ -378,7 +382,7 @@ input[type="checkbox"] {
   right: .5rem;
 }
 
-#settingsPopup, #newVersionPopup {
+#settingsPopup, #newVersionPopup, #tackleboxPopup {
   &.hidden {
     display: none;
   }
@@ -423,6 +427,18 @@ input[type="checkbox"] {
       margin-bottom: .5rem;
     }
   }
+
+  #tackleboxClose {
+    font-size: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
 }
 
 #newVersionPopup {
@@ -444,5 +460,33 @@ input[type="checkbox"] {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+  }
+}
+
+#baitsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+
+  .bait {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    .name {
+      display: flex;
+      gap: .25rem;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .bait-icon {
+      display: block;
+      width: 16px;
+      height: 16px;
+      border-radius: 4px;
+    }
   }
 }

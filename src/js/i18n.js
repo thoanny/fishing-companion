@@ -19,6 +19,7 @@ export const i18n = {
         'time.dd': 'Aube/Crépuscule',
         'gw2api.permissions': 'La clé API Guild Wars 2 doit avoir les permissions&nbsp;: "characters", "progression" et "inventories".',
         'gw2api.invalidtoken': 'La clé API GW2 n\'est pas valide...',
+        'tacklebox.title': 'Boîte de pêche',
     },
     'en': {
         'app.title': 'Fishing companion',
@@ -40,6 +41,7 @@ export const i18n = {
         'time.dd': 'Dawn/Dusk',
         'gw2api.permissions': 'The GW2 API key needs "characters", "progression" and "inventories" permissions.',
         'gw2api.invalidtoken': 'Invalid GW2 API key...',
+        'tacklebox.title': 'Tackle box',
     }
 };
 

@@ -33,6 +33,9 @@ let baits = [];
 let mapsIds = [];
 let achievementsIds = [];
 let achievementsRepeatIds = [];
+let baitsInventory = [];
+let baitsIds = [];
+let currentCharacter = 'Svipdag Völuspá';
 
 let filters = {
     'map': '',
@@ -159,6 +162,7 @@ function initCompanion() {
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
     document.getElementById('newVersionLabel').textContent = t('app.newversion');
+    // document.getElementById('tackleboxTitle').textContent = t('tacklebox.title');
 
     // Check version
     $.get('https://combinatronics.com/thoanny/fishing-companion/main/version.txt', function(v) {
@@ -199,6 +203,13 @@ function initCompanion() {
                 'name': fish.name[lang],
                 'power': fish.power
             });
+
+            // if(fish.bait_id && typeof baitsInventory[fish.bait_id] == 'undefined') {
+            //     baitsInventory[fish.bait_id] = {
+            //         'name': fish.bait[lang],
+            //         'count': 0
+            //     };
+            // }
         });
 
         region.fishs.forEach(function(fish) {
@@ -276,6 +287,17 @@ function initCompanion() {
         }));
     });
 
+    // baitsInventory.forEach(function(bait, id) {
+    //     baitsIds.push(id);
+    //
+    //     $('#baitsList').append(`<div class="bait"
+    //         data-id="${id}"
+    //     >
+    //         <div class="name"><span class="bait-icon sprite-icon icon-${id}"></span>${bait.name}</div>
+    //         <div class="count">${bait.count}</div>
+    //     </div>`);
+    // });
+
 }
 
 function updateCompanion() {
@@ -291,6 +313,10 @@ function updateCompanion() {
             filters.spot = '';
             $("#spots").val("");
             $("#baits").val("");
+        }
+
+        if(res.identity && res.identity.name !== currentCharacter) {
+            currentCharacter = res.identity.name;
         }
 
         $('#gw2link').removeClass().addClass(res.status);
@@ -313,6 +339,41 @@ function updateCompanion() {
 
 }
 
+function checkBaitsInventory() {
+    console.log('checkBaitsInventory()')
+
+    if(!currentCharacter) {
+        return;
+    }
+
+    let baitsInventoryCount = baitsInventory;
+
+    $.ajaxSetup({
+        headers : {
+            'Authorization' : 'Bearer ' + token
+        },
+    });
+
+    $.getJSON(Gw2ApiUrl+'/characters/'+currentCharacter+'/inventory', function(res) {
+        console.log(res);
+
+        if(!res) {
+            return;
+        }
+
+        res.bags.forEach(function(bag) {
+            bag.inventory.forEach(function(item) {
+                if(item && baitsIds.indexOf(item.id) >= 0) {
+                    baitsInventoryCount[item.id]['count'] = baitsInventoryCount[item.id]['count'] + item.count;
+                    console.log(item)
+                }
+            });
+        });
+
+        console.log(baitsInventoryCount)
+    });
+}
+
 window.addEventListener('load', (event) => {
     initCompanion();
 
@@ -322,6 +383,8 @@ window.addEventListener('load', (event) => {
     if(token) {
         checkAchievementsFishs();
         setInterval(checkAchievementsFishs, 60000 * 3); // 3 minutes
+
+        // checkBaitsInventory();
     }
 });
 
@@ -348,6 +411,7 @@ if(hideFishs === 'true') {
 }
 
 settingsButton.addEventListener('click', function() {
+    // tackleboxClose.click();
     settingsPopup.classList.remove("hidden");
     app.classList.add("popup");
 });
@@ -467,3 +531,58 @@ function checkAchievementsFishs() {
     });
 
 }
+
+function updateBaits() {
+    $.ajaxSetup({
+        headers : {
+            'Authorization' : 'Bearer ' + token
+        },
+    });
+
+    $.getJSON(Gw2ApiUrl+'/account/achievements', function(res) {
+        $('.fish.fish-done').removeClass('fish-done');
+        $('.fish.fish-done-repeat').removeClass('fish-done-repeat');
+        res.forEach(function(a) {
+            if(achievementsIds.indexOf(a.id) >= 0) {
+                if(!a.done) {
+                    a.bits.forEach(function(b) {
+                        $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done');
+                    });
+                }
+            }
+        });
+
+        res.forEach(function(a) {
+            if(achievementsRepeatIds.indexOf(a.id) >= 0) {
+                $('.fish[data-repeat-achievement="'+a.id+'"]').removeClass('fish-done');
+                if(!a.done) {
+                    a.bits.forEach(function(b) {
+                        $('.fish[data-fish="'+achievementsData[a.id]['bits'][b]+'"]').addClass('fish-done-repeat');
+                    })
+                }
+            }
+        });
+
+        if($('.fish:visible').length <= 0) {
+            $('#no-fish').show();
+        }
+    });
+}
+/**
+ * Tacklebox
+ */
+
+// const tackleboxButton = document.getElementById('tackleboxButton');
+// const tackleboxPopup = document.getElementById('tackleboxPopup');
+// const tackleboxClose = document.getElementById('tackleboxClose');
+//
+// tackleboxButton.addEventListener('click', function() {
+//     settingsClose.click();
+//     app.classList.add("popup");
+//     tackleboxPopup.classList.remove("hidden");
+// });
+//
+// tackleboxClose.addEventListener('click', function() {
+//     tackleboxPopup.classList.add('hidden');
+//     app.classList.remove("popup");
+// });
