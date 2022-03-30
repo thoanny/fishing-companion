@@ -3127,7 +3127,7 @@ export const maps = [
                     'fr': '',
                     'en': '',
                 },
-                "time": "n",
+                "time": "",
                 "power": "750"
             },
             {
