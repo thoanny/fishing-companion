@@ -2,12 +2,12 @@ const path = require('path');
 const SpritesmithPlugin = require('webpack-spritesmith');
 
 const spriteTemplate = function (data) {
-    const shared = '.sprite-icon { background-image: url(I); display: block; }'
+    const shared = '@mixin sprite-icon { background-image: url(I); display: block; } .sprite-icon { @include sprite-icon; } '
         .replace('I', data.sprites[0].image);
 
     const perSprite = data.sprites.map(function (sprite) {
-        return '.icon-N { width: Wpx; height: Hpx; background-position: Xpx Ypx; }'
-            .replace('N', sprite.name)
+        return '@mixin icon-N { width: Wpx; height: Hpx; background-position: Xpx Ypx; } .icon-N { @include icon-N; } '
+            .replace(/N/g, sprite.name)
             .replace('W', sprite.width)
             .replace('H', sprite.height)
             .replace('X', sprite.offset_x)

@@ -1,3 +1,4 @@
+@use "sprite";
 @import "normalize";
 @import "sprite";
 
@@ -150,7 +151,18 @@ input[type="checkbox"] {
     display: flex;
     column-gap: .75rem;
     align-items: center;
+    position: relative;
     /*text-shadow: 1px 1px 3px #000000;*/
+
+    .strange-diet {
+      width: 24px;
+      height: 24px;
+      display: block;
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      z-index: 11;
+    }
 
     &.fish-done {
 
@@ -170,8 +182,8 @@ input[type="checkbox"] {
 
       .fish-icon:before {
         content: '';
-        background-image: url(~sprite.png); display: block;
-        width: 15px; height: 12px; background-position: -960px -96px;
+        @include sprite.sprite-icon;
+        @include sprite.icon-check;
         position: absolute;
         top: 1px;
         right: -4px;
@@ -197,8 +209,8 @@ input[type="checkbox"] {
 
       .fish-icon:before {
         content: '';
-        background-image: url(~sprite.png); display: block;
-        width: 20px; height: 12px; background-position: 0px -960px;
+        @include sprite.sprite-icon;
+        @include sprite.icon-infinity;
         position: absolute;
         top: 1px;
         right: -6px;
@@ -210,6 +222,9 @@ input[type="checkbox"] {
       font-weight: bold;
       font-size: .85rem;
       margin-bottom: .25rem;
+      display: flex;
+      gap: .25rem;
+      align-items: center;
     }
 
     .metas {

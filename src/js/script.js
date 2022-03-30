@@ -201,7 +201,8 @@ function initCompanion() {
                 'rarity_index': rarity.indexOf(fish.rarity),
                 'rarity': fish.rarity,
                 'name': fish.name[lang],
-                'power': fish.power
+                'power': fish.power,
+                'strange_diet': fish.strange_diet,
             });
 
             // if(fish.bait_id && typeof baitsInventory[fish.bait_id] == 'undefined') {
@@ -237,6 +238,11 @@ function initCompanion() {
 
     fishs.forEach(function(fish) {
 
+        let strange_diet = '';
+        if(fish.strange_diet) {
+            strange_diet = `<span class="sprite-icon icon-turtle"></span>`;
+        }
+
         $('#fishs').append(`<div class="fish rarity-${fish.rarity}" 
             data-fish="${fish.id}" 
             data-bait="${fish.bait}" 
@@ -247,7 +253,7 @@ function initCompanion() {
         >
             <div class="fish-icon sprite-icon icon-${fish.id}"></div>
             <div>
-                <div class="name">${fish.name}</div>
+                <div class="name">${fish.name}${strange_diet}</div>
                 <div class="metas">
                     <span><span class="sprite-icon icon-map"></span>${fish.region}</span>
                     ${(fish.spot_value) ? `<span><span class="sprite-icon icon-water"></span>${fish.spot}</span>` : ''}</span>
