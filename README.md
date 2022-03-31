@@ -33,7 +33,6 @@ Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arr
 
 ## 💡 Idées
 
-* Afficher uniquement les zones des poissons affichés, dans la liste déroulante
 * Utiliser l'API de GW2 pour indiquer les appâts disponibles/équipés sur le personnage connecté (si possible)
 * Modifier le code JS pour ne plus avoir à utiliser jQuery
 
@@ -47,6 +46,13 @@ Archibald Wirslayd, Pandraghon, vzdk.
 * **Icônes :** [Font Awesome](https://fontawesome.com/) (Font Awesome 5 Pro License, Early Backer)
 
 ## 📝 Changelogs
+
+### 🔹 Version 0.9-beta.6
+
+* Afficher uniquement dans les filtres les zones de poissons et appâts de la carte
+* Marquer seulement les poissons validés dans les succès
+* Correction de la période pour attraper le poisson "Anguille de feu" (-> aucune)
+* Ajout d'une icône "tortue" pour les poissons du succès "Un régime particulier"
 
 ### 🔹 Version 0.9-beta.5
 
