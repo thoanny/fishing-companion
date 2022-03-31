@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron');
+const { app, shell, BrowserWindow } = require('electron');
 const path = require('path');
 
 const find = require('find-process');
@@ -22,6 +22,11 @@ const createWindow = () => {
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // mainWindow.webContents.openDevTools();
+
+  mainWindow.webContents.on("new-window", function(event, url) {
+    event.preventDefault();
+    shell.openExternal(url);
+  });
 };
 
 app.on('ready', createWindow);

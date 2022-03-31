@@ -1,8 +1,8 @@
 export const i18n = {
     'fr': {
         'app.title': 'Compagnon de pêche',
-        'app.subtitle': 'Par Thoanny pour Le Bus Magique',
-        'app.newversion': 'Une nouvelle version du compagnon de pêche est disponible !',
+        'app.subtitle': 'Par <a href="https://linktr.ee/thoanny" target="_blank">Thoanny</a> pour <a href="https://lebusmagique.fr" target="_blank">Le Bus Magique</a>',
+        'app.newversion': 'Une nouvelle version du compagnon de pêche est disponible&nbsp;! <a href="https://github.com/thoanny/fishing-companion/releases" target="_blank">Télécharger</a>',
         'spots.default': '-- Zones --',
         'spots.any': 'Indéfinie',
         'baits.default': '-- Appâts --',
@@ -23,8 +23,8 @@ export const i18n = {
     },
     'en': {
         'app.title': 'Fishing companion',
-        'app.subtitle': 'By Thoanny for Le Bus Magique',
-        'app.newversion': 'A new version of Fishing Companion is available for download!',
+        'app.subtitle': 'By <a href="https://linktr.ee/thoanny" target="_blank">Thoanny</a> for <a href="https://lebusmagique.fr" target="_blank">Le Bus Magique</a>',
+        'app.newversion': 'A new version of Fishing Companion is available! <a href="https://github.com/thoanny/fishing-companion/releases" target="_blank">Download</a>',
         'spots.default': '-- Spots --',
         'spots.any': 'Any',
         'baits.default': '-- Baits --',

@@ -194,7 +194,7 @@ function initCompanion() {
 
     // Translation
     document.getElementById('title').textContent = t('app.title');
-    document.getElementById('subtitle').textContent = t('app.subtitle');
+    document.getElementById('subtitle').innerHTML = t('app.subtitle');
     document.getElementById('no-fish').textContent = t('fishs.zero');
     document.getElementById('settingsTitle').textContent = t('settings.title');
     document.getElementById('settingsLanguageLabel').textContent = t('settings.language');
@@ -202,7 +202,7 @@ function initCompanion() {
     document.getElementById('settingsHideFishsLabel').textContent = t('settings.hidefishs');
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
-    document.getElementById('newVersionLabel').textContent = t('app.newversion');
+    document.getElementById('newVersionLabel').innerHTML = t('app.newversion');
     // document.getElementById('tackleboxTitle').textContent = t('tacklebox.title');
 
     // Check version
