@@ -36,6 +36,8 @@ let achievementsRepeatIds = [];
 let baitsInventory = [];
 let baitsIds = [];
 let currentCharacter = 'Svipdag Völuspá';
+let baitsFilters = [];
+let spotsFilters = [];
 
 let filters = {
     'map': '',
@@ -105,6 +107,45 @@ function filterFishs() {
 
     if($('.fish:visible').length <= 0) {
         $('#no-fish').show();
+    }
+
+    updateFiltersOptions();
+}
+
+function updateFiltersOptions() {
+
+    if(typeof baitsFilters[filters.map] !== 'undefined') {
+        document.querySelectorAll('select#baits option').forEach(function(opt) {
+            if(opt.value) {
+                opt.disabled = true;
+            }
+            if(baitsFilters[filters.map].indexOf(opt.value) >= 0) {
+                opt.disabled = false;
+            }
+        });
+    } else {
+        document.querySelectorAll('select#baits option').forEach(function(opt) {
+            if(opt.value) {
+                opt.disabled = false;
+            }
+        });
+    }
+
+    if(typeof spotsFilters[filters.map] !== 'undefined') {
+        document.querySelectorAll('select#spots option').forEach(function(opt) {
+            if(opt.value) {
+                opt.disabled = true;
+            }
+            if(spotsFilters[filters.map].indexOf(opt.value) >= 0) {
+                opt.disabled = false;
+            }
+        });
+    } else {
+        document.querySelectorAll('select#spots option').forEach(function(opt) {
+            if(opt.value) {
+                opt.disabled = false;
+            }
+        });
     }
 }
 
@@ -186,13 +227,19 @@ function initCompanion() {
             mapsIds[id] = region.achievement_id;
         });
 
+        let baitsList = [],
+            spotsList = [];
+
         region.fishs.forEach(function(fish) {
+            let bait = (fish.bait[lang]) ? fish.bait[lang] : t('baits.any');
+            let spot = (fish.spot[lang]) ? fish.spot[lang] : t('spots.any');
+
             fishs.push({
                 'region': region.achievement[lang],
                 'id': fish.item_id,
-                'bait': (fish.bait[lang]) ? fish.bait[lang] : t('baits.any'),
+                'bait': bait,
                 'bait_value': (fish.bait[lang]) ? fish.bait[lang] : '',
-                'spot': (fish.spot[lang]) ? fish.spot[lang] : t('spots.any'),
+                'spot': spot,
                 'spot_value': (fish.spot[lang]) ? fish.spot[lang] : '',
                 'time': ((fish.time === '') ? 'a' : fish.time),
                 'time_value': fish.time,
@@ -205,12 +252,26 @@ function initCompanion() {
                 'strange_diet': fish.strange_diet,
             });
 
+
+            if(baitsList.indexOf(bait) < 0) {
+                baitsList.push(bait);
+            }
+
+            if(spotsList.indexOf(spot) < 0) {
+                spotsList.push(spot);
+            }
+
             // if(fish.bait_id && typeof baitsInventory[fish.bait_id] == 'undefined') {
             //     baitsInventory[fish.bait_id] = {
             //         'name': fish.bait[lang],
             //         'count': 0
             //     };
             // }
+        });
+
+        region.ids.forEach(function(id) {
+            baitsFilters[id] = baitsList;
+            spotsFilters[id] = spotsList;
         });
 
         region.fishs.forEach(function(fish) {
