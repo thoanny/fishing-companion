@@ -19,52 +19,22 @@ class Link(ctypes.Structure):
         ("fCameraTop", ctypes.c_float * 3),  # 3*4 bytes
         ("identity", ctypes.c_wchar * 256),  # 512 bytes
         ("context_len", ctypes.c_uint32),  # 4 bytes
-        # ("context", ctypes.c_ubyte * 256),      # 256 bytes, see below
-        # ("description", ctypes.c_wchar * 2048), # 4096 bytes, always empty
-    ]
-
-
-class Context(ctypes.Structure):
-    _fields_ = [
-        ("serverAddress", ctypes.c_ubyte * 28),  # 28 bytes
-        ("mapId", ctypes.c_uint32),  # 4 bytes
-        ("mapType", ctypes.c_uint32),  # 4 bytes
-        ("shardId", ctypes.c_uint32),  # 4 bytes
-        ("instance", ctypes.c_uint32),  # 4 bytes
-        ("buildId", ctypes.c_uint32),  # 4 bytes
-        ("uiState", ctypes.c_uint32),  # 4 bytes
-        ("compassWidth", ctypes.c_uint16),  # 2 bytes
-        ("compassHeight", ctypes.c_uint16),  # 2 bytes
-        ("compassRotation", ctypes.c_float),  # 4 bytes
-        ("playerX", ctypes.c_float),  # 4 bytes
-        ("playerY", ctypes.c_float),  # 4 bytes
-        ("mapCenterX", ctypes.c_float),  # 4 bytes
-        ("mapCenterY", ctypes.c_float),  # 4 bytes
-        ("mapScale", ctypes.c_float),  # 4 bytes
-        ("processId", ctypes.c_uint32),  # 4 bytes
-        ("mountIndex", ctypes.c_uint8),  # 1 byte
+        ("context", ctypes.c_ubyte * 256),      # 256 bytes, see below
+        ("description", ctypes.c_wchar * 2048), # 4096 bytes, always empty
     ]
 
 
 class MumbleLink:
     data = Link
-    context = Context
 
     def __init__(self):
+        self.fname = "MumbleLink"
         self.size_link = ctypes.sizeof(Link)
-        self.size_context = ctypes.sizeof(Context)
-        size_discarded = 256 - self.size_context + 4096  # empty areas of context and description
-
-        # GW2 won't start sending data if memfile isn't big enough so we have to add discarded bits too
-        memfile_length = self.size_link + self.size_context + size_discarded
-
-        self.memfile = mmap.mmap(fileno=-1, length=memfile_length, tagname="MumbleLink")
+        self.memfile = mmap.mmap(0, self.size_link, self.fname)
 
     def read(self):
         self.memfile.seek(0)
-
         self.data = self.unpack(Link, self.memfile.read(self.size_link))
-        self.context = self.unpack(Context, self.memfile.read(self.size_context))
 
     def close(self):
         self.memfile.close()
@@ -92,7 +62,6 @@ class Server(BaseHTTPRequestHandler):
 
         ml = MumbleLink()
         ml.read()
-        ml.close()
 
         status = 'offline'
         if ml.data.uiTick > lastTick:
@@ -107,6 +76,8 @@ class Server(BaseHTTPRequestHandler):
         self._set_headers()
         message = "{\"status\": \""+status+"\", \"identity\": "+identity+"}"
         self.wfile.write(bytes(message, "utf8"))
+
+        ml.close()
 
 
 def run(server_class=HTTPServer, handler_class=Server, port=PORT):
