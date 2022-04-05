@@ -203,6 +203,7 @@ function initCompanion() {
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
     document.getElementById('newVersionLabel').innerHTML = t('app.newversion');
+    document.getElementById('version').innerHTML = version;
     // document.getElementById('tackleboxTitle').textContent = t('tacklebox.title');
 
     // Check version

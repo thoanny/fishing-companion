@@ -31,6 +31,14 @@ button, [type=button], [type=reset], [type=submit] {
   text-align: center;
 }
 
+.mt {
+  margin-top: 1rem;
+}
+
+.text-gray {
+  color: gray;
+}
+
 #app {
   width: 100%;
   height: 100vh;
