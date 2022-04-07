@@ -409,7 +409,7 @@ input[type="checkbox"] {
   right: .5rem;
 }
 
-#settingsPopup, #newVersionPopup, #tackleboxPopup {
+#settingsPopup, #newVersionPopup, #tackleboxPopup, #debugPopup {
   &.hidden {
     display: none;
   }
@@ -465,6 +465,16 @@ input[type="checkbox"] {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+  }
+}
+
+#debugPopup {
+  top: initial;
+  bottom: 1rem;
+
+  ul {
+    padding: 0;
+    margin: 0 0 0 1rem;
   }
 }
 

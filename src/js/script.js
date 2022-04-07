@@ -7,6 +7,7 @@ import {maps, achievements} from './data';
 import {i18n} from './i18n';
 
 const version = '0.9.6';
+const debug = false;
 
 const langs = [ 'fr', 'en' ];
 const Gw2ApiUrl = 'https://api.guildwars2.com/v2';
@@ -40,7 +41,7 @@ let baitsFilters = [];
 let spotsFilters = [];
 
 let filters = {
-    'map': '',
+    'map': 0,
     'bait': '',
     'spot': '',
     'time': '',
@@ -187,6 +188,10 @@ function updateClock(r) {
 
     filters.time = moment;
 
+    if(debug) {
+        document.getElementById('debugTime').innerText = `${moment} (${t})`;
+    }
+
     $('#clock').removeClass().addClass(moment).html(`<span class="sprite-icon icon-${moment}"></span>`);
 }
 
@@ -205,6 +210,12 @@ function initCompanion() {
     document.getElementById('newVersionLabel').innerHTML = t('app.newversion');
     document.getElementById('version').innerHTML = version;
     // document.getElementById('tackleboxTitle').textContent = t('tacklebox.title');
+
+    // Debug Popup
+    if(debug) {
+        const debugPopup = document.getElementById('debugPopup');
+        debugPopup.classList.remove("hidden");
+    }
 
     // Check version
     $.get('https://combinatronics.com/thoanny/fishing-companion/main/version.txt', function(v) {
@@ -381,6 +392,11 @@ function updateCompanion() {
             filters.spot = '';
             $("#spots").val("");
             $("#baits").val("");
+
+            if(debug) {
+                document.getElementById('debugCharacter').innerText = res.identity.name;
+                document.getElementById('debugMapId').innerText = res.identity.map_id;
+            }
         }
 
         if(res.identity && res.identity.name !== currentCharacter) {
@@ -388,23 +404,45 @@ function updateCompanion() {
         }
 
         $('#gw2link').removeClass().addClass(res.status);
-        filterFishs();
+
+        if(debug) {
+            document.getElementById('debugGW2MumbleLink').innerText = res.status;
+        }
+
+        postUpdateCompanion();
+
     }).fail(function() {
         $('#gw2link').removeClass().addClass('offline');
+        postUpdateCompanion();
+
+        if(debug) {
+            document.getElementById('debugGW2MumbleLink').innerText = 'offline';
+        }
     });
 
-    if(filters.map !== '0') {
-        if(['1442', '1438', '1428', '1452', '1422'].indexOf(filters.map) >= 0) {
+}
+
+function postUpdateCompanion() {
+    if(filters.map > 0) {
+        if([1442, 1438, 1428, 1452, 1422].indexOf(filters.map) >= 0) {
             updateClock('cantha');
+            if(debug) {
+                document.getElementById('debugTimeSet').innerText = 'Cantha';
+            }
         } else {
             updateClock('tyria');
+            if(debug) {
+                document.getElementById('debugTimeSet').innerText = 'Tyrie';
+            }
         }
     } else {
         updateClock('tyria');
+        if(debug) {
+            document.getElementById('debugTimeSet').innerText = 'Tyrie';
+        }
     }
 
     filterFishs();
-
 }
 
 function checkBaitsInventory() {
