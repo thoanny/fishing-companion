@@ -38,7 +38,7 @@ Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arr
 
 ## 💃 Contributeurs
 
-Archibald Wirslayd, Pandraghon, vzdk.
+Archibald Wirslayd, Eleazarus, Pandraghon, vzdk.
 
 ## 🖼️ Droits d'auteurs
 
