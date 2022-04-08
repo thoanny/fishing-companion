@@ -130,6 +130,15 @@ input[type="checkbox"] {
   label {
     display: block;
     margin-bottom: .5rem;
+    font-weight: bold;
+  }
+
+  #settingsGw2TokenHelp {
+    font-size: .75rem;
+    color: gray;
+    margin-top: -.25rem;
+    margin-bottom: .5rem;
+    display: block;
   }
 
   margin-bottom: 1rem;

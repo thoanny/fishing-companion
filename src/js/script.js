@@ -204,6 +204,7 @@ function initCompanion() {
     document.getElementById('settingsTitle').textContent = t('settings.title');
     document.getElementById('settingsLanguageLabel').textContent = t('settings.language');
     document.getElementById('settingsGw2TokenLabel').textContent = t('settings.gw2token');
+    document.getElementById('settingsGw2TokenHelp').textContent = t('settings.gw2token.help');
     document.getElementById('settingsHideFishsLabel').textContent = t('settings.hidefishs');
     document.getElementById('settingsClose').textContent = t('settings.close');
     document.getElementById('settingsSave').textContent = t('settings.save');
