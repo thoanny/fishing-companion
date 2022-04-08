@@ -47,6 +47,14 @@ Archibald Wirslayd, Eleazarus, Pandraghon, vzdk.
 
 ## 📝 Changelogs
 
+### 🔹 Version 0.9-beta.7
+
+* Nouvelle version de GW2MumbleLink
+* Correction du bug de l'horloge canthienne (#1)
+* Ajout de liens sur "Thoanny" et "Le Bus Magique"
+* Ajout des permissions requises pour la clé API
+* Ajout d'une popup de débogage
+
 ### 🔹 Version 0.9-beta.6
 
 * Afficher uniquement dans les filtres les zones de poissons et appâts de la carte

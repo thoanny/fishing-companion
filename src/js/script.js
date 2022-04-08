@@ -6,7 +6,7 @@ import multisort from "multisort";
 import {maps, achievements} from './data';
 import {i18n} from './i18n';
 
-const version = '0.9.6';
+const version = '0.9.7';
 const debug = false;
 
 const langs = [ 'fr', 'en' ];
