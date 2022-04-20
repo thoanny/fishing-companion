@@ -8,18 +8,22 @@
   <body>
     <div id="app">
       <header>
-        <div id="brand">
-          <span class="sprite-icon icon-icon"></span>
-          <div>
-            <div id="title"></div>
-            <div id="subtitle"></div>
+        <div id="topbar">
+          <div id="brand">
+            <span class="sprite-icon icon-logo"></span>
+            <div>
+              <div><span id="title"></span><span id="version" class="text-gray"></span></div>
+            </div>
+          </div>
+          <div id="buttons">
+              <button id="infoButton"><span class="sprite-icon icon-info"></span></button>
+              <button id="settingsButton"><span class="sprite-icon icon-settings"></span></button>
+              <div id="drag"><span class="sprite-icon icon-drag"></span></div>
           </div>
         </div>
 
-        <div id="drag"><span class="sprite-icon icon-drag"></span></div>
-        <button id="settingsButton"><span class="sprite-icon icon-settings"></span></button>
-
         <div id="toolbar">
+<!--          <select id="regions"></select>-->
           <select id="spots"></select>
           <select id="baits"></select>
           <div id="clock"><span class="sprite-icon icon-d"></span></div>
@@ -68,8 +72,13 @@
           <button id="settingsClose"></button>
           <button type="submit" id="settingsSave"></button>
         </div>
-        <div class="mt text-gray">Version <span id="version"></span></div>
       </form>
+    </div>
+
+    <div id="infoPopup" class="hidden">
+        <h2>Informations</h2>
+        <a href="#!" id="infoClose"><span class="sprite-icon icon-close"></span></a>
+        <div id="infoText"></div>
     </div>
 
     <div id="debugPopup" class="hidden">

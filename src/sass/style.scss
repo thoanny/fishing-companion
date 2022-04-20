@@ -6,6 +6,8 @@
   cursor: default;
 }
 
+::selection { background: transparent; }
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif;
@@ -60,33 +62,49 @@ header {
   width: 100%;
   padding: .5rem;
   background: #202225;
-  height: 5.75rem;
+  height: 3.25rem;
 
-  #brand {
+  #topbar {
     display: flex;
-    gap: .5rem;
-    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    margin: -.5rem;
+    padding: .25rem;
 
-    img {
-      width: 48px;
-      height: 48px;
-      display: block;
+    #brand {
+      display: flex;
+      gap: .25rem;
+      align-items: center;
+
+      #title {
+        font-size: .9rem;
+        font-weight: bold;
+      }
+
+      #version {
+        margin-left: .25rem;
+        font-size: .65rem;
+        font-weight: 700;
+      }
+
+      img {
+        width: 48px;
+        height: 48px;
+        display: block;
+      }
+    }
+
+    #buttons {
+      display: flex;
+      gap: .25rem;
     }
   }
-}
 
-#title {
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-#subtitle {
-  font-size: .75rem;
-  opacity: .75;
-  margin-top: .25rem;
+
 }
 
 #content {
-  height: calc(100vh - 6.75rem);
+  height: calc(100vh - 4.25rem);
   overflow: auto;
 
   &::-webkit-scrollbar {
@@ -105,15 +123,15 @@ header {
 }
 
 select, input {
-  padding: .25rem;
+  padding: 0 .15rem;
   width: 100%;
-  font-size: .85rem;
+  font-size: .75rem;
   border-radius: 4px;
   background: #40444b;
   color: #fff;
   outline: none;
   border: 0;
-  height: 1.75rem;
+  height: 1.5rem;
   box-sizing: border-box;
 
   option[disabled] {
@@ -162,8 +180,8 @@ input[type="checkbox"] {
 
   .fish-icon {
     border-radius: 4px;
-    border: 3px solid white;
-    flex: 0 0 64px;
+    border: 2px solid white;
+    flex: 0 0 55px;
     position: relative;
   }
 
@@ -189,8 +207,8 @@ input[type="checkbox"] {
 
       .fish-icon:after {
         content: '';
-        width: 24px;
-        height: 24px;
+        width: 21px;
+        height: 21px;
         display: block;
         background: #2ecc71;
         position: absolute;
@@ -206,8 +224,8 @@ input[type="checkbox"] {
         @include sprite.sprite-icon;
         @include sprite.icon-check;
         position: absolute;
-        top: 1px;
-        right: -4px;
+        top: -1px;
+        right: -6px;
         z-index: 99;
       }
     }
@@ -216,8 +234,8 @@ input[type="checkbox"] {
 
       .fish-icon:after {
         content: '';
-        width: 24px;
-        height: 24px;
+        width: 21px;
+        height: 21px;
         display: block;
         background: #2ecc71;
         position: absolute;
@@ -233,8 +251,8 @@ input[type="checkbox"] {
         @include sprite.sprite-icon;
         @include sprite.icon-infinity;
         position: absolute;
-        top: 1px;
-        right: -6px;
+        top: 0px;
+        right: -8px;
         z-index: 99;
       }
     }
@@ -350,12 +368,12 @@ input[type="checkbox"] {
   column-gap: .25rem;
   text-align: center;
   font-weight: 600;
-  padding: .25rem .5rem;
+  padding: .25rem;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: calc(1.25rem + 2px);
+  width: 3rem;
+  height: 1rem;
 
   &.n {
     background: #2c3e50;
@@ -391,45 +409,45 @@ input[type="checkbox"] {
 }
 
 #toolbar {
-  margin-top: .75rem;
+  margin-top: .8rem;
   width: 100%;
   display: flex;
-  gap: .5rem;
+  gap: .25rem;
   align-items: center;
 }
 
-#drag, #settingsButton {
-  width: 1.95rem;
-  height: 1.95rem;
-  background: #36393f;
-  position: fixed;
-  top: .5rem;
-  right: 2.95rem;
-  padding: .25rem .5rem;
+#drag, #settingsButton, #infoButton, #closeButton {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #202225;
+  padding: 0;
   border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+
+  &:hover {
+    background: #36393f;
+  }
 }
 
 #drag {
   -webkit-app-region: drag;
-  right: .5rem;
 }
 
-#settingsPopup, #newVersionPopup, #tackleboxPopup, #debugPopup {
+#settingsPopup, #newVersionPopup, #tackleboxPopup, #debugPopup, #infoPopup {
   &.hidden {
     display: none;
   }
 
   position: fixed;
   z-index: 999;
-  width: calc(100% - 6rem);
+  width: calc(100% - 4rem);
   height: auto;
   background: #202225;
-  top: 2rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1rem;
   padding: 1rem;
   border-radius: 4px;
 
@@ -474,6 +492,25 @@ input[type="checkbox"] {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+  }
+
+  #infoClose {
+    font-size: 1.5rem;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+#infoPopup {
+  ul {
+    padding-left: 1.5rem;
+    margin: 0;
   }
 }
 

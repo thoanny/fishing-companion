@@ -199,7 +199,6 @@ function initCompanion() {
 
     // Translation
     document.getElementById('title').textContent = t('app.title');
-    document.getElementById('subtitle').innerHTML = t('app.subtitle');
     document.getElementById('no-fish').textContent = t('fishs.zero');
     document.getElementById('settingsTitle').textContent = t('settings.title');
     document.getElementById('settingsLanguageLabel').textContent = t('settings.language');
@@ -210,6 +209,7 @@ function initCompanion() {
     document.getElementById('settingsSave').textContent = t('settings.save');
     document.getElementById('newVersionLabel').innerHTML = t('app.newversion');
     document.getElementById('version').innerHTML = version;
+    document.getElementById('infoText').innerHTML = t('info.text');
     // document.getElementById('tackleboxTitle').textContent = t('tacklebox.title');
 
     // Debug Popup
@@ -505,6 +505,9 @@ const settingsClose = document.getElementById('settingsClose');
 const settingsPopup = document.getElementById('settingsPopup');
 const settingsForm = document.getElementById('settingsForm');
 const settingsErrors = document.getElementById('settingsErrors');
+const infoButton = document.getElementById('infoButton');
+const infoPopup = document.getElementById('infoPopup');
+const infoClose = document.getElementById('infoClose');
 
 let settingsLanguage = document.getElementById('settingsLanguage');
 let settingsGw2Token = document.getElementById('settingsGw2Token');
@@ -527,6 +530,18 @@ settingsClose.addEventListener('click', function(e) {
     e.preventDefault();
     settingsPopup.classList.add("hidden");
     app.classList.remove("popup");
+});
+
+infoButton.addEventListener('click', function() {
+    settingsPopup.classList.add("hidden");
+    infoPopup.classList.remove("hidden");
+    app.classList.add("popup");
+
+    infoClose.addEventListener('click', function(e) {
+        e.preventDefault();
+        infoPopup.classList.add("hidden");
+        app.classList.remove("popup");
+    });
 });
 
 settingsForm.addEventListener('submit', function(e) {
