@@ -263,6 +263,7 @@ function initCompanion() {
                 'name': fish.name[lang],
                 'power': fish.power,
                 'strange_diet': fish.strange_diet,
+                'specialization': fish.specialization,
             });
 
 
@@ -317,6 +318,11 @@ function initCompanion() {
             strange_diet = `<span class="sprite-icon icon-turtle"></span>`;
         }
 
+        let specialization = '';
+        if(fish.specialization) {
+            specialization = `<span class="sprite-icon icon-${fish.specialization}"></span>`;
+        }
+
         $('#fishs').append(`<div class="fish rarity-${fish.rarity}" 
             data-fish="${fish.id}" 
             data-bait="${fish.bait}" 
@@ -327,7 +333,7 @@ function initCompanion() {
         >
             <div class="fish-icon sprite-icon icon-${fish.id}"></div>
             <div>
-                <div class="name">${fish.name}${strange_diet}</div>
+                <div class="name">${fish.name}${strange_diet}${specialization}</div>
                 <div class="metas">
                     <span><span class="sprite-icon icon-map"></span>${fish.region}</span>
                     ${(fish.spot_value) ? `<span><span class="sprite-icon icon-water"></span>${fish.spot}</span>` : ''}</span>

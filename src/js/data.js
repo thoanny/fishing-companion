@@ -2717,6 +2717,7 @@ export const maps = [
                 "time": "n",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96297",
@@ -2737,6 +2738,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96105",
@@ -2757,6 +2759,7 @@ export const maps = [
                 "time": "d",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97885",
@@ -2777,6 +2780,7 @@ export const maps = [
                 "time": "d",
                 "power": "400-500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97074",
@@ -2797,6 +2801,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97479",
@@ -2817,6 +2822,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97584",
@@ -2837,6 +2843,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96672",
@@ -2857,6 +2864,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97163",
@@ -2877,6 +2885,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96931",
@@ -2897,6 +2906,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95609",
@@ -2917,6 +2927,7 @@ export const maps = [
                 "time": "dd",
                 "power": "450",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "96176",
@@ -2937,6 +2948,7 @@ export const maps = [
                 "time": "dd",
                 "power": "400-500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97887",
@@ -2957,6 +2969,7 @@ export const maps = [
                 "time": "d",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97121",
@@ -2977,6 +2990,7 @@ export const maps = [
                 "time": "",
                 "power": "400-500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95875",
@@ -2997,6 +3011,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97004",
@@ -3017,6 +3032,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96942",
@@ -3037,6 +3053,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95843",
@@ -3057,6 +3074,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96226",
@@ -3077,6 +3095,7 @@ export const maps = [
                 "time": "d",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96985",
@@ -3097,6 +3116,7 @@ export const maps = [
                 "time": "dd",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96532",
@@ -3117,6 +3137,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -3151,6 +3172,7 @@ export const maps = [
                 "time": "",
                 "power": "750",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96597",
@@ -3171,6 +3193,7 @@ export const maps = [
                 "time": "",
                 "power": "650-700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97471",
@@ -3191,6 +3214,7 @@ export const maps = [
                 "time": "",
                 "power": "750",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97100",
@@ -3211,6 +3235,7 @@ export const maps = [
                 "time": "d",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96361",
@@ -3231,6 +3256,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "96491",
@@ -3251,6 +3277,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96595",
@@ -3271,6 +3298,7 @@ export const maps = [
                 "time": "",
                 "power": "750",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96555",
@@ -3291,6 +3319,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96720",
@@ -3311,6 +3340,7 @@ export const maps = [
                 "time": "",
                 "power": "700-750",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96547",
@@ -3331,6 +3361,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97498",
@@ -3351,6 +3382,7 @@ export const maps = [
                 "time": "n",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96530",
@@ -3371,6 +3403,7 @@ export const maps = [
                 "time": "d",
                 "power": "750",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96589",
@@ -3391,6 +3424,7 @@ export const maps = [
                 "time": "d",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96889",
@@ -3411,6 +3445,7 @@ export const maps = [
                 "time": "n",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -3454,6 +3489,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97301",
@@ -3474,6 +3510,7 @@ export const maps = [
                 "time": "d",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97866",
@@ -3494,6 +3531,7 @@ export const maps = [
                 "time": "d",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95896",
@@ -3514,6 +3552,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96276",
@@ -3534,6 +3573,7 @@ export const maps = [
                 "time": "n",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96643",
@@ -3554,6 +3594,7 @@ export const maps = [
                 "time": "n",
                 "power": "350-450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97225",
@@ -3574,6 +3615,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "97799",
@@ -3594,6 +3636,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97496",
@@ -3614,6 +3657,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97456",
@@ -3634,6 +3678,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96954",
@@ -3654,6 +3699,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97364",
@@ -3674,6 +3720,7 @@ export const maps = [
                 "time": "",
                 "power": "350-450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97713",
@@ -3694,6 +3741,7 @@ export const maps = [
                 "time": "d",
                 "power": "350-450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95723",
@@ -3714,6 +3762,7 @@ export const maps = [
                 "time": "d",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96619",
@@ -3734,6 +3783,7 @@ export const maps = [
                 "time": "d",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96882",
@@ -3754,6 +3804,7 @@ export const maps = [
                 "time": "d",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96373",
@@ -3774,6 +3825,7 @@ export const maps = [
                 "time": "dd",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96218",
@@ -3794,6 +3846,7 @@ export const maps = [
                 "time": "n",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95668",
@@ -3814,6 +3867,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95822",
@@ -3834,6 +3888,7 @@ export const maps = [
                 "time": "d",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95766",
@@ -3854,6 +3909,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -3900,6 +3956,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97744",
@@ -3920,6 +3977,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95859",
@@ -3940,6 +3998,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97848",
@@ -3960,6 +4019,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97109",
@@ -3980,6 +4040,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97763",
@@ -4000,6 +4061,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96769",
@@ -4020,6 +4082,7 @@ export const maps = [
                 "time": "d",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96676",
@@ -4040,6 +4103,7 @@ export const maps = [
                 "time": "d",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95608",
@@ -4060,6 +4124,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97466",
@@ -4080,6 +4145,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97145",
@@ -4100,6 +4166,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97187",
@@ -4120,6 +4187,7 @@ export const maps = [
                 "time": "n",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96308",
@@ -4140,6 +4208,7 @@ export const maps = [
                 "time": "",
                 "power": "500-550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96724",
@@ -4160,6 +4229,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97755",
@@ -4180,6 +4250,7 @@ export const maps = [
                 "time": "",
                 "power": "500-550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96094",
@@ -4200,6 +4271,7 @@ export const maps = [
                 "time": "n",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96854",
@@ -4220,6 +4292,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96349",
@@ -4240,6 +4313,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96428",
@@ -4260,6 +4334,7 @@ export const maps = [
                 "time": "d",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96367",
@@ -4280,6 +4355,7 @@ export const maps = [
                 "time": "",
                 "power": "500-550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95929",
@@ -4300,6 +4376,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -4334,6 +4411,7 @@ export const maps = [
                 "time": "n",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95765",
@@ -4354,6 +4432,7 @@ export const maps = [
                 "time": "n",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96834",
@@ -4374,6 +4453,7 @@ export const maps = [
                 "time": "",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96195",
@@ -4394,6 +4474,7 @@ export const maps = [
                 "time": "",
                 "power": "200-300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97559",
@@ -4414,6 +4495,7 @@ export const maps = [
                 "time": "d",
                 "power": "300",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "97329",
@@ -4434,6 +4516,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": 'vindicator',
             },
             {
                 "item_id": "96096",
@@ -4454,6 +4537,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96792",
@@ -4474,6 +4558,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96310",
@@ -4494,6 +4579,7 @@ export const maps = [
                 "time": "d",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96017",
@@ -4514,6 +4600,7 @@ export const maps = [
                 "time": "n",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95596",
@@ -4534,6 +4621,7 @@ export const maps = [
                 "time": "",
                 "power": "200-300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95584",
@@ -4554,6 +4642,7 @@ export const maps = [
                 "time": "n",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97716",
@@ -4574,6 +4663,7 @@ export const maps = [
                 "time": "d",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95861",
@@ -4594,6 +4684,7 @@ export const maps = [
                 "time": "d",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": 'mechanist',
             }
         ]
     },
@@ -4630,6 +4721,7 @@ export const maps = [
                 "time": "d",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96085",
@@ -4650,6 +4742,7 @@ export const maps = [
                 "time": "",
                 "power": "550-650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95794",
@@ -4670,6 +4763,7 @@ export const maps = [
                 "time": "",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96513",
@@ -4690,6 +4784,7 @@ export const maps = [
                 "time": "n",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97001",
@@ -4710,6 +4805,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95849",
@@ -4730,6 +4826,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97489",
@@ -4750,6 +4847,7 @@ export const maps = [
                 "time": "n",
                 "power": "650",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "97844",
@@ -4770,6 +4868,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96397",
@@ -4790,6 +4889,7 @@ export const maps = [
                 "time": "",
                 "power": "550-650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97746",
@@ -4810,6 +4910,7 @@ export const maps = [
                 "time": "",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95890",
@@ -4830,6 +4931,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97443",
@@ -4850,6 +4952,7 @@ export const maps = [
                 "time": "dd",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97369",
@@ -4870,6 +4973,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97756",
@@ -4890,6 +4994,7 @@ export const maps = [
                 "time": "d",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -4923,6 +5028,7 @@ export const maps = [
                 "time": "d",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97463",
@@ -4943,6 +5049,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95951",
@@ -4963,6 +5070,7 @@ export const maps = [
                 "time": "n",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": 'harbinger',
             },
             {
                 "item_id": "97654",
@@ -4983,6 +5091,7 @@ export const maps = [
                 "time": "d",
                 "power": "200",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "96344",
@@ -5003,6 +5112,7 @@ export const maps = [
                 "time": "",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": 'specter',
             },
             {
                 "item_id": "96863",
@@ -5023,6 +5133,7 @@ export const maps = [
                 "time": "n",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97507",
@@ -5043,6 +5154,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96876",
@@ -5063,6 +5175,7 @@ export const maps = [
                 "time": "",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95633",
@@ -5083,6 +5196,7 @@ export const maps = [
                 "time": "",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95797",
@@ -5103,6 +5217,7 @@ export const maps = [
                 "time": "",
                 "power": "150-250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97612",
@@ -5123,6 +5238,7 @@ export const maps = [
                 "time": "",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97792",
@@ -5143,6 +5259,7 @@ export const maps = [
                 "time": "",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96933",
@@ -5163,6 +5280,7 @@ export const maps = [
                 "time": "n",
                 "power": "150-250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96196",
@@ -5183,6 +5301,7 @@ export const maps = [
                 "time": "",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96053",
@@ -5203,6 +5322,7 @@ export const maps = [
                 "time": "d",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97857",
@@ -5223,6 +5343,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96238",
@@ -5243,6 +5364,7 @@ export const maps = [
                 "time": "dd",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96401",
@@ -5263,6 +5385,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97830",
@@ -5283,6 +5406,7 @@ export const maps = [
                 "time": "n",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97772",
@@ -5303,6 +5427,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96839",
@@ -5323,6 +5448,7 @@ export const maps = [
                 "time": "",
                 "power": "150-250",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -5364,6 +5490,7 @@ export const maps = [
                 "time": "n",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97341",
@@ -5384,6 +5511,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96571",
@@ -5404,6 +5532,7 @@ export const maps = [
                 "time": "d",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96001",
@@ -5424,6 +5553,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96740",
@@ -5444,6 +5574,7 @@ export const maps = [
                 "time": "n",
                 "power": "300-450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96032",
@@ -5464,6 +5595,7 @@ export const maps = [
                 "time": "",
                 "power": "300-450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97785",
@@ -5484,6 +5616,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97409",
@@ -5504,6 +5637,7 @@ export const maps = [
                 "time": "d",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97462",
@@ -5524,6 +5658,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95881",
@@ -5544,6 +5679,7 @@ export const maps = [
                 "time": "",
                 "power": "300-450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97509",
@@ -5564,6 +5700,7 @@ export const maps = [
                 "time": "",
                 "power": "400",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97485",
@@ -5584,6 +5721,7 @@ export const maps = [
                 "time": "n",
                 "power": "400",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "95819",
@@ -5604,6 +5742,7 @@ export const maps = [
                 "time": "d",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97527",
@@ -5624,6 +5763,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97005",
@@ -5644,6 +5784,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95731",
@@ -5664,6 +5805,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96543",
@@ -5684,6 +5826,7 @@ export const maps = [
                 "time": "n",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97787",
@@ -5704,6 +5847,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96192",
@@ -5724,6 +5868,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96667",
@@ -5744,6 +5889,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95961",
@@ -5764,6 +5910,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -5821,6 +5968,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97078",
@@ -5841,6 +5989,7 @@ export const maps = [
                 "time": "d",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97057",
@@ -5861,6 +6010,7 @@ export const maps = [
                 "time": "d",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96983",
@@ -5881,6 +6031,7 @@ export const maps = [
                 "time": "",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97122",
@@ -5901,6 +6052,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96325",
@@ -5921,6 +6073,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96692",
@@ -5941,6 +6094,7 @@ export const maps = [
                 "time": "d",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96020",
@@ -5961,6 +6115,7 @@ export const maps = [
                 "time": "n",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95751",
@@ -5981,6 +6136,7 @@ export const maps = [
                 "time": "",
                 "power": "450-550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95908",
@@ -6001,6 +6157,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "97568",
@@ -6021,6 +6178,7 @@ export const maps = [
                 "time": "",
                 "power": "450-550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96320",
@@ -6041,6 +6199,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96201",
@@ -6061,6 +6220,7 @@ export const maps = [
                 "time": "d",
                 "power": "450",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97543",
@@ -6081,6 +6241,7 @@ export const maps = [
                 "time": "n",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96645",
@@ -6101,6 +6262,7 @@ export const maps = [
                 "time": "",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97465",
@@ -6121,6 +6283,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96653",
@@ -6141,6 +6304,7 @@ export const maps = [
                 "time": "",
                 "power": "450-550",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97546",
@@ -6161,6 +6325,7 @@ export const maps = [
                 "time": "d",
                 "power": "",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97841",
@@ -6181,6 +6346,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96191",
@@ -6201,6 +6367,7 @@ export const maps = [
                 "time": "",
                 "power": "500",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96439",
@@ -6221,6 +6388,7 @@ export const maps = [
                 "time": "n",
                 "power": "550",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -6257,6 +6425,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96813",
@@ -6277,6 +6446,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96332",
@@ -6297,6 +6467,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97770",
@@ -6317,6 +6488,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95873",
@@ -6337,6 +6509,7 @@ export const maps = [
                 "time": "",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96055",
@@ -6357,6 +6530,7 @@ export const maps = [
                 "time": "",
                 "power": "600-700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96666",
@@ -6377,6 +6551,7 @@ export const maps = [
                 "time": "",
                 "power": "600-700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97017",
@@ -6397,6 +6572,7 @@ export const maps = [
                 "time": "n",
                 "power": "650",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "96936",
@@ -6417,6 +6593,7 @@ export const maps = [
                 "time": "n",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97556",
@@ -6437,6 +6614,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96631",
@@ -6457,6 +6635,7 @@ export const maps = [
                 "time": "n",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96132",
@@ -6477,6 +6656,7 @@ export const maps = [
                 "time": "dd",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97035",
@@ -6497,6 +6677,7 @@ export const maps = [
                 "time": "",
                 "power": "600-700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97302",
@@ -6517,6 +6698,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96874",
@@ -6537,6 +6719,7 @@ export const maps = [
                 "time": "dd",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96701",
@@ -6557,6 +6740,7 @@ export const maps = [
                 "time": "n",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96135",
@@ -6577,6 +6761,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96723",
@@ -6597,6 +6782,7 @@ export const maps = [
                 "time": "",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96551",
@@ -6617,6 +6803,7 @@ export const maps = [
                 "time": "",
                 "power": "650",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95924",
@@ -6637,6 +6824,7 @@ export const maps = [
                 "time": "n",
                 "power": "600",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97470",
@@ -6657,6 +6845,7 @@ export const maps = [
                 "time": "n",
                 "power": "700",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -6695,6 +6884,7 @@ export const maps = [
                 "time": "",
                 "power": "50-200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96318",
@@ -6715,6 +6905,7 @@ export const maps = [
                 "time": "n",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96071",
@@ -6735,6 +6926,7 @@ export const maps = [
                 "time": "",
                 "power": "50-200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96757",
@@ -6755,6 +6947,7 @@ export const maps = [
                 "time": "",
                 "power": "50",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97714",
@@ -6775,6 +6968,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": 'willbender',
             },
             {
                 "item_id": "95926",
@@ -6795,6 +6989,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "97753",
@@ -6815,6 +7010,7 @@ export const maps = [
                 "time": "n",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97061",
@@ -6835,6 +7031,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96719",
@@ -6855,6 +7052,7 @@ export const maps = [
                 "time": "",
                 "power": "50-200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97865",
@@ -6875,6 +7073,7 @@ export const maps = [
                 "time": "",
                 "power": "50",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97692",
@@ -6895,6 +7094,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97722",
@@ -6915,6 +7115,7 @@ export const maps = [
                 "time": "d",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": 'bladesworn',
             },
             {
                 "item_id": "96425",
@@ -6935,6 +7136,7 @@ export const maps = [
                 "time": "",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95894",
@@ -6955,6 +7157,7 @@ export const maps = [
                 "time": "",
                 "power": "50",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97181",
@@ -6975,6 +7178,7 @@ export const maps = [
                 "time": "d",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96944",
@@ -6995,6 +7199,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97604",
@@ -7015,6 +7220,7 @@ export const maps = [
                 "time": "n",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": 'untamed',
             },
             {
                 "item_id": "95603",
@@ -7035,6 +7241,7 @@ export const maps = [
                 "time": "d",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97278",
@@ -7055,6 +7262,7 @@ export const maps = [
                 "time": "",
                 "power": "150",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96523",
@@ -7075,6 +7283,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95936",
@@ -7095,6 +7304,7 @@ export const maps = [
                 "time": "",
                 "power": "200",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     },
@@ -7128,6 +7338,7 @@ export const maps = [
                 "time": "n",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97814",
@@ -7148,6 +7359,7 @@ export const maps = [
                 "time": "",
                 "power": "250-350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95729",
@@ -7168,6 +7380,7 @@ export const maps = [
                 "time": "",
                 "power": "250-350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96443",
@@ -7188,6 +7401,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": 'virtuoso',
             },
             {
                 "item_id": "97853",
@@ -7208,6 +7422,7 @@ export const maps = [
                 "time": "",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95632",
@@ -7228,6 +7443,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": true,
+                "specialization": false,
             },
             {
                 "item_id": "97794",
@@ -7248,6 +7464,7 @@ export const maps = [
                 "time": "d",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": 'catalyst',
             },
             {
                 "item_id": "97240",
@@ -7268,6 +7485,7 @@ export const maps = [
                 "time": "d",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "95670",
@@ -7288,6 +7506,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96913",
@@ -7308,6 +7527,7 @@ export const maps = [
                 "time": "",
                 "power": "250",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96817",
@@ -7328,6 +7548,7 @@ export const maps = [
                 "time": "n",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96076",
@@ -7348,6 +7569,7 @@ export const maps = [
                 "time": "",
                 "power": "350",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "96181",
@@ -7368,6 +7590,7 @@ export const maps = [
                 "time": "d",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             },
             {
                 "item_id": "97183",
@@ -7388,6 +7611,7 @@ export const maps = [
                 "time": "n",
                 "power": "300",
                 "strange_diet": false,
+                "specialization": false,
             }
         ]
     }
