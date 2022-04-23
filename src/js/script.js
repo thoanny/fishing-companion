@@ -31,6 +31,7 @@ const rarity = [
 let fishs = [];
 let spots = [];
 let baits = [];
+let regions = [];
 let mapsIds = [];
 let achievementsIds = [];
 let achievementsRepeatIds = [];
@@ -38,9 +39,13 @@ let baitsInventory = [];
 let baitsIds = [];
 let currentCharacter = 'Svipdag Völuspá';
 let baitsFilters = [];
+let baitsRegionFilters = [];
 let spotsFilters = [];
+let spotsRegionFilters = [];
+let GW2Link = false;
 
 let filters = {
+    'region': '',
     'map': 0,
     'bait': '',
     'spot': '',
@@ -51,7 +56,15 @@ function t(id) {
     return (i18n[lang][id]) ? i18n[lang][id] : `__${id}`;
 }
 
-$(document).on('change', 'select#spots, select#baits', function(e) {
+$(document).on('change', 'select#spots, select#baits, select#regions', function(e) {
+
+    if(e.currentTarget.id === 'regions') {
+        filters['bait'] = '';
+        filters['spot'] = '';
+        document.querySelector('select#baits').value = '';
+        document.querySelector('select#spots').value = '';
+    }
+
     let id = $(this).attr('id'),
         filter = id.slice(0, -1),
         value = $(this).val();
@@ -124,6 +137,15 @@ function updateFiltersOptions() {
                 opt.disabled = false;
             }
         });
+    } else if(typeof baitsRegionFilters[filters.region] !== 'undefined') {
+        document.querySelectorAll('select#baits option').forEach(function(opt) {
+            if(opt.value) {
+                opt.disabled = true;
+            }
+            if(baitsRegionFilters[filters.region].indexOf(opt.value) >= 0) {
+                opt.disabled = false;
+            }
+        });
     } else {
         document.querySelectorAll('select#baits option').forEach(function(opt) {
             if(opt.value) {
@@ -138,6 +160,15 @@ function updateFiltersOptions() {
                 opt.disabled = true;
             }
             if(spotsFilters[filters.map].indexOf(opt.value) >= 0) {
+                opt.disabled = false;
+            }
+        });
+    } else if(typeof spotsRegionFilters[filters.region] !== 'undefined') {
+        document.querySelectorAll('select#spots option').forEach(function(opt) {
+            if(opt.value) {
+                opt.disabled = true;
+            }
+            if(spotsRegionFilters[filters.region].indexOf(opt.value) >= 0) {
                 opt.disabled = false;
             }
         });
@@ -236,6 +267,8 @@ function initCompanion() {
         achievementsIds.push(region.achievement_id);
         achievementsRepeatIds.push(parseInt(region.repeat_achievement_id));
 
+        regions.push(region.achievement[lang]);
+
         region.ids.forEach(function(id) {
             mapsIds[id] = region.achievement_id;
         });
@@ -288,6 +321,9 @@ function initCompanion() {
             spotsFilters[id] = spotsList;
         });
 
+        baitsRegionFilters[region.achievement[lang]] = baitsList;
+        spotsRegionFilters[region.achievement[lang]] = spotsList;
+
         region.fishs.forEach(function(fish) {
             let bait = fish.bait[lang];
             if(bait !== '') {
@@ -328,6 +364,7 @@ function initCompanion() {
             data-bait="${fish.bait}" 
             data-spot="${fish.spot}" 
             data-time="${fish.time}"
+            data-region="${fish.region}"
             data-achievement="${fish.achievement}"
             data-repeat-achievement="${fish.achievement_repeat}"
         >
@@ -351,7 +388,9 @@ function initCompanion() {
     }));
 
     baits.push(t('baits.any'));
-    baits.sort();
+    baits.sort(function (a, b) {
+        return a.localeCompare(b);
+    });
     baits.forEach(function(b) {
         $('#baits').append($('<option>', {
             value: b,
@@ -365,11 +404,28 @@ function initCompanion() {
     }));
 
     spots.push(t('spots.any'));
-    spots.sort();
+    spots.sort(function (a, b) {
+        return a.localeCompare(b);
+    });
     spots.forEach(function(s) {
         $('#spots').append($('<option>', {
             value: s,
             text: s
+        }));
+    });
+
+    $('#regions').append($('<option>', {
+        value: '',
+        text: t('regions.default')
+    }));
+
+    regions.sort(function (a, b) {
+        return a.localeCompare(b);
+    });
+    regions.forEach(function(r) {
+        $('#regions').append($('<option>', {
+            value: r,
+            text: r
         }));
     });
 
@@ -385,6 +441,45 @@ function initCompanion() {
     // });
 
 }
+
+const GW2LinkState = document.querySelector('#gw2link');
+const selectRegions = document.querySelector('select#regions')
+
+const GW2LinkOnline = new CustomEvent('GW2LinkState', {
+    detail: {
+        state: 'online'
+    }
+});
+
+const GW2LinkOffline = new CustomEvent('GW2LinkState', {
+    detail: {
+        state: 'offline'
+    }
+});
+
+document.addEventListener('GW2LinkState', (e) => {
+    let online = (e.detail.state == 'online') ? true : false;
+    selectRegions.style.display = (online) ? 'none' : 'block';
+    GW2LinkState.classList.remove( (online) ? 'offline' : 'online' );
+    GW2LinkState.classList.add( (online) ? 'online' : 'offline' );
+
+    if(online) {
+        filters['region'] = '';
+        selectRegions.value = '';
+    } else {
+        filters['map'] = 0;
+    }
+
+    if(GW2Link !== online) {
+        filters['spot'] = '';
+        filters['bait'] = '';
+        document.querySelector('select#baits').value = '';
+        document.querySelector('select#spots').value = '';
+    }
+
+    GW2Link = online;
+
+});
 
 function updateCompanion() {
 
@@ -410,7 +505,11 @@ function updateCompanion() {
             currentCharacter = res.identity.name;
         }
 
-        $('#gw2link').removeClass().addClass(res.status);
+        if(res.identity && res.status == 'online') {
+            document.dispatchEvent(GW2LinkOnline);
+        } else {
+            document.dispatchEvent(GW2LinkOffline);
+        }
 
         if(debug) {
             document.getElementById('debugGW2MumbleLink').innerText = res.status;
@@ -419,7 +518,7 @@ function updateCompanion() {
         postUpdateCompanion();
 
     }).fail(function() {
-        $('#gw2link').removeClass().addClass('offline');
+        document.dispatchEvent(GW2LinkOffline);
         postUpdateCompanion();
 
         if(debug) {
@@ -431,7 +530,7 @@ function updateCompanion() {
 
 function postUpdateCompanion() {
     if(filters.map > 0) {
-        if([1442, 1438, 1428, 1452, 1422].indexOf(filters.map) >= 0) {
+        if([1442, 1438, 1428, 1452, 1422, 1462].indexOf(filters.map) >= 0) {
             updateClock('cantha');
             if(debug) {
                 document.getElementById('debugTimeSet').innerText = 'Cantha';
@@ -443,10 +542,19 @@ function postUpdateCompanion() {
             }
         }
     } else {
-        updateClock('tyria');
-        if(debug) {
-            document.getElementById('debugTimeSet').innerText = 'Tyrie';
+
+        if(filters.region && ['Echovald', 'Kaineng', 'Seitung', 'Trépas', 'Dragon\'s End'].indexOf(filters.region) >= 0) {
+            updateClock('cantha');
+            if(debug) {
+                document.getElementById('debugTimeSet').innerText = 'Cantha';
+            }
+        } else {
+            updateClock('tyria');
+            if(debug) {
+                document.getElementById('debugTimeSet').innerText = 'Tyrie';
+            }
         }
+
     }
 
     filterFishs();

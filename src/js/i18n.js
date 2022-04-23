@@ -31,6 +31,7 @@ export const i18n = {
             '<li><a href="https://www.twitch.tv/subs/thoanny" target="_blank">Soutenir sur Twitch</a></li>' +
             '<li><a href="https://streamelements.com/thoanny/tip" target="_blank">Faire un don</a></li>' +
             '</ul>',
+        'regions.default': '- Régions -',
     },
     'en': {
         'app.title': 'Fishing companion',
@@ -63,6 +64,7 @@ export const i18n = {
             '<li><a href="https://www.twitch.tv/subs/thoanny" target="_blank">Support on Twitch</a></li>' +
             '<li><a href="https://streamelements.com/thoanny/tip" target="_blank">Make a donation</a></li>' +
             '</ul>',
+        'regions.default': '- Regions -',
     }
 };
 
