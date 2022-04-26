@@ -47,6 +47,15 @@ Archibald Wirslayd, Eleazarus, Joeyw, Pandraghon, vzdk.
 
 ## 📝 Changelogs
 
+### 🔹 Version 0.9-beta.8
+
+* Nouvelle version de l'UI
+* Correction de données des poissons ([#6](https://github.com/thoanny/fishing-companion/issues/6))
+* Ajout des icônes de spécialisations pour les poissons liés ([#5](https://github.com/thoanny/fishing-companion/issues/5))
+* Ajout d'une liste des régions si GW2MumbleLink ne fonctionne pas ([#4](https://github.com/thoanny/fishing-companion/issues/4))
+* Ajout du poisson du jour ([#2](https://github.com/thoanny/fishing-companion/issues/2))
+* Mise à jour de sécurité
+
 ### 🔹 Version 0.9-beta.7
 
 * Nouvelle version de GW2MumbleLink
