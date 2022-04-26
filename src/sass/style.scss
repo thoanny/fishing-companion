@@ -573,3 +573,32 @@ input[type="checkbox"] {
     }
   }
 }
+
+#daily {
+  margin: .5rem .5rem .25rem;
+  background: #202225;
+  border-radius: 4px;
+  padding: .5rem;
+  position: relative;
+
+  &.hidden {
+    display: none;
+  }
+
+  .name {
+    font-size: .85rem;
+    font-weight: bold;
+    margin-bottom: .25rem;
+  }
+
+  .requirement {
+    font-size: .75rem;
+    opacity: .8;
+  }
+
+  #dailyClose {
+    position: absolute;
+    top: .55rem;
+    right: .55rem;
+  }
+}

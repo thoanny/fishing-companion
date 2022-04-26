@@ -51,6 +51,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "find-process": "^1.4.7",
     "jquery": "^3.6.0",
+    "moment": "^2.29.3",
     "multisort": "^0.5.3",
     "style-loader": "^3.3.1",
     "webpack-spritesmith": "^1.1.0"

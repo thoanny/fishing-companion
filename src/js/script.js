@@ -2,6 +2,7 @@ import "../sass/style.scss";
 import $ from 'jquery';
 
 import multisort from "multisort";
+import moment from "moment";
 
 import {maps, achievements} from './data';
 import {i18n} from './i18n';
@@ -17,6 +18,7 @@ const lang = (language && langs.indexOf(language) >= 0) ? language : 'fr';
 
 const token = localStorage.getItem('token');
 const hideFishs = localStorage.getItem('hide-fishs');
+const dailyFish = localStorage.getItem('daily-fish');
 
 const rarity = [
     'basic',
@@ -27,6 +29,11 @@ const rarity = [
     'ascended',
     'legendary'
 ];
+
+const dailyKeywords = {
+    'fr': 'Pêcheur',
+    'en': 'Fisher'
+}
 
 let fishs = [];
 let spots = [];
@@ -226,6 +233,49 @@ function updateClock(r) {
     $('#clock').removeClass().addClass(moment).html(`<span class="sprite-icon icon-${moment}"></span>`);
 }
 
+function getDailyFish() {
+
+    let today = moment().utc().format("YYYY-MM-DD");
+
+    if(dailyFish && dailyFish === today) {
+        document.querySelector('#daily').classList.add('hidden');
+        return;
+    }
+
+    fetch(`${Gw2ApiUrl}/achievements/categories/321`)
+    .then(res => {
+        return res.json();
+    })
+    .then(daily => {
+        if(typeof daily.achievements == 'undefined') {
+            return;
+        }
+
+        let ids = daily.achievements.join(',');
+
+        fetch(`${Gw2ApiUrl}/achievements?ids=${ids}&lang=${lang}`)
+        .then(res => {
+            return res.json();
+        })
+        .then(achievements => {
+            achievements.forEach(ach => {
+                if(ach.name.search(dailyKeywords[lang]) >= 0) {
+                    document.querySelector('#daily').innerHTML = `
+                        <a href="#!" id="dailyClose"><span class="sprite-icon icon-close"></span></a>
+                        <div class="name">${ach.name}</div>
+                        <div class="requirement">${ach.requirement}</div>
+                    `;
+
+                    document.querySelector('#dailyClose').addEventListener('click', () => {
+                        localStorage.setItem('daily-fish', today);
+                        document.querySelector('#daily').classList.add('hidden');
+                    });
+                }
+            });
+        });
+    });
+}
+
 function initCompanion() {
 
     // Translation
@@ -261,6 +311,8 @@ function initCompanion() {
             });
         }
     });
+
+    getDailyFish();
 
     maps.forEach(function(region) {
 
