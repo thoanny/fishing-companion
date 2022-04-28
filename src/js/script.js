@@ -4,7 +4,8 @@ import $ from 'jquery';
 import multisort from "multisort";
 import moment from "moment";
 
-import {maps, achievements} from './data';
+import {maps} from './_maps';
+import {achievements} from './_achievements';
 import {i18n} from './i18n';
 
 const version = '0.9.8';
@@ -18,7 +19,6 @@ const lang = (language && langs.indexOf(language) >= 0) ? language : 'fr';
 
 const token = localStorage.getItem('token');
 const hideFishs = localStorage.getItem('hide-fishs');
-const dailyFish = localStorage.getItem('daily-fish');
 
 const rarity = [
     'basic',
@@ -29,11 +29,6 @@ const rarity = [
     'ascended',
     'legendary'
 ];
-
-const dailyKeywords = {
-    'fr': 'Pêcheur',
-    'en': 'Fisher'
-}
 
 let fishs = [];
 let spots = [];
@@ -81,7 +76,7 @@ $(document).on('change', 'select#spots, select#baits, select#regions', function(
 
 function filterFishs() {
 
-    $('.fish').hide();
+    $('#fishs .fish').hide();
     $('#no-fish').hide();
 
     if(typeof(mapsIds[filters.map]) == 'undefined') {
@@ -106,7 +101,7 @@ function filterFishs() {
     }
 
     // console.log(target);
-    $('.fish'+target).show();
+    $('#fishs .fish'+target).show();
 
     target = '';
     let tmpTime = filters.time;
@@ -122,11 +117,11 @@ function filterFishs() {
 
         }
     }
-    $('.fish'+target).show();
+    $('#fishs .fish'+target).show();
 
     filters.time = tmpTime;
 
-    if($('.fish:visible').length <= 0) {
+    if($('#fishs .fish:visible').length <= 0) {
         $('#no-fish').show();
     }
 
@@ -233,46 +228,47 @@ function updateClock(r) {
     $('#clock').removeClass().addClass(moment).html(`<span class="sprite-icon icon-${moment}"></span>`);
 }
 
-function getDailyFish() {
+function dailyFishUpdate() {
 
+    let dailyFish = localStorage.getItem('daily-fish');
     let today = moment().utc().format("YYYY-MM-DD");
 
-    if(dailyFish && dailyFish === today) {
-        document.querySelector('#daily').classList.add('hidden');
-        return;
-    }
+    $.get('https://combinatronics.com/thoanny/fishing-companion/main/daily.txt', function(d) {
 
-    fetch(`${Gw2ApiUrl}/achievements/categories/321`)
-    .then(res => {
-        return res.json();
-    })
-    .then(daily => {
-        if(typeof daily.achievements == 'undefined') {
+        let daily = (d.trim()).split(',');
+
+        if(daily[0] !== today) {
             return;
         }
 
-        let ids = daily.achievements.join(',');
+        if(dailyFish && dailyFish === daily[0]) {
+            return;
+        }
 
-        fetch(`${Gw2ApiUrl}/achievements?ids=${ids}&lang=${lang}`)
-        .then(res => {
-            return res.json();
-        })
-        .then(achievements => {
-            achievements.forEach(ach => {
-                if(ach.name.search(dailyKeywords[lang]) >= 0) {
-                    document.querySelector('#daily').innerHTML = `
-                        <a href="#!" id="dailyClose"><span class="sprite-icon icon-close"></span></a>
-                        <div class="name">${ach.name}</div>
-                        <div class="requirement">${ach.requirement}</div>
-                    `;
+        const div = document.querySelector(`[data-fish="${daily[1]}"]`);
+        if(div) {
+            const clone = div.cloneNode(true);
+            clone.id = "daily-fish";
+            clone.removeAttribute('data-fish');
+            clone.removeAttribute('data-bait');
+            clone.removeAttribute('data-bait');
+            clone.removeAttribute('data-spot');
+            clone.removeAttribute('data-time');
+            clone.removeAttribute('data-region');
+            clone.removeAttribute('data-achievement');
+            clone.removeAttribute('data-repeat-achievement');
+            clone.removeAttribute('style');
 
-                    document.querySelector('#dailyClose').addEventListener('click', () => {
-                        localStorage.setItem('daily-fish', today);
-                        document.querySelector('#daily').classList.add('hidden');
-                    });
-                }
+            const dailyDiv = document.querySelector('#daily');
+            dailyDiv.classList.remove('hidden');
+            dailyDiv.innerHTML = `<h3><a href="#!" id="dailyClose"><span class="sprite-icon icon-close"></span></a> Poisson du jour</h3>${clone.outerHTML}`;
+
+            document.querySelector('#dailyClose').addEventListener('click', () => {
+                localStorage.setItem('daily-fish', today);
+                document.querySelector('#daily').classList.add('hidden');
             });
-        });
+        }
+
     });
 }
 
@@ -311,8 +307,6 @@ function initCompanion() {
             });
         }
     });
-
-    getDailyFish();
 
     maps.forEach(function(region) {
 
@@ -652,6 +646,9 @@ window.addEventListener('load', (event) => {
 
     updateCompanion();
     setInterval(updateCompanion, 10000);
+
+    dailyFishUpdate();
+    setInterval(dailyFishUpdate, 600000); // 10 minutes
 
     if(token) {
         checkAchievementsFishs();

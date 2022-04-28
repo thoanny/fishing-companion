@@ -106,6 +106,7 @@ header {
 #content {
   height: calc(100vh - 4.25rem);
   overflow: auto;
+  width: 100%;
 
   &::-webkit-scrollbar {
     width: 12px;
@@ -178,12 +179,7 @@ input[type="checkbox"] {
   row-gap: .5rem;
   padding: .5rem;
 
-  .fish-icon {
-    border-radius: 4px;
-    border: 2px solid white;
-    flex: 0 0 55px;
-    position: relative;
-  }
+
 
   .fish {
     width: 100%;
@@ -266,26 +262,6 @@ input[type="checkbox"] {
       align-items: center;
     }
 
-    .metas {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      column-gap: .5rem;
-      row-gap: .15rem;
-      justify-content: flex-start;
-      margin-top: .1rem;
-      opacity: .8;
-      font-size: .75rem;
-      padding-right: .5rem;
-
-      > span {
-        display: inline-flex;
-        align-items: center;
-        column-gap: .25rem;
-        white-space: nowrap;
-      }
-    }
-
     //&.rarity-junk {
     //  .name {
     //    //color: red;
@@ -304,59 +280,7 @@ input[type="checkbox"] {
     //  }
     //}
 
-    &.rarity-fine {
-      .name {
-        //color: red;
-      }
-      .fish-icon {
-        border-color: #5291f0;
-      }
-    }
 
-    &.rarity-masterwork {
-      .name {
-        //color: red;
-      }
-      .fish-icon {
-        border-color: #32b112;
-      }
-    }
-
-    &.rarity-rare {
-      .name {
-        //color: red;
-      }
-      .fish-icon {
-        border-color: #f0d022;
-      }
-    }
-
-    &.rarity-exotic {
-      .name {
-        //color: red;
-      }
-      .fish-icon {
-        border-color: #fa0;
-      }
-    }
-
-    &.rarity-ascended {
-      .name {
-        //color: red;
-      }
-      .fish-icon {
-        border-color: #f48;
-      }
-    }
-
-    &.rarity-legendary {
-      .name {
-        //color: #93f;
-      }
-      .fish-icon {
-        border-color: #93f;
-      }
-    }
 
   }
 
@@ -576,29 +500,123 @@ input[type="checkbox"] {
 
 #daily {
   margin: .5rem .5rem .25rem;
-  background: #202225;
-  border-radius: 4px;
-  padding: .5rem;
   position: relative;
+  width: calc(100% - 1rem);
+  border-bottom: 2px solid rgba(255, 255, 255, .1);
+  padding-bottom: 0.75rem;
+
+  h3 {
+    margin: 0 0 .5rem;
+    display: flex;
+    gap: .5rem;
+    align-items: baseline;
+    line-height: 1;
+  }
 
   &.hidden {
     display: none;
   }
 
-  .name {
-    font-size: .85rem;
-    font-weight: bold;
-    margin-bottom: .25rem;
-  }
+  .fish {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
 
-  .requirement {
-    font-size: .75rem;
-    opacity: .8;
+    .name {
+      font-weight: bold;
+    }
   }
 
   #dailyClose {
-    position: absolute;
-    top: .55rem;
-    right: .55rem;
+    opacity: .75;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+
+.fish {
+
+  .fish-icon {
+    border-radius: 4px;
+    border: 2px solid white;
+    flex: 0 0 55px;
+    position: relative;
+  }
+
+  &.rarity-fine {
+    .name {
+      //color: red;
+    }
+    .fish-icon {
+      border-color: #5291f0 !important;
+    }
+  }
+
+  &.rarity-masterwork {
+    .name {
+      //color: red;
+    }
+    .fish-icon {
+      border-color: #32b112 !important;
+    }
+  }
+
+  &.rarity-rare {
+    .name {
+      //color: red;
+    }
+    .fish-icon {
+      border-color: #f0d022 !important;
+    }
+  }
+
+  &.rarity-exotic {
+    .name {
+      //color: red;
+    }
+    .fish-icon {
+      border-color: #fa0 !important;
+    }
+  }
+
+  &.rarity-ascended {
+    .name {
+      //color: red;
+    }
+    .fish-icon {
+      border-color: #f48 !important;
+    }
+  }
+
+  &.rarity-legendary {
+    .name {
+      //color: #93f;
+    }
+    .fish-icon {
+      border-color: #93f !important;
+    }
+  }
+
+  .metas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: .5rem;
+    row-gap: .15rem;
+    justify-content: flex-start;
+    margin-top: .1rem;
+    opacity: .8;
+    font-size: .75rem;
+    padding-right: .5rem;
+
+    > span {
+      display: inline-flex;
+      align-items: center;
+      column-gap: .25rem;
+      white-space: nowrap;
+    }
   }
 }
