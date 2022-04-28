@@ -8,7 +8,7 @@ import {maps} from './_maps';
 import {achievements} from './_achievements';
 import {i18n} from './i18n';
 
-const version = '0.9.8';
+const version = '0.9.9';
 const debug = false;
 
 const langs = [ 'fr', 'en' ];
