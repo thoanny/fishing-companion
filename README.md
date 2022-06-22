@@ -47,6 +47,10 @@ Archibald Wirslayd, Eleazarus, Joeyw, Pandraghon, vzdk.
 
 ## 📝 Changelogs
 
+### 🔹 Version 0.9-beta.10
+
+* Mise à jour de sécurité
+
 ### 🔹 Version 0.9-beta.9
 
 * Correction du poisson quotidien
