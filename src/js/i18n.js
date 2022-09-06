@@ -29,7 +29,7 @@ export const i18n = {
             '<li><a href="https://github.com/thoanny/fishing-companion" target="_blank">Code source</a></li>' +
             '<li><a href="https://github.com/thoanny/fishing-companion/issues" target="_blank">Signaler un bug</a></li>' +
             '<li><a href="https://www.twitch.tv/subs/thoanny" target="_blank">Soutenir sur Twitch</a></li>' +
-            '<li><a href="https://streamelements.com/thoanny/tip" target="_blank">Faire un don</a></li>' +
+            '<li><a href="https://ko-fi.com/thoanny" target="_blank">Faire un don</a></li>' +
             '</ul>',
         'regions.default': '- Régions -',
     },
@@ -62,7 +62,7 @@ export const i18n = {
             '<li><a href="https://github.com/thoanny/fishing-companion" target="_blank">Source code</a></li>' +
             '<li><a href="https://github.com/thoanny/fishing-companion/issues" target="_blank">Report a bug</a></li>' +
             '<li><a href="https://www.twitch.tv/subs/thoanny" target="_blank">Support on Twitch</a></li>' +
-            '<li><a href="https://streamelements.com/thoanny/tip" target="_blank">Make a donation</a></li>' +
+            '<li><a href="https://ko-fi.com/thoanny" target="_blank">Make a donation</a></li>' +
             '</ul>',
         'regions.default': '- Regions -',
     }
