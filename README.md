@@ -36,7 +36,11 @@ Lorsque tu lances le compagnon de pêche, GW2MumbleLink.exe est exécuté en arr
 
 ## 💃 Contributeurs
 
-Archibald Wirslayd, Eleazarus, Joeyw, Pandraghon, vzdk.
+Archibald Wirslayd, Asheralia, Eleazarus, Joeyw, Pandraghon, vzdk.
+
+## ☕ Supporters
+
+Nelsiemon. [Toi ?](https://ko-fi.com/thoanny)
 
 ## 🖼️ Droits d'auteurs
 
@@ -44,6 +48,12 @@ Archibald Wirslayd, Eleazarus, Joeyw, Pandraghon, vzdk.
 * **Icônes :** [Font Awesome](https://fontawesome.com/) (Font Awesome 5 Pro License, Early Backer)
 
 ## 📝 Changelogs
+
+### 🔹 Version 0.9-beta.11
+
+* Correction de l'icône du poisson "Tor doré" (merci Asheralia)
+* Ajout de remerciements à Nelsimon et de liens Ko-Fi
+* Mises à jour de sécurité
 
 ### 🔹 Version 0.9-beta.10
 
