@@ -1,6 +1,4 @@
-[![](https://img.shields.io/badge/Linktr.ee-Thoanny-93c045?style=for-the-badge)](https://linktr.ee/thoanny)
-[![](https://img.shields.io/badge/Twitch-Sub-93c045?style=for-the-badge)](https://www.twitch.tv/subs/thoanny)
-[![](https://img.shields.io/badge/StreamElements-Tip-93c045?style=for-the-badge)](https://streamelements.com/thoanny/tip)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/thoanny)
 
 # 🎣 Compagnon de pêche
 
