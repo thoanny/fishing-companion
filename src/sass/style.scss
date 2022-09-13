@@ -620,3 +620,12 @@ input[type="checkbox"] {
     }
   }
 }
+
+#kofi {
+  img {
+    width: calc(100% - 1rem);
+    height: auto;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+}
