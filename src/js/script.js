@@ -233,19 +233,17 @@ function dailyFishUpdate() {
     let dailyFish = localStorage.getItem('daily-fish');
     let today = moment().utc().format("YYYY-MM-DD");
 
-    $.get('https://combinatronics.com/thoanny/fishing-companion/main/daily.txt', function(d) {
+    $.get('https://gw2fishing.an-d.me/api/'+lang+'/daily', function(d) {
 
-        let daily = (d.trim()).split(',');
-
-        if(daily[0] !== today) {
+        if(d.fish === null) {
             return;
         }
 
-        if(dailyFish && dailyFish === daily[0]) {
+        if(dailyFish && d.date === dailyFish) {
             return;
         }
 
-        const div = document.querySelector(`[data-fish="${daily[1]}"]`);
+        const div = document.querySelector(`[data-fish="${d.fish.itemId}"]`);
         if(div) {
             const clone = div.cloneNode(true);
             clone.id = "daily-fish";
