@@ -2142,7 +2142,7 @@ export const maps = [
                     'fr': 'Maquereau',
                     'en': 'Mackerel',
                 },
-                "time": "",
+                "time": "d",
                 "power": "650",
                 "strange_diet": false,
                 "specialization": false,
