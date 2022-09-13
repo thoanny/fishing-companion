@@ -49,6 +49,12 @@ Nelsiemon. [Toi ?](https://ko-fi.com/thoanny)
 
 ## 📝 Changelogs
 
+### 🔹 Version 0.9-beta.12
+
+* Corrigé le Marlin bleu, merci Kévin B.
+* Le poisson quotidien utilise désormais l'API
+* Ajout d'un bouton "Support me on Ko-Fi" en bas de page
+
 ### 🔹 Version 0.9-beta.11
 
 * Correction de l'icône du poisson "Tor doré" (merci Asheralia)
